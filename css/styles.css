@@ -1,0 +1,30 @@
+#logo {
+    padding-top: 50px;
+}
+
+#carouselExampleIndicators {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+#opcionesPaginas {
+    padding-bottom: 150px;
+    padding-left: 410px;
+    padding-right: 410px;
+}
+
+.padIzq {
+    padding-left: 410px;
+}
+
+.padDer {
+    padding-right: 410px;
+}
+
+.col-md-7 {
+    padding-left: 120px;
+}
+
+img.rounded-corners {
+    border-radius: 50%
+}
