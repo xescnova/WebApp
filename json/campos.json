@@ -1,0 +1,121 @@
+          {
+            "nom": "Camp Nou",
+            "descripcio": "Campo de futbol del FC Barcelona",
+            "detall": "",
+            "tipus": "X",
+            "identificador": "Campo_Camp_Nou",
+            "contacte": {
+                "telf": "",
+                "email": "",
+                "xarxes" : {
+                    "web": "",
+                    "facebook" : "",
+                    "twitter" : "",
+                    "instagram": ""
+                }
+            },
+            "puntuacio": 0,
+            "visualitzacions": "",
+            "likes": 0,
+            "icones": [
+               ""
+            ],
+            "imatges": [
+                "https://futbal.netlify.app/img/My%20Post.png.jpg",
+                "https://futbal.netlify.app/img/a1.png"
+            ],
+            "videos": [
+                {
+                    "tipus": "",
+                    "url": ""
+                },
+                {
+                    "tipus": "",
+                    "url": ""
+                }
+            ],
+            "audio": [
+                {
+                    "tipus": "",
+                    "url": ""
+                }
+            ],
+            "geoposicionament1": {
+                "address": "C/WEYFGDGFJ",
+                "lat": 23,
+                "long": 45,
+                "city": "Barcelona",
+                "Country": "España",
+                "zip": ""
+            },
+            "horari": {
+                "di": [
+                    {"in": "9","out": "13"},
+                    {"in": "-","out": "-"}
+                ],
+                "dm": [
+                    {"in": "4","out": "7"},
+                    {"in": "-","out": "-"}
+                ],
+                "dx": [
+                    {"in": "9","out": "12"},
+                    {"in": "-","out": "-"}
+                ],
+                "dj": [
+                    {"in": "17","out": "22"},
+                    {"in": "-","out": "-"}
+                ],
+                "dv": [
+                    {"in": "-","out": "-"},
+                    {"in": "-","out": "-"}
+                ],
+                "ds": [
+                    {"in": "-","out": "-"},
+                    {"in": "-","out": "-"}
+                ],
+                "dg": [
+                    {"in": "-","out": "-"},
+                    {"in": "-","out": "-"}
+                ]
+            },
+            "dadesPropies": {
+                "equipos":[
+                    {"nombre":"Son Cladera"}, 
+                    {"jugadores":[
+                        {"nombre":"Pedro ","apellidos":"Garcia","dorsal":10,"posicion":"Del"},
+                        {"nombre":"Xesc ","apellidos":"Puig","dorsal":4,"posicion":"Def"},
+                        {"nombre":"Jaume","apellidos":"Fernadez","dorsal":7,"posicion":"Med"},
+                        {"nombre":"Anselmo  ","apellidos":"Ribera","dorsal":99,"posicion":"Por"},
+                        {"nombre":"Aurelio  ","apellidos":"Fuertes","dorsal":9,"posicion":"Del"}
+                        
+                        ]},
+                    {"entrenador":"Omar Pavon"},
+                   
+
+                    {"nombre":"San Francisco"}, 
+                    {"jugadores":[
+                        {"nombre":"Joel  ","apellidos":"Villalba","dorsal":1,"posicion":"Del"},
+                        {"nombre":"Mohammed  ","apellidos":"Soler","dorsal":47,"posicion":"Def"},
+                        {"nombre":"German ","apellidos":"Esteve","dorsal":3,"posicion":"Med"},
+                        {"nombre":"Ferran   ","apellidos":"Zaragoza","dorsal":17,"posicion":"Por"},
+                        {"nombre":"Oscar   ","apellidos":"Gonzalez","dorsal":8,"posicion":"Del"}
+                        
+                        ]},
+                    {"entrenador":"Paulino Molero"}
+                   
+                
+                ],
+            
+                "arbitros":[
+                    {"nombre":"Antonio Mateu Lahoz","descripcion":"Lorem Ipsum is simply dummy text of the printing and typesetting industry."},
+                    {"nombre":"Carlos del Cerro Grande","descripcion":"Lorem Ipsum is simply dummy text of the printing and typesetting industry."},
+                    {"nombre":"Ricardo de Burgos","descripcion":"Lorem Ipsum is simply dummy text of the printing and typesetting industry."},
+                    {"nombre":"Pierluigi Collina","descripcion":"Lorem Ipsum is simply dummy text of the printing and typesetting industry."},
+                    {"nombre":"José Maria Sanchez","descripcion":"Lorem Ipsum is simply dummy text of the printing and typesetting industry."},
+                    {"nombre":"Markus Merk","descripcion":"Lorem Ipsum is simply dummy text of the printing and typesetting industry."},
+                    {"nombre":"Xavier Estrada","descripcion":"Lorem Ipsum is simply dummy text of the printing and typesetting industry."},
+                    {"nombre":"Jesus Gil Manzano","descripcion":"Lorem Ipsum is simply dummy text of the printing and typesetting industry."},
+                    {"nombre":"Guillermo Cuadra","descripcion":"Lorem Ipsum is simply dummy text of the printing and typesetting industry."}
+                ]
+            }
+        }

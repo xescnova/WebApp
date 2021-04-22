@@ -1,0 +1,13 @@
+{
+    "arbitros": [
+        { "nombre": "Antonio Mateu Lahoz", "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry." },
+        { "nombre": "Carlos del Cerro Grande", "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry." },
+        { "nombre": "Ricardo de Burgos", "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry." },
+        { "nombre": "Pierluigi Collina", "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry." },
+        { "nombre": "José Maria Sanchez", "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry." },
+        { "nombre": "Markus Merk", "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry." },
+        { "nombre": "Xavier Estrada", "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry." },
+        { "nombre": "Jesus Gil Manzano", "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry." },
+        { "nombre": "Guillermo Cuadra", "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry." }
+    ]
+}
