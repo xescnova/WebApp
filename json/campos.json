@@ -1,540 +1,545 @@
-[
-{
-    "nom": "Camp de Futbol Son Sardina",
-    "descripcio": "Campo de futbol del Son Sardina",
-    "detall": "Artificial",
-    "tipus": "X",
-    "identificador": "CampoSonSardina",
-    "contacte": {
-        "telf": "971439565",
-        "email": "sonsardina@gmail.com",
-        "xarxes": {
-            "web": "",
-            "facebook": "https://www.facebook.com/ADSonSardina/",
-            "twitter": "",
-            "instagram": ""
-        }
-    },
-    "puntuacio": 3.6,
-    "visualitzacions": "",
-    "likes": 0,
-    "icones": [
-        ""
-    ],
-    "imatges": [
-        "https://futbal.netlify.app/img/My%20Post.png.jpg",
-        "https://futbal.netlify.app/img/a1.png"
-    ],
-    "geoposicionament1": {
-        "address": "Carrer Travessia Ave Maria, 18, 07120 Son Sardina, Illes Balears",
-        "lat": 39.62392763929516,
-        "long": 2.652987350272915,
-        "city": "Palma",
-        "Country": "España",
-        "zip": ""
-    },
-    "horari": {
-        "di": [
-            { "in": "9", "out": "13" },
-            { "in": "-", "out": "-" }
-        ],
-        "dm": [
-            { "in": "4", "out": "7" },
-            { "in": "-", "out": "-" }
-        ],
-        "dx": [
-            { "in": "9", "out": "12" },
-            { "in": "-", "out": "-" }
-        ],
-        "dj": [
-            { "in": "", "out": "" },
-            { "in": "-", "out": "-" }
-        ],
-        "dv": [
-            { "in": "-", "out": "-" },
-            { "in": "-", "out": "-" }
-        ],
-        "ds": [
-            { "in": "18", "out": "20" },
-            { "in": "-", "out": "-" }
-        ],
-        "dg": [
-            { "in": "-", "out": "-" },
-            { "in": "-", "out": "-" }
-        ]
-    },
-    "dadesPropies": {
-        "capacidad": 0
-    }
-}, 
-{
-    "nom": "Camp d'en Maiol",
-    "descripcio": "Campo de futbol del Port de Sòller",
-    "detall": "Artificial",
-    "tipus": "X",
-    "identificador": "CampoPortDeSoller",
-    "contacte": {
-        "telf": "971567346",
-        "email": "portdesoller@gmail.com",
-        "xarxes": {
-            "web": "",
-            "facebook": "",
-            "twitter": "",
-            "instagram": ""
-        }
-    },
-    "puntuacio": 4.0,
-    "visualitzacions": "",
-    "likes": 0,
-    "icones": [
-        ""
-    ],
-    "imatges": [
-        "https://futbal.netlify.app/img/My%20Post.png.jpg",
-        "https://futbal.netlify.app/img/a1.png"
-    ],
-    "geoposicionament1": {
-        "address": "07100 Sóller, Balearic Islands",
-        "lat": 39.77201549479248,
-        "long": 2.717066927001519,
-        "city": "Sòller",
-        "Country": "España",
-        "zip": ""
-    },
-    "horari": {
-        "di": [
-            { "in": "10", "out": "12" },
-            { "in": "-", "out": "-" }
-        ],
-        "dm": [
-            { "in": "4", "out": "7" },
-            { "in": "-", "out": "-" }
-        ],
-        "dx": [
-            { "in": "", "out": "" },
-            { "in": "-", "out": "-" }
-        ],
-        "dj": [
-            { "in": "", "out": "" },
-            { "in": "-", "out": "-" }
-        ],
-        "dv": [
-            { "in": "-", "out": "-" },
-            { "in": "-", "out": "-" }
-        ],
-        "ds": [
-            { "in": "16", "out": "20" },
-            { "in": "-", "out": "-" }
-        ],
-        "dg": [
-            { "in": "-", "out": "-" },
-            { "in": "-", "out": "-" }
-        ]
-    },
-    "dadesPropies": {
-        "capacidad": 1500
-    }
-}, 
-{
-    "nom": "Camp Municipal d'Esports de Consell",
-    "descripcio": "Campo de futbol del Consell",
-    "detall": "Artificial",
-    "tipus": "X",
-    "identificador": "CampoPortDeSoller",
-    "contacte": {
-        "telf": "971622202",
-        "email": "consell@gmail.com",
-        "xarxes": {
-            "web": "",
-            "facebook": "",
-            "twitter": "",
-            "instagram": ""
-        }
-    },
-    "puntuacio": 3.9,
-    "visualitzacions": "",
-    "likes": 0,
-    "icones": [
-        ""
-    ],
-    "imatges": [
-        "https://futbal.netlify.app/img/My%20Post.png.jpg",
-        "https://futbal.netlify.app/img/a1.png"
-    ],
-    "geoposicionament1": {
-        "address": "Carrer de Masnou, 0, 07330 Consell, Illes Balears",
-        "lat": 39.66883038188424,
-        "long": 2.807706585174472,
-        "city": "Consell",
-        "Country": "España",
-        "zip": ""
-    },
-    "horari": {
-        "di": [
-            { "in": "10", "out": "12" },
-            { "in": "-", "out": "-" }
-        ],
-        "dm": [
-            { "in": "", "out": "" },
-            { "in": "-", "out": "-" }
-        ],
-        "dx": [
-            { "in": "8", "out": "12" },
-            { "in": "-", "out": "-" }
-        ],
-        "dj": [
-            { "in": "", "out": "" },
-            { "in": "-", "out": "-" }
-        ],
-        "dv": [
-            { "in": "-", "out": "-" },
-            { "in": "-", "out": "-" }
-        ],
-        "ds": [
-            { "in": "", "out": "" },
-            { "in": "-", "out": "-" }
-        ],
-        "dg": [
-            { "in": "10", "out": "12" },
-            { "in": "-", "out": "-" }
-        ]
-    },
-    "dadesPropies": {
-        "capacidad": 500
-    }
-}, 
-{
-    "nom": "Camp De Futbol Pla De Na Tesa",
-    "descripcio": "Campo de futbol del Pla De Na Tesa",
-    "detall": "Artificial",
-    "tipus": "X",
-    "identificador": "CampoPla",
-    "contacte": {
-        "telf": "971633202",
-        "email": "pladenatesa@gmail.com",
-        "xarxes": {
-            "web": "",
-            "facebook": "",
-            "twitter": "",
-            "instagram": ""
-        }
-    },
-    "puntuacio": 3.9,
-    "visualitzacions": "",
-    "likes": 0,
-    "icones": [
-        ""
-    ],
-    "imatges": [
-        "https://futbal.netlify.app/img/My%20Post.png.jpg",
-        "https://futbal.netlify.app/img/a1.png"
-    ],
-    "geoposicionament1": {
-        "address": "Carrer de Masnou, 0, 07330 Consell, Illes Balears",
-        "lat": 39.66883038188424,
-        "long": 2.807706585174472,
-        "city": "Consell",
-        "Country": "España",
-        "zip": ""
-    },
-    "horari": {
-        "di": [
-            { "in": "10", "out": "12" },
-            { "in": "-", "out": "-" }
-        ],
-        "dm": [
-            { "in": "", "out": "" },
-            { "in": "-", "out": "-" }
-        ],
-        "dx": [
-            { "in": "8", "out": "12" },
-            { "in": "-", "out": "-" }
-        ],
-        "dj": [
-            { "in": "", "out": "" },
-            { "in": "-", "out": "-" }
-        ],
-        "dv": [
-            { "in": "-", "out": "-" },
-            { "in": "-", "out": "-" }
-        ],
-        "ds": [
-            { "in": "", "out": "" },
-            { "in": "-", "out": "-" }
-        ],
-        "dg": [
-            { "in": "10", "out": "12" },
-            { "in": "-", "out": "-" }
-        ]
-    },
-    "dadesPropies": {
-        "capacidad": 500
-    }
-},
-{
-    "nom": "Camp De Futbol De Magaluf",
-    "descripcio": "Campo de futbol del Platges de Calvia",
-    "detall": "Artificial",
-    "tipus": "X",
-    "identificador": "CampoCalvia",
-    "contacte": {
-        "telf": "971265731",
-        "email": "cfplatgesdecalvia@gmail.com",
-        "xarxes": {
-            "web": "",
-            "facebook": "",
-            "twitter": "",
-            "instagram": ""
-        }
-    },
-    "puntuacio": 4.2,
-    "visualitzacions": "",
-    "likes": 0,
-    "icones": [
-        ""
-    ],
-    "imatges": [
-       
-    ],
-    "geoposicionament1": {
-        "address": "Carrer Miño, 21, 07181 Calvià, Illes Balears",
-        "lat": 39.51203123961558,
-        "long":2.531907014819793,
-        "city": "Magaluf",
-        "Country": "España",
-        "zip": ""
-    },
-    "horari": {
-        "di": [
-            { "in": "10", "out": "12" },
-            { "in": "-", "out": "-" }
-        ],
-        "dm": [
-            { "in": "", "out": "" },
-            { "in": "-", "out": "-" }
-        ],
-        "dx": [
-            { "in": "8", "out": "12" },
-            { "in": "-", "out": "-" }
-        ],
-        "dj": [
-            { "in": "", "out": "" },
-            { "in": "-", "out": "-" }
-        ],
-        "dv": [
-            { "in": "-", "out": "-" },
-            { "in": "-", "out": "-" }
-        ],
-        "ds": [
-            { "in": "", "out": "" },
-            { "in": "-", "out": "-" }
-        ],
-        "dg": [
-            { "in": "10", "out": "12" },
-            { "in": "-", "out": "-" }
-        ]
-    },
-    "dadesPropies": {
-        "capacidad": 600
-    }    
-},
-{ 
-    "nom": "Nuevo Campo de Inca",
-    "descripcio": "Campo de futbol del CD Constancia",
-    "detall": "Artificial",
-    "tipus": "X",
-    "identificador": "CampoInca",
-    "contacte": {
-        "telf": "971008691",
-        "email": "cdconstancia@gmail.com",
-        "xarxes": {
-            "web": "",
-            "facebook": "",
-            "twitter": "",
-            "instagram": ""
-        }
-    },
-    "puntuacio": 4.7,
-    "visualitzacions": "",
-    "likes": 0,
-    "icones": [
-        ""
-    ],
-    "imatges": [
-       
-    ],
-    "geoposicionament1": {
-        "address": "Carrer del Tomir, 119, 07300 Inca, Illes Balears",
-        "lat": 39.715592105132295, 
-        "long":2.9162831998758594,
-        "city": "Inca",
-        "Country": "España",
-        "zip": ""
-    },
-    "horari": {
-        "di": [
-            { "in": "10", "out": "12" },
-            { "in": "-", "out": "-" }
-        ],
-        "dm": [
-            { "in": "", "out": "" },
-            { "in": "-", "out": "-" }
-        ],
-        "dx": [
-            { "in": "8", "out": "12" },
-            { "in": "-", "out": "-" }
-        ],
-        "dj": [
-            { "in": "", "out": "" },
-            { "in": "-", "out": "-" }
-        ],
-        "dv": [
-            { "in": "-", "out": "-" },
-            { "in": "-", "out": "-" }
-        ],
-        "ds": [
-            { "in": "", "out": "" },
-            { "in": "-", "out": "-" }
-        ],
-        "dg": [
-            { "in": "10", "out": "12" },
-            { "in": "-", "out": "-" }
-        ]
-    },
-    "dadesPropies": {
-        "capacidad": 10000
-    }   
-},
-{
-        "nom": "Campo de futbol de Arta",
-        "descripcio": "Campo de futbol del equipo de Arta",
-        "detall": "Natural",
-        "tipus": "X",
-        "identificador": "CampoArta",
-        "contacte": {
-            "telf": "971008691",
-            "email": "cfarta@gmail.com",
-            "xarxes": {
-                "web": "",
-                "facebook": "",
-                "twitter": "",
-                "instagram": ""
-            }
-        },
-        "puntuacio": 4.3,
-        "visualitzacions": "",
-        "likes": 0,
-        "icones": [
-            ""
-        ],
-        "imatges": [
-           
-        ],
-        "geoposicionament1": {
-            "address": "Carrer de s'Abeurador, 3902, Artà, Illes Balears",
-            "lat": 39.697179634920126, 
-            "long":3.3586794004476626 ,
-            "city": "Arta",
-            "Country": "España",
-            "zip": "07570"
-        },
-        "horari": {
-            "di": [
-                { "in": "10", "out": "12" },
-                { "in": "-", "out": "-" }
-            ],
-            "dm": [
-                { "in": "", "out": "" },
-                { "in": "-", "out": "-" }
-            ],
-            "dx": [
-                { "in": "8", "out": "12" },
-                { "in": "-", "out": "-" }
-            ],
-            "dj": [
-                { "in": "", "out": "" },
-                { "in": "-", "out": "-" }
-            ],
-            "dv": [
-                { "in": "-", "out": "-" },
-                { "in": "-", "out": "-" }
-            ],
-            "ds": [
-                { "in": "", "out": "" },
-                { "in": "-", "out": "-" }
-            ],
-            "dg": [
-                { "in": "10", "out": "12" },
-                { "in": "-", "out": "-" }
-            ]
-        },
-        "dadesPropies": {
-            "capacidad": 5000}
-},
-{
-    "nom": "Campo de futbol Sa Lleona",
-    "descripcio": "Campo de futbol de S'Horta",
-    "detall": "Natural",
-    "tipus": "X",
-    "identificador": "CampoHorta",
-    "contacte": {
-        "telf": "971017460",
-        "email": "cdhorta@gmail.com",
-        "xarxes": {
-            "web": "",
-            "facebook": "",
-            "twitter": "",
-            "instagram": ""
-        }
-    },
-    "puntuacio": 4.0,
-    "visualitzacions": "",
-    "likes": 0,
-    "icones": [
-        ""
-    ],
-    "imatges": [
-       
-    ],
-    "geoposicionament1": {
-        "address": "Ma-4012, km 50, Felanitx, Illes Balears",
-        "lat": 39.41583666745173, 
-        "long":3.2128483846567093 ,
-        "city": "Felanitx",
-        "Country": "España",
-        "zip": "07669"
-    },
-    "horari": {
-        "di": [
-            { "in": "10", "out": "12" },
-            { "in": "-", "out": "-" }
-        ],
-        "dm": [
-            { "in": "", "out": "" },
-            { "in": "-", "out": "-" }
-        ],
-        "dx": [
-            { "in": "8", "out": "12" },
-            { "in": "-", "out": "-" }
-        ],
-        "dj": [
-            { "in": "", "out": "" },
-            { "in": "-", "out": "-" }
-        ],
-        "dv": [
-            { "in": "-", "out": "-" },
-            { "in": "-", "out": "-" }
-        ],
-        "ds": [
-            { "in": "", "out": "" },
-            { "in": "-", "out": "-" }
-        ],
-        "dg": [
-            { "in": "10", "out": "12" },
-            { "in": "-", "out": "-" }
-        ]
-    },
-    "dadesPropies": {
-        "capacidad": 1000}
-}
-]
+ [{
+         "nom": "Camp de Futbol Son Sardina",
+         "descripcio": "Campo de futbol del Son Sardina",
+         "detall": "Artificial",
+         "tipus": "X",
+         "identificador": "CampoSonSardina",
+         "contacte": {
+             "telf": "971439565",
+             "email": "sonsardina@gmail.com",
+             "xarxes": {
+                 "web": "",
+                 "facebook": "",
+                 "twitter": "",
+                 "instagram": ""
+             }
+         },
+         "puntuacio": 3.6,
+         "visualitzacions": "",
+         "likes": 0,
+         "icones": [
+             ""
+         ],
+         "imatges": [
+             "https://github.com/xescnova/WebApp/blob/main/img/sonSardinaCampo.jpg",
+             "https://github.com/xescnova/WebApp/blob/main/img/escudoSonSardina.jpg"
+         ],
+         "geoposicionament1": {
+             "address": "Carrer Travessia Ave Maria, 18, 07120 Son Sardina, Illes Balears",
+             "lat": 39.62392763929516,
+             "long": 2.652987350272915,
+             "city": "Palma",
+             "Country": "España",
+             "zip": ""
+         },
+         "horari": {
+             "di": [
+                 { "in": "9", "out": "13" },
+                 { "in": "-", "out": "-" }
+             ],
+             "dm": [
+                 { "in": "4", "out": "7" },
+                 { "in": "-", "out": "-" }
+             ],
+             "dx": [
+                 { "in": "9", "out": "12" },
+                 { "in": "-", "out": "-" }
+             ],
+             "dj": [
+                 { "in": "", "out": "" },
+                 { "in": "-", "out": "-" }
+             ],
+             "dv": [
+                 { "in": "-", "out": "-" },
+                 { "in": "-", "out": "-" }
+             ],
+             "ds": [
+                 { "in": "18", "out": "20" },
+                 { "in": "-", "out": "-" }
+             ],
+             "dg": [
+                 { "in": "-", "out": "-" },
+                 { "in": "-", "out": "-" }
+             ]
+         },
+         "dadesPropies": {
+             "capacidad": 0
+         }
+     },
+     {
+         "nom": "Camp d'en Maiol",
+         "descripcio": "Campo de futbol del Port de Sòller",
+         "detall": "Artificial",
+         "tipus": "X",
+         "identificador": "CampoPortDeSoller",
+         "contacte": {
+             "telf": "971567346",
+             "email": "portdesoller@gmail.com",
+             "xarxes": {
+                 "web": "",
+                 "facebook": "",
+                 "twitter": "",
+                 "instagram": ""
+             }
+         },
+         "puntuacio": 4.0,
+         "visualitzacions": "",
+         "likes": 0,
+         "icones": [
+             ""
+         ],
+         "imatges": [
+             "https://github.com/xescnova/WebApp/blob/main/img/CampoFutbolSoller.jpg",
+             "https://github.com/xescnova/WebApp/blob/main/img/escudoSoller.jpg"
+         ],
+         "geoposicionament1": {
+             "address": "07100 Sóller, Balearic Islands",
+             "lat": 39.77201549479248,
+             "long": 2.717066927001519,
+             "city": "Sòller",
+             "Country": "España",
+             "zip": ""
+         },
+         "horari": {
+             "di": [
+                 { "in": "10", "out": "12" },
+                 { "in": "-", "out": "-" }
+             ],
+             "dm": [
+                 { "in": "4", "out": "7" },
+                 { "in": "-", "out": "-" }
+             ],
+             "dx": [
+                 { "in": "", "out": "" },
+                 { "in": "-", "out": "-" }
+             ],
+             "dj": [
+                 { "in": "", "out": "" },
+                 { "in": "-", "out": "-" }
+             ],
+             "dv": [
+                 { "in": "-", "out": "-" },
+                 { "in": "-", "out": "-" }
+             ],
+             "ds": [
+                 { "in": "16", "out": "20" },
+                 { "in": "-", "out": "-" }
+             ],
+             "dg": [
+                 { "in": "-", "out": "-" },
+                 { "in": "-", "out": "-" }
+             ]
+         },
+         "dadesPropies": {
+             "capacidad": 1500
+         }
+     },
+     {
+         "nom": "Camp Municipal d'Esports de Consell",
+         "descripcio": "Campo de futbol del Consell",
+         "detall": "Artificial",
+         "tipus": "X",
+         "identificador": "CampoPortDeSoller",
+         "contacte": {
+             "telf": "971622202",
+             "email": "consell@gmail.com",
+             "xarxes": {
+                 "web": "",
+                 "facebook": "",
+                 "twitter": "",
+                 "instagram": ""
+             }
+         },
+         "puntuacio": 3.9,
+         "visualitzacions": "",
+         "likes": 0,
+         "icones": [
+             ""
+         ],
+         "imatges": [
+             "https://github.com/xescnova/WebApp/blob/main/img/consellCampo.jpg",
+             "https://github.com/xescnova/WebApp/blob/main/img/consellEscudo.jpg"
+         ],
+         "geoposicionament1": {
+             "address": "Carrer de Masnou, 0, 07330 Consell, Illes Balears",
+             "lat": 39.66883038188424,
+             "long": 2.807706585174472,
+             "city": "Consell",
+             "Country": "España",
+             "zip": ""
+         },
+         "horari": {
+             "di": [
+                 { "in": "10", "out": "12" },
+                 { "in": "-", "out": "-" }
+             ],
+             "dm": [
+                 { "in": "", "out": "" },
+                 { "in": "-", "out": "-" }
+             ],
+             "dx": [
+                 { "in": "8", "out": "12" },
+                 { "in": "-", "out": "-" }
+             ],
+             "dj": [
+                 { "in": "", "out": "" },
+                 { "in": "-", "out": "-" }
+             ],
+             "dv": [
+                 { "in": "-", "out": "-" },
+                 { "in": "-", "out": "-" }
+             ],
+             "ds": [
+                 { "in": "", "out": "" },
+                 { "in": "-", "out": "-" }
+             ],
+             "dg": [
+                 { "in": "10", "out": "12" },
+                 { "in": "-", "out": "-" }
+             ]
+         },
+         "dadesPropies": {
+             "capacidad": 500
+         }
+     },
+     {
+         "nom": "Camp De Futbol Pla De Na Tesa",
+         "descripcio": "Campo de futbol del Pla De Na Tesa",
+         "detall": "Artificial",
+         "tipus": "X",
+         "identificador": "CampoPla",
+         "contacte": {
+             "telf": "971633202",
+             "email": "pladenatesa@gmail.com",
+             "xarxes": {
+                 "web": "",
+                 "facebook": "",
+                 "twitter": "",
+                 "instagram": ""
+             }
+         },
+         "puntuacio": 3.9,
+         "visualitzacions": "",
+         "likes": 0,
+         "icones": [
+             ""
+         ],
+         "imatges": [
+             "https://github.com/xescnova/WebApp/blob/main/img/plaCampo.jpg",
+             "https://github.com/xescnova/WebApp/blob/main/img/plaEscudo.jpg"
+         ],
+         "geoposicionament1": {
+             "address": "Carrer de Masnou, 0, 07330 Consell, Illes Balears",
+             "lat": 39.66883038188424,
+             "long": 2.807706585174472,
+             "city": "Consell",
+             "Country": "España",
+             "zip": ""
+         },
+         "horari": {
+             "di": [
+                 { "in": "10", "out": "12" },
+                 { "in": "-", "out": "-" }
+             ],
+             "dm": [
+                 { "in": "", "out": "" },
+                 { "in": "-", "out": "-" }
+             ],
+             "dx": [
+                 { "in": "8", "out": "12" },
+                 { "in": "-", "out": "-" }
+             ],
+             "dj": [
+                 { "in": "", "out": "" },
+                 { "in": "-", "out": "-" }
+             ],
+             "dv": [
+                 { "in": "-", "out": "-" },
+                 { "in": "-", "out": "-" }
+             ],
+             "ds": [
+                 { "in": "", "out": "" },
+                 { "in": "-", "out": "-" }
+             ],
+             "dg": [
+                 { "in": "10", "out": "12" },
+                 { "in": "-", "out": "-" }
+             ]
+         },
+         "dadesPropies": {
+             "capacidad": 500
+         }
+     },
+     {
+         "nom": "Camp De Futbol De Magaluf",
+         "descripcio": "Campo de futbol del Platges de Calvia",
+         "detall": "Artificial",
+         "tipus": "X",
+         "identificador": "CampoCalvia",
+         "contacte": {
+             "telf": "971265731",
+             "email": "cfplatgesdecalvia@gmail.com",
+             "xarxes": {
+                 "web": "",
+                 "facebook": "",
+                 "twitter": "",
+                 "instagram": ""
+             }
+         },
+         "puntuacio": 4.2,
+         "visualitzacions": "",
+         "likes": 0,
+         "icones": [
+             ""
+         ],
+         "imatges": [
+             "https://futbal.netlify.app/img/My%20Post.png.jpg",
+             "https://futbal.netlify.app/img/a1.png"
+         ],
+         "geoposicionament1": {
+             "address": "Carrer Miño, 21, 07181 Calvià, Illes Balears",
+             "lat": 39.51203123961558,
+             "long": 2.531907014819793,
+             "city": "Magaluf",
+             "Country": "España",
+             "zip": ""
+         },
+         "horari": {
+             "di": [
+                 { "in": "10", "out": "12" },
+                 { "in": "-", "out": "-" }
+             ],
+             "dm": [
+                 { "in": "", "out": "" },
+                 { "in": "-", "out": "-" }
+             ],
+             "dx": [
+                 { "in": "8", "out": "12" },
+                 { "in": "-", "out": "-" }
+             ],
+             "dj": [
+                 { "in": "", "out": "" },
+                 { "in": "-", "out": "-" }
+             ],
+             "dv": [
+                 { "in": "-", "out": "-" },
+                 { "in": "-", "out": "-" }
+             ],
+             "ds": [
+                 { "in": "", "out": "" },
+                 { "in": "-", "out": "-" }
+             ],
+             "dg": [
+                 { "in": "10", "out": "12" },
+                 { "in": "-", "out": "-" }
+             ]
+         },
+         "dadesPropies": {
+             "capacidad": 600
+         }
+     },
+     {
+         "nom": "Nuevo Campo de Inca",
+         "descripcio": "Campo de futbol del CD Constancia",
+         "detall": "Artificial",
+         "tipus": "X",
+         "identificador": "CampoInca",
+         "contacte": {
+             "telf": "971008691",
+             "email": "cdconstancia@gmail.com",
+             "xarxes": {
+                 "web": "",
+                 "facebook": "",
+                 "twitter": "",
+                 "instagram": ""
+             }
+         },
+         "puntuacio": 4.7,
+         "visualitzacions": "",
+         "likes": 0,
+         "icones": [
+             ""
+         ],
+         "imatges": [
+             "https://futbal.netlify.app/img/My%20Post.png.jpg",
+             "https://futbal.netlify.app/img/a1.png"
+         ],
+         "geoposicionament1": {
+             "address": "Carrer del Tomir, 119, 07300 Inca, Illes Balears",
+             "lat": 39.715592105132295,
+             "long": 2.9162831998758594,
+             "city": "Inca",
+             "Country": "España",
+             "zip": ""
+         },
+         "horari": {
+             "di": [
+                 { "in": "10", "out": "12" },
+                 { "in": "-", "out": "-" }
+             ],
+             "dm": [
+                 { "in": "", "out": "" },
+                 { "in": "-", "out": "-" }
+             ],
+             "dx": [
+                 { "in": "8", "out": "12" },
+                 { "in": "-", "out": "-" }
+             ],
+             "dj": [
+                 { "in": "", "out": "" },
+                 { "in": "-", "out": "-" }
+             ],
+             "dv": [
+                 { "in": "-", "out": "-" },
+                 { "in": "-", "out": "-" }
+             ],
+             "ds": [
+                 { "in": "", "out": "" },
+                 { "in": "-", "out": "-" }
+             ],
+             "dg": [
+                 { "in": "10", "out": "12" },
+                 { "in": "-", "out": "-" }
+             ]
+         },
+         "dadesPropies": {
+             "capacidad": 10000
+         }
+     },
+     {
+         "nom": "Campo de futbol de Arta",
+         "descripcio": "Campo de futbol del equipo de Arta",
+         "detall": "Natural",
+         "tipus": "X",
+         "identificador": "CampoArta",
+         "contacte": {
+             "telf": "971008691",
+             "email": "cfarta@gmail.com",
+             "xarxes": {
+                 "web": "",
+                 "facebook": "",
+                 "twitter": "",
+                 "instagram": ""
+             }
+         },
+         "puntuacio": 4.3,
+         "visualitzacions": "",
+         "likes": 0,
+         "icones": [
+             ""
+         ],
+         "imatges": [
+             "https://futbal.netlify.app/img/My%20Post.png.jpg",
+             "https://futbal.netlify.app/img/a1.png"
+         ],
+         "geoposicionament1": {
+             "address": "Carrer de s'Abeurador, 3902, Artà, Illes Balears",
+             "lat": 39.697179634920126,
+             "long": 3.3586794004476626,
+             "city": "Arta",
+             "Country": "España",
+             "zip": "07570"
+         },
+         "horari": {
+             "di": [
+                 { "in": "10", "out": "12" },
+                 { "in": "-", "out": "-" }
+             ],
+             "dm": [
+                 { "in": "", "out": "" },
+                 { "in": "-", "out": "-" }
+             ],
+             "dx": [
+                 { "in": "8", "out": "12" },
+                 { "in": "-", "out": "-" }
+             ],
+             "dj": [
+                 { "in": "", "out": "" },
+                 { "in": "-", "out": "-" }
+             ],
+             "dv": [
+                 { "in": "-", "out": "-" },
+                 { "in": "-", "out": "-" }
+             ],
+             "ds": [
+                 { "in": "", "out": "" },
+                 { "in": "-", "out": "-" }
+             ],
+             "dg": [
+                 { "in": "10", "out": "12" },
+                 { "in": "-", "out": "-" }
+             ]
+         },
+         "dadesPropies": {
+             "capacidad": 5000
+         }
+     },
+     {
+         "nom": "Campo de futbol Sa Lleona",
+         "descripcio": "Campo de futbol de S'Horta",
+         "detall": "Natural",
+         "tipus": "X",
+         "identificador": "CampoHorta",
+         "contacte": {
+             "telf": "971017460",
+             "email": "cdhorta@gmail.com",
+             "xarxes": {
+                 "web": "",
+                 "facebook": "",
+                 "twitter": "",
+                 "instagram": ""
+             }
+         },
+         "puntuacio": 4.0,
+         "visualitzacions": "",
+         "likes": 0,
+         "icones": [
+             ""
+         ],
+         "imatges": [
+             "https://futbal.netlify.app/img/My%20Post.png.jpg",
+             "https://futbal.netlify.app/img/a1.png"
+         ],
+         "geoposicionament1": {
+             "address": "Ma-4012, km 50, Felanitx, Illes Balears",
+             "lat": 39.41583666745173,
+             "long": 3.2128483846567093,
+             "city": "Felanitx",
+             "Country": "España",
+             "zip": "07669"
+         },
+         "horari": {
+             "di": [
+                 { "in": "10", "out": "12" },
+                 { "in": "-", "out": "-" }
+             ],
+             "dm": [
+                 { "in": "", "out": "" },
+                 { "in": "-", "out": "-" }
+             ],
+             "dx": [
+                 { "in": "8", "out": "12" },
+                 { "in": "-", "out": "-" }
+             ],
+             "dj": [
+                 { "in": "", "out": "" },
+                 { "in": "-", "out": "-" }
+             ],
+             "dv": [
+                 { "in": "-", "out": "-" },
+                 { "in": "-", "out": "-" }
+             ],
+             "ds": [
+                 { "in": "", "out": "" },
+                 { "in": "-", "out": "-" }
+             ],
+             "dg": [
+                 { "in": "10", "out": "12" },
+                 { "in": "-", "out": "-" }
+             ]
+         },
+         "dadesPropies": {
+             "capacidad": 1000
+         }
+     }
+ ]
