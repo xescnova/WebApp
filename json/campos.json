@@ -2,8 +2,8 @@
          "nom": "Camp de Futbol Son Sardina",
          "descripcio": "Campo de futbol del Son Sardina",
          "detall": "Artificial",
-         "tipus": "X",
-         "identificador": "CampoSonSardina",
+         "tipus": "Campo",
+         "identificador": "1",
          "contacte": {
              "telf": "971439565",
              "email": "sonsardina@gmail.com",
@@ -63,15 +63,15 @@
              ]
          },
          "dadesPropies": {
-             "capacidad": 0
+             "capacidad": 300
          }
      },
      {
          "nom": "Camp d'en Maiol",
          "descripcio": "Campo de futbol del Port de Sòller",
          "detall": "Artificial",
-         "tipus": "X",
-         "identificador": "CampoPortDeSoller",
+         "tipus": "Campo",
+         "identificador": "2",
          "contacte": {
              "telf": "971567346",
              "email": "portdesoller@gmail.com",
@@ -138,8 +138,8 @@
          "nom": "Camp Municipal d'Esports de Consell",
          "descripcio": "Campo de futbol del Consell",
          "detall": "Artificial",
-         "tipus": "X",
-         "identificador": "CampoPortDeSoller",
+         "tipus": "Campo",
+         "identificador": "1",
          "contacte": {
              "telf": "971622202",
              "email": "consell@gmail.com",
