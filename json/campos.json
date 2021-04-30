@@ -21,8 +21,8 @@
              ""
          ],
          "imatges": [
-             "https://github.com/xescnova/WebApp/blob/main/img/sonSardinaCampo.jpg",
-             "https://github.com/xescnova/WebApp/blob/main/img/escudoSonSardina.jpg"
+             "https://raw.githubusercontent.com/xescnova/WebApp/main/img/sonSardinaCampo.jpg",
+             "https://raw.githubusercontent.com/xescnova/WebApp/blob/main/img/escudoSonSardina.jpg"
          ],
          "geoposicionament1": {
              "address": "Carrer Travessia Ave Maria, 18, 07120 Son Sardina, Illes Balears",
@@ -89,8 +89,8 @@
              ""
          ],
          "imatges": [
-             "https://github.com/xescnova/WebApp/blob/main/img/CampoFutbolSoller.jpg",
-             "https://github.com/xescnova/WebApp/blob/main/img/escudoSoller.jpg"
+             "https://raw.githubusercontent.com/xescnova/WebApp/blob/main/img/CampoFutbolSoller.jpg",
+             "https://raw.githubusercontent.com/xescnova/WebApp/blob/main/img/escudoSoller.jpg"
          ],
          "geoposicionament1": {
              "address": "07100 Sóller, Balearic Islands",
@@ -157,8 +157,8 @@
              ""
          ],
          "imatges": [
-             "https://github.com/xescnova/WebApp/blob/main/img/consellCampo.jpg",
-             "https://github.com/xescnova/WebApp/blob/main/img/consellEscudo.jpg"
+             "https://raw.githubusercontent.com/xescnova/WebApp/blob/main/img/consellCampo.jpg",
+             "https://raw.githubusercontent.com/xescnova/WebApp/blob/main/img/consellEscudo.jpg"
          ],
          "geoposicionament1": {
              "address": "Carrer de Masnou, 0, 07330 Consell, Illes Balears",
@@ -225,8 +225,8 @@
              ""
          ],
          "imatges": [
-             "https://github.com/xescnova/WebApp/blob/main/img/plaCampo.jpg",
-             "https://github.com/xescnova/WebApp/blob/main/img/plaEscudo.jpg"
+             "https://raw.githubusercontent.com/xescnova/WebApp/blob/main/img/plaCampo.jpg",
+             "https://raw.githubusercontent.com/xescnova/WebApp/blob/main/img/plaEscudo.jpg"
          ],
          "geoposicionament1": {
              "address": "Carrer de Masnou, 0, 07330 Consell, Illes Balears",
@@ -293,7 +293,7 @@
              ""
          ],
          "imatges": [
-             "https://github.com/xescnova/WebApp/blob/main/img/campoMagaluf.jpg" 
+             "https://raw.githubusercontent.com/xescnova/WebApp/blob/main/img/campoMagaluf.jpg" 
          ],
          "geoposicionament1": {
              "address": "Carrer Miño, 21, 07181 Calvià, Illes Balears",
@@ -360,7 +360,7 @@
              ""
          ],
          "imatges": [
-     "https://github.com/xescnova/WebApp/blob/main/img/campoConstancia.jpg"
+     "https://raw.githubusercontent.com/xescnova/WebApp/blob/main/img/campoConstancia.jpg"
          ],
          "geoposicionament1": {
              "address": "Carrer del Tomir, 119, 07300 Inca, Illes Balears",
@@ -427,7 +427,7 @@
              ""
          ],
          "imatges": [
-             "https://github.com/xescnova/WebApp/blob/main/img/campoArta.jpg"
+             "https://raw.githubusercontent.com/xescnova/WebApp/blob/main/img/campoArta.jpg"
          ],
          "geoposicionament1": {
              "address": "Carrer de s'Abeurador, 3902, Artà, Illes Balears",
@@ -494,7 +494,7 @@
              ""
          ],
          "imatges": [
-            "https://github.com/xescnova/WebApp/blob/main/img/campoHorta.jpg"
+            "https://raw.githubusercontent.com/xescnova/WebApp/blob/main/img/campoHorta.jpg"
          ],
          "geoposicionament1": {
              "address": "Ma-4012, km 50, Felanitx, Illes Balears",
