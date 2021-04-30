@@ -139,7 +139,7 @@
          "descripcio": "Campo de futbol del Consell",
          "detall": "Artificial",
          "tipus": "Campo",
-         "identificador": "1",
+         "identificador": "3",
          "contacte": {
              "telf": "971622202",
              "email": "consell@gmail.com",
@@ -206,8 +206,8 @@
          "nom": "Camp De Futbol Pla De Na Tesa",
          "descripcio": "Campo de futbol del Pla De Na Tesa",
          "detall": "Artificial",
-         "tipus": "X",
-         "identificador": "CampoPla",
+         "tipus": "Campo",
+         "identificador": "4",
          "contacte": {
              "telf": "971633202",
              "email": "pladenatesa@gmail.com",
@@ -274,8 +274,8 @@
          "nom": "Camp De Futbol De Magaluf",
          "descripcio": "Campo de futbol del Platges de Calvia",
          "detall": "Artificial",
-         "tipus": "X",
-         "identificador": "CampoCalvia",
+         "tipus": "Campo",
+         "identificador": "5",
          "contacte": {
              "telf": "971265731",
              "email": "cfplatgesdecalvia@gmail.com",
@@ -341,8 +341,8 @@
          "nom": "Nuevo Campo de Inca",
          "descripcio": "Campo de futbol del CD Constancia",
          "detall": "Artificial",
-         "tipus": "X",
-         "identificador": "CampoInca",
+         "tipus": "Campo",
+         "identificador": "6",
          "contacte": {
              "telf": "971008691",
              "email": "cdconstancia@gmail.com",
@@ -408,8 +408,8 @@
          "nom": "Campo de futbol de Arta",
          "descripcio": "Campo de futbol del equipo de Arta",
          "detall": "Natural",
-         "tipus": "X",
-         "identificador": "CampoArta",
+         "tipus": "Campo",
+         "identificador": "7",
          "contacte": {
              "telf": "971008691",
              "email": "cfarta@gmail.com",
@@ -475,8 +475,8 @@
          "nom": "Campo de futbol Sa Lleona",
          "descripcio": "Campo de futbol de S'Horta",
          "detall": "Natural",
-         "tipus": "X",
-         "identificador": "CampoHorta",
+         "tipus": "Campo",
+         "identificador": "8",
          "contacte": {
              "telf": "971017460",
              "email": "cdhorta@gmail.com",
