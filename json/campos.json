@@ -1,4 +1,4 @@
- [{
+[{
          "nom": "Camp de Futbol Son Sardina",
          "descripcio": "Campo de futbol del Son Sardina",
          "detall": "Artificial",
@@ -38,15 +38,15 @@
                  { "in": "-", "out": "-" }
              ],
              "dm": [
-                 { "in": "4", "out": "7" },
+                 { "in": "9", "out": "14" },
                  { "in": "-", "out": "-" }
              ],
              "dx": [
-                 { "in": "9", "out": "12" },
+                 { "in": "-", "out": "-" },
                  { "in": "-", "out": "-" }
              ],
              "dj": [
-                 { "in": "", "out": "" },
+                 { "in": "8", "out": "14" },
                  { "in": "-", "out": "-" }
              ],
              "dv": [
@@ -54,7 +54,7 @@
                  { "in": "-", "out": "-" }
              ],
              "ds": [
-                 { "in": "18", "out": "20" },
+                 { "in": "8", "out": "14" },
                  { "in": "-", "out": "-" }
              ],
              "dg": [
@@ -102,19 +102,19 @@
          },
          "horari": {
              "di": [
-                 { "in": "10", "out": "12" },
+                 { "in": "9", "out": "14" },
                  { "in": "-", "out": "-" }
              ],
              "dm": [
-                 { "in": "4", "out": "7" },
+                 { "in": "9", "out": "14" },
                  { "in": "-", "out": "-" }
              ],
              "dx": [
-                 { "in": "", "out": "" },
+                 { "in": "9", "out": "14" },
                  { "in": "-", "out": "-" }
              ],
              "dj": [
-                 { "in": "", "out": "" },
+                 { "in": "9", "out": "14" },
                  { "in": "-", "out": "-" }
              ],
              "dv": [
@@ -122,7 +122,7 @@
                  { "in": "-", "out": "-" }
              ],
              "ds": [
-                 { "in": "16", "out": "20" },
+                 { "in": "9", "out": "14" },
                  { "in": "-", "out": "-" }
              ],
              "dg": [
@@ -170,23 +170,23 @@
          },
          "horari": {
              "di": [
-                 { "in": "10", "out": "12" },
+                 { "in": "9", "out": "14" },
                  { "in": "-", "out": "-" }
              ],
              "dm": [
-                 { "in": "", "out": "" },
+                 { "in": "9", "out": "14" },
                  { "in": "-", "out": "-" }
              ],
              "dx": [
-                 { "in": "8", "out": "12" },
+                 { "in": "9", "out": "14" },
                  { "in": "-", "out": "-" }
              ],
              "dj": [
-                 { "in": "", "out": "" },
+                 { "in": "9", "out": "14" },
                  { "in": "-", "out": "-" }
              ],
              "dv": [
-                 { "in": "-", "out": "-" },
+                 { "in": "9", "out": "14" },
                  { "in": "-", "out": "-" }
              ],
              "ds": [
@@ -238,23 +238,23 @@
          },
          "horari": {
              "di": [
-                 { "in": "10", "out": "12" },
+                 { "in": "9", "out": "14" },
                  { "in": "-", "out": "-" }
              ],
              "dm": [
-                 { "in": "", "out": "" },
+                 { "in": "9", "out": "14" },
                  { "in": "-", "out": "-" }
              ],
              "dx": [
-                 { "in": "8", "out": "12" },
+                 { "in": "9", "out": "14" },
                  { "in": "-", "out": "-" }
              ],
              "dj": [
-                 { "in": "", "out": "" },
+                 { "in": "9", "out": "14" },
                  { "in": "-", "out": "-" }
              ],
              "dv": [
-                 { "in": "-", "out": "-" },
+                 { "in": "9", "out": "14" },
                  { "in": "-", "out": "-" }
              ],
              "ds": [
@@ -293,8 +293,7 @@
              ""
          ],
          "imatges": [
-             "https://futbal.netlify.app/img/My%20Post.png.jpg",
-             "https://futbal.netlify.app/img/a1.png"
+             "https://github.com/xescnova/WebApp/blob/main/img/campoMagaluf.jpg" 
          ],
          "geoposicionament1": {
              "address": "Carrer Miño, 21, 07181 Calvià, Illes Balears",
@@ -306,23 +305,23 @@
          },
          "horari": {
              "di": [
-                 { "in": "10", "out": "12" },
+                 { "in": "9", "out": "14" },
                  { "in": "-", "out": "-" }
              ],
              "dm": [
-                 { "in": "", "out": "" },
+                 { "in": "9", "out": "14" },
                  { "in": "-", "out": "-" }
              ],
              "dx": [
-                 { "in": "8", "out": "12" },
+                 { "in": "9", "out": "14" },
                  { "in": "-", "out": "-" }
              ],
              "dj": [
-                 { "in": "", "out": "" },
+                 { "in": "9", "out": "14" },
                  { "in": "-", "out": "-" }
              ],
              "dv": [
-                 { "in": "-", "out": "-" },
+                 { "in": "9", "out": "14" },
                  { "in": "-", "out": "-" }
              ],
              "ds": [
@@ -361,8 +360,7 @@
              ""
          ],
          "imatges": [
-             "https://futbal.netlify.app/img/My%20Post.png.jpg",
-             "https://futbal.netlify.app/img/a1.png"
+     "https://github.com/xescnova/WebApp/blob/main/img/campoConstancia.jpg"
          ],
          "geoposicionament1": {
              "address": "Carrer del Tomir, 119, 07300 Inca, Illes Balears",
@@ -374,19 +372,19 @@
          },
          "horari": {
              "di": [
-                 { "in": "10", "out": "12" },
+                 { "in": "9", "out": "14" },
                  { "in": "-", "out": "-" }
              ],
              "dm": [
-                 { "in": "", "out": "" },
+                 { "in": "9", "out": "14" },
                  { "in": "-", "out": "-" }
              ],
              "dx": [
-                 { "in": "8", "out": "12" },
+                 { "in": "9", "out": "14" },
                  { "in": "-", "out": "-" }
              ],
              "dj": [
-                 { "in": "", "out": "" },
+                 { "in": "9", "out": "14" },
                  { "in": "-", "out": "-" }
              ],
              "dv": [
@@ -398,7 +396,7 @@
                  { "in": "-", "out": "-" }
              ],
              "dg": [
-                 { "in": "10", "out": "12" },
+                 { "in": "9", "out": "14" },
                  { "in": "-", "out": "-" }
              ]
          },
@@ -429,8 +427,7 @@
              ""
          ],
          "imatges": [
-             "https://futbal.netlify.app/img/My%20Post.png.jpg",
-             "https://futbal.netlify.app/img/a1.png"
+             "https://github.com/xescnova/WebApp/blob/main/img/campoArta.jpg"
          ],
          "geoposicionament1": {
              "address": "Carrer de s'Abeurador, 3902, Artà, Illes Balears",
@@ -442,19 +439,19 @@
          },
          "horari": {
              "di": [
-                 { "in": "10", "out": "12" },
+                 { "in": "9", "out": "14" },
                  { "in": "-", "out": "-" }
              ],
              "dm": [
-                 { "in": "", "out": "" },
+                 { "in": "9", "out": "14" },
                  { "in": "-", "out": "-" }
              ],
              "dx": [
-                 { "in": "8", "out": "12" },
+                 { "in": "9", "out": "14" },
                  { "in": "-", "out": "-" }
              ],
              "dj": [
-                 { "in": "", "out": "" },
+                 { "in": "9", "out": "14" },
                  { "in": "-", "out": "-" }
              ],
              "dv": [
@@ -497,8 +494,7 @@
              ""
          ],
          "imatges": [
-             "https://futbal.netlify.app/img/My%20Post.png.jpg",
-             "https://futbal.netlify.app/img/a1.png"
+            "https://github.com/xescnova/WebApp/blob/main/img/campoHorta.jpg"
          ],
          "geoposicionament1": {
              "address": "Ma-4012, km 50, Felanitx, Illes Balears",
@@ -510,19 +506,19 @@
          },
          "horari": {
              "di": [
-                 { "in": "10", "out": "12" },
+                 { "in": "9", "out": "14" },
                  { "in": "-", "out": "-" }
              ],
              "dm": [
-                 { "in": "", "out": "" },
+                 { "in": "9", "out": "14" },
                  { "in": "-", "out": "-" }
              ],
              "dx": [
-                 { "in": "8", "out": "12" },
+                 { "in": "9", "out": "14" },
                  { "in": "-", "out": "-" }
              ],
              "dj": [
-                 { "in": "", "out": "" },
+                 { "in": "9", "out": "14" },
                  { "in": "-", "out": "-" }
              ],
              "dv": [
