@@ -301,7 +301,8 @@
              ""
          ],
          "imatges": [
-             "https://raw.githubusercontent.com/xescnova/WebApp/main/img/campoMagaluf.jpg" 
+             "https://raw.githubusercontent.com/xescnova/WebApp/main/img/campoMagaluf.jpg" ,
+                  "https://raw.githubusercontent.com/xescnova/WebApp/main/img/escudoMagaluf.jpg"
          ],
          "geoposicionament1": {
              "address": "Carrer Miño, 21, 07181 Calvià, Illes Balears",
@@ -368,7 +369,8 @@
              ""
          ],
          "imatges": [
-     "https://raw.githubusercontent.com/xescnova/WebApp/main/img/campoConstancia.jpg"
+     "https://raw.githubusercontent.com/xescnova/WebApp/main/img/campoConstancia.jpg",
+                  "https://raw.githubusercontent.com/xescnova/WebApp/main/img/escudoConstancia.jpg"
          ],
          "geoposicionament1": {
              "address": "Carrer del Tomir, 119, 07300 Inca, Illes Balears",
@@ -437,7 +439,8 @@
          "imatges": [
              "https://raw.githubusercontent.com/xescnova/WebApp/main/img/campoArta.jpg"
                   "https://raw.githubusercontent.com/xescnova/WebApp/main/img/campoArta2.jpg",
-                  "https://raw.githubusercontent.com/xescnova/WebApp/main/img/campoArta3.jpg"
+                  "https://raw.githubusercontent.com/xescnova/WebApp/main/img/campoArta3.jpg",
+                  "https://raw.githubusercontent.com/xescnova/WebApp/main/img/artaEscudo.jpg"
          ],
          "geoposicionament1": {
              "address": "Carrer de s'Abeurador, 3902, Artà, Illes Balears",
@@ -506,7 +509,9 @@
          "imatges": [
             "https://raw.githubusercontent.com/xescnova/WebApp/main/img/campoHorta.jpg",
                   "https://raw.githubusercontent.com/xescnova/WebApp/main/img/campoHorta2.jpg",
-                  "https://raw.githubusercontent.com/xescnova/WebApp/main/img/campoHorta3.png"
+                  "https://raw.githubusercontent.com/xescnova/WebApp/main/img/campoHorta3.png",
+                  "https://raw.githubusercontent.com/xescnova/WebApp/main/img/escudoHorta.png"
+                  
          ],
          "geoposicionament1": {
              "address": "Ma-4012, km 50, Felanitx, Illes Balears",
