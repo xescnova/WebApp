@@ -33,10 +33,44 @@
 img.rounded-corners {
     border-radius: 50%
 }
+
+section {
+    padding: 20px;
+    width: 1280px;
+    margin: 40px auto;
+}
+
 label {
     color: grey;
-  }
-  label2 {
-    color:rgb(236, 152, 42);
-  }
- 
+}
+
+label2 {
+    color: rgb(236, 152, 42);
+}
+
+section ul {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+section ul li {
+    list-style: none;
+    background: #eee;
+    padding: 8px 20px;
+    margin: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+section ul li.active {
+    background: #03a9f4;
+    color: #fff;
+}
+
+.marker {
+    display: block;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 0;
+}
