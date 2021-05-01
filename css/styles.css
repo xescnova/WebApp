@@ -33,3 +33,10 @@
 img.rounded-corners {
     border-radius: 50%
 }
+label {
+    color: grey;
+  }
+  label2 {
+    color:rgb(236, 152, 42);
+  }
+ 
