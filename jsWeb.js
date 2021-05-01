@@ -1,5 +1,6 @@
 var myArr;
 var aux;
+var opcion =0;
 
 function leerJson() {
     var xmlhttp = new XMLHttpRequest();
@@ -16,6 +17,7 @@ function leerJson() {
 }
 
 function OrdenarCapacidadMenor(){
+    opcion=1;
 
     aux.sort(function (a, b) {
         if (a.dadesPropies.capacidad > b.dadesPropies.capacidad) {
@@ -29,6 +31,7 @@ function OrdenarCapacidadMenor(){
       campos(aux);
 }
 function OrdenarCapacidadMayor(){
+    opcion=2;
     aux.sort(function (a, b) {
         if (a.dadesPropies.capacidad < b.dadesPropies.capacidad) {
           return 1;
@@ -41,6 +44,7 @@ function OrdenarCapacidadMayor(){
       campos(aux);
 }
 function OrdenarValoracionMenor(){
+    opcion=3;
     aux.sort(function (a, b) {
         if (a.puntuacio> b.puntuacio) {
           return 1;
@@ -53,6 +57,7 @@ function OrdenarValoracionMenor(){
       campos(aux);
 }
 function OrdenarValoracionMayor(){
+    opcion=4;
     aux.sort(function (a, b) {
         if (a.puntuacio < b.puntuacio) {
           return 1;
@@ -66,6 +71,64 @@ function OrdenarValoracionMayor(){
       campos(aux);
 }
 
+function NoFiltro(){
+    aux=myArr;
+    
+    switch (opcion){
+        case 0:
+            campos(aux);
+        break;
+        case 1 :
+            OrdenarCapacidadMenor();
+        break;
+        
+        case 2:
+            OrdenarCapacidadMayor();
+        break;
+        case 3 :
+            OrdenarValoracionMenor();
+        break;
+        
+        case 4:
+            OrdenarValoracionMayor();
+        break;
+    }
+}
+function FiltroNatural(){
+
+    var arrayfiltrado=[];
+
+    for (i = 0; i < aux.length; i++) {
+
+        if(aux[i].detall == "Natural"){
+            arrayfiltrado.push(aux[i]);
+        }
+
+    }
+    aux=arrayfiltrado;
+
+    switch (opcion){
+        case 0:
+            campos(aux);
+        break;
+        case 1 :
+            OrdenarCapacidadMenor();
+        break;
+        
+        case 2:
+            OrdenarCapacidadMayor();
+        break;
+        case 3 :
+            OrdenarValoracionMenor();
+        break;
+        
+        case 4:
+            OrdenarValoracionMayor();
+        break;
+    }
+
+
+}
 
 function campos(arr) {
  
