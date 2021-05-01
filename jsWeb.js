@@ -1,11 +1,13 @@
+var myArr;
+var aux;
+
 function leerJson() {
     var xmlhttp = new XMLHttpRequest();
     var url = "https://raw.githubusercontent.com/xescnova/WebApp/main/json/campos.json";
     xmlhttp.onreadystatechange = function() {
-        if (xmlhttp.readyState == 4 && xmlhttp.status ==
-            200) {
-            var myArr =
-                JSON.parse(xmlhttp.responseText);
+        if (xmlhttp.readyState == 4 && xmlhttp.status ==200) {
+            myArr =JSON.parse(xmlhttp.responseText);
+            aux=myArr;
             campos(myArr);
         }
     };
@@ -13,21 +15,21 @@ function leerJson() {
     xmlhttp.send();
 }
 
-function OrdenarCapacidadMenor(arr){
-    arr.sort(function (a, b) {
-        if (a.dadesPropies.capacidad > b.dadesPropies.capacidad) {
-          return 1;
-        }
-        if (a.dadesPropies.capacidad < b.dadesPropies.capacidad) {
-          return -1;
-        }
-        return 0;
-      });
-      leerJson();
-}
+function OrdenarCapacidadMenor(){
 
-function OrdenarCapacidadMayor(arr){
-    arr.sort(function (a, b) {
+    aux.sort(function (a, b) {
+        if (a.dadesPropies.capacidad > b.dadesPropies.capacidad) {
+          return 1;
+        }
+        if (a.dadesPropies.capacidad < b.dadesPropies.capacidad) {
+          return -1;
+        }
+        return 0;
+      });
+      campos(aux);
+}
+function OrdenarCapacidadMayor(){
+    aux.sort(function (a, b) {
         if (a.dadesPropies.capacidad < b.dadesPropies.capacidad) {
           return 1;
         }
@@ -36,10 +38,10 @@ function OrdenarCapacidadMayor(arr){
         }
         return 0;
       });
-      leerJson();
+      campos(aux);
 }
-function OrdenarValoracionMenor(arr){
-    arr.sort(function (a, b) {
+function OrdenarValoracionMenor(){
+    aux.sort(function (a, b) {
         if (a.puntuacio> b.puntuacio) {
           return 1;
         }
@@ -48,10 +50,10 @@ function OrdenarValoracionMenor(arr){
         }
         return 0;
       });
-      leerJson();
+      campos(aux);
 }
-function OrdenarValoracionMayor(arr){
-    arr.sort(function (a, b) {
+function OrdenarValoracionMayor(){
+    aux.sort(function (a, b) {
         if (a.puntuacio < b.puntuacio) {
           return 1;
         }
@@ -61,16 +63,9 @@ function OrdenarValoracionMayor(arr){
         return 0;
       });
 
-      leerJson();
+      campos(aux);
 }
 
-function botones(){
-
-    bot=document.createElement("button");
-    bot.setAttribute("type","button");
-    bot.setAttribute("class","btn btn-outline-secondary");
-    bot.setAttribute("onclick","");
-}
 
 function campos(arr) {
  
@@ -79,6 +74,10 @@ function campos(arr) {
         return cesped.detall == "Natural";
       });*/
       
+        const container = document.getElementById("id01");
+        while (container.firstChild) {
+        container.removeChild(container.lastChild);
+        }
       
         primero = document.createElement("div");
         primero.setAttribute("class", "album py-5 bg-light");
