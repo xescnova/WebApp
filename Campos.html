@@ -1,64 +1,102 @@
 <html>
 
- <head>
+<head>
     <title>Futbal</title>
-   
+
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <link href="css/one-page-wonder.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
     <script src="jsWeb.js"></script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
+    <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.js"></script>
+    <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.css" type="text/css">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
- /head>
+</head>
 
 
- <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">FutBal</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">FutBal</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Inicio
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Inicio
                 <span class="sr-only">(current)</span>
               </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Equipos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Campos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Arbitros</a>
-                    </li>
-                </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-                </form>
-            </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Equipos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Campos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Arbitros</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+            </form>
         </div>
-    </nav>
-    
-    <!-- Ejemplos-->>
+    </div>
+</nav>
+
+
+
+<!-- Ejemplos
     <div class=" btn-group padTop  padIzq2 ">
         <button type="button" class="btn btn-outline-secondary">Alfabeto</button>
-        <button type="button" class="btn btn-outline-secondary"  onclick= "OrdenarCapacidadMenor()" > </button>>Capacidad</button>
+        <button type="button" class="btn btn-outline-secondary" onclick="OrdenarCapacidadMenor()"> </button>>Capacidad</button>
     </div>
-    
-    <main id = "id01">
-          <script>leerJson()</script>
-    </main>
-    <!-- Footer-->>
-      <footer class="py-5 bg-black">
-        <div class="container2">
-            <p class="m-0 padIzq text-white small">Copyright &copy; Your Website 2020</p>
-            <a href="#" class="m-0 padIzq text-white small">Back to top</a>
-        </div>
-        
-    </footer>
+-->>
+
+
+<section>
+    <ul>
+        <li class="list active" data-filter="Todos">Todos</li>
+        <li class="list" data-filter="Capacidad">Capacidad</li>
+        <li class="list" data-filter="Cercanos a ti">Cercanos a ti</li>
+        <li class="list" data-filter="Valoracion">Valoracion</li>
+    </ul>
+
+</section>
+
+
+<main id="id01">
+
+
+
+</main>
+
+<div id='map' style='width: 600px; height: 600px;'></div>
+<script>
+</script>
+
+
+<!-- Footer-->>
+<footer class="py-5 bg-black">
+    <div class="container2">
+        <p class="m-0 padIzq text-white small">Copyright &copy; Your Website 2020</p>
+        <a href="#" class="m-0 padIzq text-white small">Back to top</a>
+    </div>
+
+</footer>
+
+<script>
+    leerJson()
+</script>
 
 </html>
