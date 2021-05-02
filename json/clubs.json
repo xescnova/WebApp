@@ -1,0 +1,3564 @@
+[
+    {
+        "nom": "C.D. Manacor",
+        "descripcio": "Equipo de fútbol de Manacor",
+        "detall": "",
+        "tipus": "club",
+        "identificador": "1",
+        "comentari": "",
+        "preu": {
+            "-import": "",
+            "coment-preu": ""
+        },
+        "contacte": {
+            "telf": "971 552 861",
+            "email": "cdmanacor@gmail.com",
+            "xarxes": [
+				{
+					"web": "https://www.cdmanacor.es"
+				},
+                {
+                    "facebook": "https://es-es.facebook.com/cdmanacor"
+                },
+                {
+                    "twitter": "https://twitter.com/cd_manacor"
+                },
+                {
+                    "instagram": "https://www.instagram.com/cd_manacor_"
+                }
+            ]
+        },
+        "puntuacio": "",
+        "visualitzacions": "",
+        "likes": 0,
+        "icones": [
+            "https://www.ffib.es/Fed/pimg/Clubes/00100_0000000215_manacor.jpg"
+        ],
+        "imatges": [
+            "https://www.ffib.es/Fed/pimg/Campos/00100_0000000285_MANACOR%2038845.JPG"
+        ],
+        "videos": [
+            {
+                "tipus": ""
+            },
+            {
+                "url": ""
+            }
+        ],
+        "audio": [
+            {
+                "tipus": ""
+            },
+            {
+                "url": ""
+            }
+        ],
+        "geo1": {
+            "address": "Solimán s/n",
+            "lat": "",
+            "long": "",
+            "city": "Manacor",
+            "Country": "Baleares",
+            "zip": "07500"
+        },
+        "geo2": {
+            "address": "Ronda de linstitut 52",
+            "lat": "39.56570966984842",
+            "long": "3.2185025784119525",
+            "city": "Manacor",
+            "Country": "Baleares",
+            "zip": "07500"
+        },
+        "ruta": [
+            {
+                "lat": "",
+                "long": "",
+                "imatge": {
+                    "link": "",
+                    "descripcio": ""
+                }
+            }
+            
+        ],
+        "horari": {
+            "di": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dm": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dx": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dj": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dv": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "ds": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dg": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ]
+        },
+        "calendari": {
+            "startDataEvent": "",
+            "startTimeEvent": "",
+            "endDataEvent": "",
+            "endTimeEvent": ""
+        },
+        "dadesPropies": {
+            "categorias_futbolbase": [
+                "MANACOR TERCERA DIVISION",
+                "MANACOR 'A' JUVENIL NACIONAL",
+                "MANACOR 'B' JUVENIL PREFERENTE MALLORCA",
+                "MANACOR 'C' JUVENIL PRIMERA REGIONAL MALLORCA",
+                "MANACOR FEMENINA REGIONAL MALLORCA",
+                "MANACOR CADETE PRIMERA REGIONAL MALLORCA",
+                "MANACOR INFANTIL PRIMERA REGIONAL MALLORCA",
+                "MANACOR ALEVIN MALLORCA",
+                "MANACOR BENJAMIN MALLORCA",
+                "MANACOR BENJAMIN PRIMER AÑO MALLORCA",
+                "MANACOR PRE BENJAMIN MALLORCA"
+            ],
+            "categoria_equipo_principal": "MANACOR TERCERA DIVISION",
+            "equipacion": {
+                "camiseta": "ROJA - BLANCA",
+                "pantalon": "AZUL",
+                "medias": "ROJAS"
+            }
+        }
+    },
+    {
+        "nom": "C D CARDASSAR",
+        "descripcio": "Equipo de fútbol de San Lorenzo de Cardesar",
+        "detall": "",
+        "tipus": "Club",
+        "identificador": "2",
+        "comentari": "",
+        "preu": {
+            "-import": "",
+            "coment-preu": ""
+        },
+        "contacte": {
+            "telf": "680 796 633",
+            "email": "clubesportiucardassar@gmail.com",
+            
+            "xarxes": [
+				{
+					"web": "http://www.cardassar.com"
+				},
+                {
+                    "facebook": "https://es-es.facebook.com/pages/category/Amateur-Sports-Team/CD-Cardassar-245400205568084/"
+                },
+                {
+                    "twitter": "https://twitter.com/cardassar"
+                },
+                {
+                    "instagram": "https://www.instagram.com/cardassar"
+                }
+            ]
+        },
+        "puntuacio": "",
+        "visualitzacions": "",
+        "likes": 0,
+        "icones": [
+            "https://www.ffib.es/Fed/pimg/Clubes/00100_0000064764_cardassar.png"
+        ],
+        "imatges": [
+            "https://www.ffib.es/Fed/pimg/Campos/00100_0000075693_BDF3D2FE_1A47_435D_BE32_A7EAC7715A91.jpeg"
+        ],
+        "videos": [
+            {
+                "tipus": ""
+            },
+            {
+                "url": ""
+            }
+        ],
+        "audio": [
+            {
+                "tipus": ""
+            },
+            {
+                "url": ""
+            }
+        ],
+        "geo1": {
+            "address": "C/NOU Nº35",
+            "lat": "",
+            "long": "",
+            "city": "Sant Llorenç des Cardassar",
+            "Country": "Baleares",
+            "zip": "07530"
+        },
+        "geo2": {
+            "address": "Jaume Llinas S/N",
+            "lat": "39.612351602250435",
+            "long": "3.282073126114326",
+            "city": "Sant Llorenç des Cardassar",
+            "Country": "Baleares",
+            "zip": "07530"
+        },
+        "ruta": [
+            {
+                "lat": "",
+                "long": "",
+                "imatge": {
+                    "link": "",
+                    "descripcio": ""
+                }
+            }
+        ],
+        "horari": {
+            "di": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dm": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dx": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dj": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dv": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "ds": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dg": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ]
+        },
+        "calendari": {
+            "startDataEvent": "",
+            "startTimeEvent": "",
+            "endDataEvent": "",
+            "endTimeEvent": ""
+        },
+        "dadesPropies": {
+            "categorias_futbolbase": [
+                "CARDASSAR TERCERA DIVISION",
+                "CARDASSAR JUVENIL PRIMERA REGIONAL MALLORCA",
+                "CARDASSAR CADETE SEGUNDA REGIONAL MALLORCA",
+                "CARDASSAR INFANTIL SEGUNDA REGIONAL MALLORCA",
+                "CARDASSAR ALEVIN MALLORCA"
+            ],
+            "categoria_equipo_principal": "CARDASSAR TERCERA DIVISION",
+            "equipacion": {
+                "camiseta": "AMARILLA - NEGRA",
+                "pantalon": "NEGRO",
+                "medias": "AMARILLAS"
+            }
+        }
+    },
+    {
+        "nom": "C D GENOVA",
+        "descripcio": "Equipo de fútbol de Genova",
+        "detall": "",
+        "tipus": "Club",
+        "identificador": "3",
+        "comentari": "",
+        "preu": {
+            "-import": "",
+            "coment-preu": ""
+        },
+        "contacte": {
+            "telf": "971 404 567",
+            "email": "genovagarroveral@gmail.com",
+            "xarxes": [
+				{
+					"web":""
+				},
+                {
+                    "facebook": ""
+                },
+                {
+                    "twitter": "https://twitter.com/cd_genova"
+                },
+                {
+                    "instagram": "https://www.instagram.com/genovagarroveral"
+                }
+            ]
+        },
+        "puntuacio": "",
+        "visualitzacions": "",
+        "likes": 0,
+        "icones": [
+            "https://www.ffib.es/Fed/pimg/Clubes/00100_0000000428_cd_genova.jpg"
+        ],
+        "imatges": [
+            "https://www.ffib.es/Fed/pimg/Campos/00100_0000075851_g_nova.png"
+        ],
+        "videos": [
+            {
+                "tipus": ""
+            },
+            {
+                "url": ""
+            }
+        ],
+        "audio": [
+            {
+                "tipus": ""
+            },
+            {
+                "url": ""
+            }
+        ],
+        "geo1": {
+            "address": "ADOLF VAZQUEZ HUMASQUE",
+            "lat": "",
+            "long": "",
+            "city": "Genova",
+            "Country": "Baleares",
+            "zip": "07015"
+        },
+        "geo2": {
+            "address": "Camì de Gènova a Sant Agustì 2",
+            "lat": "39.555602203740015",
+            "long": "2.5968156684403794",
+            "city": "Palma de Mallorca",
+            "Country": "Baleares",
+            "zip": "07015"
+        },
+        "ruta": [
+            {
+                "lat": "",
+                "long": "",
+                "imatge": {
+                    "link": "",
+                    "descripcio": ""
+                }
+            }
+        ],
+        "horari": {
+            "di": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dm": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dx": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dj": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dv": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "ds": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dg": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ]
+        },
+        "calendari": {
+            "startDataEvent": "",
+            "startTimeEvent": "",
+            "endDataEvent": "",
+            "endTimeEvent": ""
+        },
+        "dadesPropies": {
+            "categorias_futbolbase": [
+                "GENOVA 'A' TERCERA DIVISION",
+                "GENOVA 'B' TERCERA REGIONAL MALLORCA",
+                "GENOVA 'A' JUVENIL PRIMERA REGIONAL MALLORCA",
+                "GENOVA 'B' JUVENIL SEGUNDA REGIONAL MALLORCA",
+                "GENOVA 'A' CADETE SEGUNDA REGIONAL MALLORCA",
+                "GENOVA 'B' CADETE SEGUNDA REGIONAL MALLORCA",
+                "GENOVA 'A' INFANTIL SEGUNDA REGIONAL MALLORCA",
+                "GENOVA 'B' INFANTIL SEGUNDA REGIONAL MALLORCA",
+                "GENOVA ALEVIN MALLORCA",
+                "GENOVA BENJAMIN MALLORCA",
+                "C D GENOVA 'GE' * ESCOLETA"
+            ],
+            "categoria_equipo_principal": "GENOVA 'A' TERCERA DIVISION",
+            "equipacion": {
+                "camiseta": "AZUL",
+                "pantalon": "AZUL",
+                "medias": "BLANCAS"
+            }
+        }
+    },
+    {
+        "nom": "C E CONSTANCIA",
+        "descripcio": "Equipo de fútbol de Inca",
+        "detall": "",
+        "tipus": "Club",
+        "identificador": "4",
+        "comentari": "",
+        "preu": {
+            "-import": "",
+            "coment-preu": ""
+        },
+        "contacte": {
+            "telf": "681 613 788",
+            "email": "directiva@ceconstancia.com",
+            "xarxes": [
+				{
+					"web": "http://www.ceconstancia.com/"
+				},
+                {
+                    "facebook": "https://es-es.facebook.com/club.constancia"
+                },
+                {
+                    "twitter": "https://twitter.com/ceconstancia"
+                },
+                {
+                    "instagram": "https://www.instagram.com/ceconstancia"
+                }
+            ]
+        },
+        "puntuacio": "",
+        "visualitzacions": "",
+        "likes": 0,
+        "icones": [
+            "https://www.ffib.es/Fed/pimg/Clubes/00100_0000003197_constancia.jpg"
+        ],
+        "imatges": [
+            "https://www.ffib.es/Fed/pimg/Campos/00100_0000075918_nou_camp_inca.jpeg"
+        ],
+        "videos": [
+            {
+                "tipus": ""
+            },
+            {
+                "url": ""
+            }
+        ],
+        "audio": [
+            {
+                "tipus": ""
+            },
+            {
+                "url": ""
+            }
+        ],
+        "geo1": {
+            "address": "Apto de correos 737",
+            "lat": "",
+            "long": "",
+            "city": "Inca",
+            "Country": "Baleares",
+            "zip": "07300"
+        },
+        "geo2": {
+            "address": "Carretera Sineu s/n",
+            "lat": "39.71543085559518",
+            "long": "2.9188887261178924",
+            "city": "Inca",
+            "Country": "Baleares",
+            "zip": "07300"
+        },
+        "ruta": [
+            {
+                "lat": "",
+                "long": "",
+                "imatge": {
+                    "link": "",
+                    "descripcio": ""
+                }
+            }
+        ],
+        "horari": {
+            "di": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dm": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dx": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dj": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dv": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "ds": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dg": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ]
+        },
+        "calendari": {
+            "startDataEvent": "",
+            "startTimeEvent": "",
+            "endDataEvent": "",
+            "endTimeEvent": ""
+        },
+        "dadesPropies": {
+            "categorias_futbolbase": [
+                "CONSTANCIA 'A' TERCERA DIVISION",
+                "CONSTANCIA 'B' PRIMERA REGIONAL MALLORCA",
+                "CONSTANCIA 'A' JUVENIL NACIONAL",
+                "CONSTANCIA 'B' JUVENIL PREFERENTE MALLORCA",
+                "CONSTANCIA 'C' JUVENIL PRIMERA REGIONAL MALLORCA",
+                "CONSTANCIA 'D' JUVENIL SEGUNDA REGIONAL MALLORCA",
+                "CONSTANCIA FEMENINA AUTONOMICA",
+                "CONSTANCIA 'A' CADETE PRIMERA REGIONAL MALLORCA",
+                "CONSTANCIA 'B' CADETE SEGUNDA REGIONAL MALLORCA",
+                "CONSTANCIA 'A' INFANTIL PRIMERA REGIONAL MALLORCA",
+                "CONSTANCIA 'B' INFANTIL SEGUNDA REGIONAL MALLORCA",
+                "CONSTANCIA 'A' ALEVIN MALLORCA",
+                "CONSTANCIA 'B' ALEVIN MALLORCA",
+                "CONSTANCIA 'C' ALEVIN MALLORCA",
+                "CONSTANCIA 'A' BENJAMIN MALLORCA",
+                "CONSTANCIA 'B' BENJAMIN MALLORCA",
+                "CONSTANCIA 'C' BENJAMIN MALLORCA",
+                "CONSTANCIA 'A' PRE BENJAMIN MALLORCA",
+                "CONSTANCIA 'B' PRE BENJAMIN MALLORCA",
+                "CONSTANCIA * ESCOLETA"
+            ],
+            "categoria_equipo_principal": "CONSTANCIA 'A' TERCERA DIVISION",
+            "equipacion": {
+                "camiseta": "BLANCA",
+                "pantalon": "NEGRO",
+                "medias": "NEGRAS"
+            }
+        }
+    },
+    {
+        "nom": "C E FELANITX",
+        "descripcio": "Club de fútbol de Felanitx",
+        "detall": "",
+        "tipus": "Club",
+        "identificador": "5",
+        "comentari": "",
+        "preu": {
+            "-import": "",
+            "coment-preu": ""
+        },
+        "contacte": {
+            "telf": "673 279 354",
+            "email": "cdfelanitx@gmail.com",
+            "xarxes": [
+				{
+					"web": ""
+				},
+                {
+                    "facebook": "https://es-es.facebook.com/ce.felanitx/"
+                },
+                {
+                    "twitter": "https://twitter.com/cefelanitx"
+                },
+                {
+                    "instagram": "https://www.instagram.com/cdfelanitx"
+                }
+            ]
+        },
+        "puntuacio": "",
+        "visualitzacions": "",
+        "likes": 0,
+        "icones": [
+            "https://www.ffib.es/Fed/pimg/Clubes/00100_0000008005_FELANITX.png"
+        ],
+        "imatges": [
+            "https://www.ffib.es/Fed/pimg/Campos/00100_0000075880_FELANITX.png"
+        ],
+        "videos": [
+            {
+                "tipus": ""
+            },
+            {
+                "url": ""
+            }
+        ],
+        "audio": [
+            {
+                "tipus": ""
+            },
+            {
+                "url": ""
+            }
+        ],
+        "geo1": {
+            "address": "CTRA.FELANITX PORTO - COLOM, S/N",
+            "lat": "",
+            "long": "",
+            "city": "Felanitx",
+            "Country": "Baleares",
+            "zip": "07200"
+        },
+        "geo2": {
+            "address": "",
+            "lat": "39.472698",
+            "long": "3.162032",
+            "city": "Felanitx",
+            "Country": "Baleares",
+            "zip": "07200"
+        },
+        "ruta": [
+            {
+                "lat": "",
+                "long": "",
+                "imatge": {
+                    "link": "",
+                    "descripcio": ""
+                }
+            }
+        ],
+        "horari": {
+            "di": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dm": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dx": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dj": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dv": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "ds": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dg": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ]
+        },
+        "calendari": {
+            "startDataEvent": "",
+            "startTimeEvent": "",
+            "endDataEvent": "",
+            "endTimeEvent": ""
+        },
+        "dadesPropies": {
+            "categorias_futbolbase": [
+                "FELANITX 'A' TERCERA DIVISION",
+                "FELANITX 'B' TERCERA REGIONAL MALLORCA",
+                "FELANITX JUVENIL NACIONAL",
+                "FELANITX CADETE SEGUNDA REGIONAL MALLORCA",
+                "FELANITX 'A' INFANTIL SEGUNDA REGIONAL MALLORCA",
+                "FELANITX 'B' INFANTIL SEGUNDA REGIONAL MALLORCA",
+                "FELANITX 'A' ALEVIN MALLORCA",
+                "FELANITX 'B' ALEVIN MALLORCA",
+                "FELANITX 'A' BENJAMIN MALLORCA",
+                "FELANITX 'B' BENJAMIN MALLORCA",
+                "FELANITX PRE BENJAMIN MALLORCA"
+            ],
+            "categoria_equipo_principal": "FELANITX 'A' TERCERA DIVISION",
+            "equipacion": {
+                "camiseta": "BLANCA",
+                "pantalon": "BLANCO",
+                "medias": "BLANCAS"
+            }
+        }
+    },
+    {
+        "nom": "R C D MALLORCA SAD",
+        "descripcio": "Club de fútbol de Palma de Mallorca",
+        "detall": "",
+        "tipus": "Club",
+        "identificador": "6",
+        "comentari": "",
+        "preu": {
+            "-import": "",
+            "coment-preu": ""
+        },
+        "contacte": {
+            "telf": "971 221 221",
+            "email": "xrotger@rcdmallorca.es",
+            
+            "xarxes": [
+				{
+					"web": "https://www.rcdmallorca.es/"
+				},
+                {
+                    "facebook": "https://es-es.facebook.com/RCDMallorcaOficial/"
+                },
+                {
+                    "twitter": "https://twitter.com/RCD_Mallorca"
+                },
+                {
+                    "instagram": "https://www.instagram.com/rcdmallorcaoficial"
+                }
+            ]
+        },
+        "puntuacio": "",
+        "visualitzacions": "",
+        "likes": 0,
+        "icones": [
+            "https://www.ffib.es/Fed/pimg/Clubes/00100_0000000206_mallorca-b.jpg"
+        ],
+        "imatges": [
+            "https://www.ffib.es/Fed/pimg/Campos/00100_0000000247_33508.JPG"
+        ],
+        "videos": [
+            {
+                "tipus": ""
+            },
+            {
+                "url": ""
+            }
+        ],
+        "audio": [
+            {
+                "tipus": ""
+            },
+            {
+                "url": ""
+            }
+        ],
+        "geo1": {
+            "address": "CAMI DELS REIS, S/N - ESTADI SON MOX",
+            "lat": "",
+            "long": "",
+            "city": "Palma de Mallorca",
+            "Country": "Baleares",
+            "zip": "07120"
+        },
+        "geo2": {
+            "address": "Camí Dels Reis 126",
+            "lat": "39.590864760963036",
+            "long": "2.629055199129581",
+            "city": "Palma de Mallorca",
+            "Country": "Baleares",
+            "zip": "07011"
+        },
+        "ruta": [
+            {
+                "lat": "",
+                "long": "",
+                "imatge": {
+                    "link": "",
+                    "descripcio": ""
+                }
+            }
+        ],
+        "horari": {
+            "di": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dm": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dx": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dj": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dv": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "ds": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dg": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ]
+        },
+        "calendari": {
+            "startDataEvent": "",
+            "startTimeEvent": "",
+            "endDataEvent": "",
+            "endTimeEvent": ""
+        },
+        "dadesPropies": {
+            "categorias_futbolbase": [
+                "R C D MALLORCA SAD * SEGUNDA DIVISION",
+                "MALLORCA 'B' TERCERA DIVISION",
+                "R.C.D. MALLORCA SAD 'A' JUVENIL DIVISION DE HONOR",
+                "MALLORCA 'B' JUVENIL NACIONAL",
+                "MALLORCA CADETE PRIMERA REGIONAL MALLORCA",
+                "MALLORCA INFANTIL PRIMERA REGIONAL MALLORCA",
+                "MALLORCA 'A' ALEVIN MALLORCA",
+                "MALLORCA 'B' ALEVIN MALLORCA",
+                "MALLORCA 'A' BENJAMIN MALLORCA",
+                "MALLORCA 'B' BENJAMIN MALLORCA"
+            ],
+            "categoria_equipo_principal": "R C D MALLORCA SAD * SEGUNDA DIVISION",
+            "equipacion": {
+                "camiseta": "ROJA",
+                "pantalon": "NEGRO",
+                "medias": "NEGRAS"
+            }
+        }
+    },
+    {
+        "nom": "C E SANTANYI",
+        "descripcio": "Club de fútbol de Santany",
+        "detall": "",
+        "tipus": "Club",
+        "identificador": "7",
+        "comentari": "",
+        "preu": {
+            "-import": "",
+            "coment-preu": ""
+        },
+        "contacte": {
+            "telf": "696 300 715",
+            "email": "clubesportiusantanyi@gmail.com",
+            "xarxes": [
+				{
+					"web": ""
+				},
+                {
+                    "facebook": "https://www.facebook.com/pages/category/Personal-Blog/CE-Santany%C3%AD-461140740919587/"
+                },
+                {
+                    "twitter": "https://twitter.com/ce_santanyi"
+                },
+                {
+                    "instagram": "https://www.instagram.com/cesantanyi"
+                }
+            ]
+        },
+        "puntuacio": "",
+        "visualitzacions": "",
+        "likes": 0,
+        "icones": [
+            "https://www.ffib.es/Fed/pimg/Clubes/00100_0000079280_CE_Santany_.png"
+        ],
+        "imatges": [
+            "https://www.lapreferente.com/imagenes/instalaciones/1304grada.jpg"
+        ],
+        "videos": [
+            {
+                "tipus": ""
+            },
+            {
+                "url": ""
+            }
+        ],
+        "audio": [
+            {
+                "tipus": ""
+            },
+            {
+                "url": ""
+            }
+        ],
+        "geo1": {
+            "address": "Plaça Major, 12",
+            "lat": "",
+            "long": "",
+            "city": "Santanyí",
+            "Country": "Baleares",
+            "zip": "07650"
+        },
+        "geo2": {
+            "address": "Ctra. Cala Figuera, s/n",
+            "lat": "39.350809955685634",
+            "long": "3.134847100054604",
+            "city": "Santanyí",
+            "Country": "Baleares",
+            "zip": "07650"
+        },
+        "ruta": [
+            {
+                "lat": "",
+                "long": "",
+                "imatge": {
+                    "link": "",
+                    "descripcio": ""
+                }
+            }
+        ],
+        "horari": {
+            "di": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dm": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dx": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dj": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dv": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "ds": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dg": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ]
+        },
+        "calendari": {
+            "startDataEvent": "",
+            "startTimeEvent": "",
+            "endDataEvent": "",
+            "endTimeEvent": ""
+        },
+        "dadesPropies": {
+            "categorias_futbolbase": [
+                "SANTANYI DEL AT.B. 'A' TERCERA DIVISION",
+                "SANTANYI DEL AT.B. 'B' TERCERA REGIONAL MALLORCA",
+                "SANTANYI DEL AT.B. JUVENIL PRIMERA REGIONAL MALLORCA",
+                "SANTANYI CADETE SEGUNDA REGIONAL MALLORCA",
+                "SANTANYI INFANTIL SEGUNDA REGIONAL MALLORCA",
+                "SANTANYI ALEVIN MALLORCA",
+                "SANTANYI BENJAMIN MALLORCA",
+                "SANTANYI PRE BENJAMIN PRIMER AÑO MALLORCA",
+                "SANTANYI * ESCOLETA"
+            ],
+            "categoria_equipo_principal": "SANTANYI DEL AT.B. 'A' TERCERA DIVISION",
+            "equipacion": {
+                "camiseta": "ROJA - BLANCA",
+                "pantalon": "AZUL",
+                "medias": "ROJAS"
+            }
+        }
+    },
+    {
+        "nom": "U E ALCUDIA",
+        "descripcio": "Club de fútbol del pueblo de Alcudia",
+        "detall": "",
+        "tipus": "Club",
+        "identificador": "8",
+        "comentari": "",
+        "preu": {
+            "-import": "",
+            "coment-preu": ""
+        },
+        "contacte": {
+            "telf": "971 545 462",
+            "email": "info@uealcudia.es",
+            "xarxes": [
+				{
+					"web": "http://www.uealcudia.es"
+				},
+                {
+                    "facebook": "https://es-es.facebook.com/uealcudia/"
+                },
+                {
+                    "twitter": "https://twitter.com/ue_alcudia"
+                },
+                {
+                    "instagram": "https://www.instagram.com/ue_alcudia"
+                }
+            ]
+        },
+        "puntuacio": "",
+        "visualitzacions": "",
+        "likes": 0,
+        "icones": [
+            "https://www.ffib.es/Fed/pimg/Clubes/00100_0000036666_ESCUT_UE_ALCUDIA.png"
+        ],
+        "imatges": [
+            "https://www.ffib.es/Fed/pimg/Campos/00100_0000000257_ALCUDIA%2043981.jpg"
+        ],
+        "videos": [
+            {
+                "tipus": ""
+            },
+            {
+                "url": ""
+            }
+        ],
+        "audio": [
+            {
+                "tipus": ""
+            },
+            {
+                "url": ""
+            }
+        ],
+        "geo1": {
+            "address": "Via Corneli Àtic nº3",
+            "lat": "",
+            "long": "",
+            "city": "Alcudia",
+            "Country": "Baleares",
+            "zip": "07400"
+        },
+        "geo2": {
+            "address": "Via Coorrneli atic s/n",
+            "lat": "39.844169",
+            "long": "3.123468",
+            "city": "Alcúdia",
+            "Country": "Baleares",
+            "zip": "07400"
+        },
+        "ruta": [
+            {
+                "lat": "",
+                "long": "",
+                "imatge": {
+                    "link": "",
+                    "descripcio": ""
+                }
+            }
+        ],
+        "horari": {
+            "di": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dm": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dx": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dj": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dv": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "ds": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dg": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ]
+        },
+        "calendari": {
+            "startDataEvent": "",
+            "startTimeEvent": "",
+            "endDataEvent": "",
+            "endTimeEvent": ""
+        },
+        "dadesPropies": {
+            "categorias_futbolbase": [
+                "ALCUDIA 'A' TERCERA DIVISION",
+                "ALCUDIA 'B' TERCERA REGIONAL MALLORCA",
+                "ALCUDIA 'A' JUVENIL PREFERENTE MALLORCA",
+                "ALCUDIA 'B' JUVENIL PRIMERA REGIONAL MALLORCA",
+                "ALCUDIA FEMENINA REGIONAL MALLORCA",
+                "ALCUDIA 'A' CADETE PRIMERA REGIONAL MALLORCA",
+                "ALCUDIA 'B' CADETE SEGUNDA REGIONAL MALLORCA",
+                "ALCUDIA 'A' INFANTIL PRIMERA REGIONAL MALLORCA",
+                "ALCUDIA 'B' INFANTIL SEGUNDA REGIONAL MALLORCA",
+                "ALCUDIA 'A' ALEVIN MALLORCA",
+                "ALCUDIA 'B' ALEVIN MALLORCA",
+                "ALCUDIA 'C' ALEVIN MALLORCA",
+                "U E ALCUDIA ALEVIN PRIMER AÑO MALLORCA",
+                "ALCUDIA BENJAMIN MALLORCA",
+                "ALCUDIA BENJAMIN PRIMER AÑO MALLORCA",
+                "ALCUDIA PRE BENJAMIN MALLORCA"
+            ],
+            "categoria_equipo_principal": "ALCUDIA 'A' TERCERA DIVISION",
+            "equipacion": {
+                "camiseta": "AZUL - BLANCA",
+                "pantalon": "AZUL",
+                "medias": "BLANCAS"
+            }
+        }
+    },
+    {
+        "nom": "UNIO ESPORTIVA PETRA",
+        "descripcio": "Club de fútbol del pueblo de Petra",
+        "detall": "",
+        "tipus": "Club",
+        "identificador": "9",
+        "comentari": "",
+        "preu": {
+            "-import": "",
+            "coment-preu": ""
+        },
+        "contacte": {
+            "telf": "629 380 562",
+            "email": "viscaelpetra@gmail.com",
+            "xarxes": [
+				{
+					"web": "https://www.uepetra.com/"
+				},
+                {
+                    "facebook": "https://es-es.facebook.com/pages/category/Stadium--Arena---Sports-Venue/UE-Petra-219335171443054/"
+                },
+                {
+                    "twitter": "https://twitter.com/ue_petra"
+                },
+                {
+                    "instagram": "https://www.instagram.com/ue_petra"
+                }
+            ]
+        },
+        "puntuacio": "",
+        "visualitzacions": "",
+        "likes": 0,
+        "icones": [
+            "https://www.ffib.es/Fed/pimg/Clubes/00100_0000013010_Sin_titulo.png"
+        ],
+        "imatges": [
+            "https://www.ffib.es/Fed/pimg/Campos/00100_0000000293_PETRA%2043740.JPG"
+        ],
+        "videos": [
+            {
+                "tipus": ""
+            },
+            {
+                "url": ""
+            }
+        ],
+        "audio": [
+            {
+                "tipus": ""
+            },
+            {
+                "url": ""
+            }
+        ],
+        "geo1": {
+            "address": "Pl. Sa Creu, s/n",
+            "lat": "",
+            "long": "",
+            "city": "Petra",
+            "Country": "Baleares",
+            "zip": "07520"
+        },
+        "geo2": {
+            "address": "Avenida rei jaume II de Mallorca s/n Petra",
+            "lat": "39.61576754107225",
+            "long": "3.1171127433104386",
+            "city": "Petra",
+            "Country": "Baleares",
+            "zip": "07520"
+        },
+        "ruta": [
+            {
+                "lat": "",
+                "long": "",
+                "imatge": {
+                    "link": "",
+                    "descripcio": ""
+                }
+            }
+        ],
+        "horari": {
+            "di": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dm": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dx": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dj": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dv": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "ds": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dg": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ]
+        },
+        "calendari": {
+            "startDataEvent": "",
+            "startTimeEvent": "",
+            "endDataEvent": "",
+            "endTimeEvent": ""
+        },
+        "dadesPropies": {
+            "categorias_futbolbase": [
+                "PETRA REGIONAL PREFERENTE MALLORCA",
+                "PETRA JUVENIL PREFERENTE MALLORCA",
+                "PETRA CADETE SEGUNDA REGIONAL MALLORCA"
+            ],
+            "categoria_equipo_principal": "PETRA REGIONAL PREFERENTE MALLORCA",
+            "equipacion": {
+                "camiseta": "VERDE",
+                "pantalon": "NEGRO",
+                "medias": "NEGRAS"
+            }
+        }
+    },
+    {
+        "nom": "C D SERVERENSE",
+        "descripcio": "Club de fútbol de Son Servera",
+        "detall": "",
+        "tipus": "Club",
+        "identificador": "10",
+        "comentari": "",
+        "preu": {
+            "-import": "",
+            "coment-preu": ""
+        },
+        "contacte": {
+            "telf": "971 567 183",
+            "email": "cdserverense@hotmail.com",
+            "xarxes": [
+				{
+					"web": "serverense.ffib.es/Fed/NPcd/RW_Inicio"
+				},
+                {
+                    "facebook": "https://www.facebook.com/CDServerense/?__tn__=-UC*F"
+                },
+                {
+                    "twitter": "https://twitter.com/cdserverense"
+                },
+                {
+                    "instagram": "https://www.instagram.com/cdserverense"
+                }
+            ]
+        },
+        "puntuacio": "",
+        "visualitzacions": "",
+        "likes": 0,
+        "icones": [
+            "https://www.ffib.es/Fed/pimg/Clubes/00100_0000053470_20882084_1768475006515623_6803093018079824292_n.png"
+        ],
+        "imatges": [
+            "https://www.ffib.es/Fed/pimg/Campos/00100_0000075723_7868D50A_A386_45F1_878A_5DC5B2C95F3C.jpeg"
+        ],
+        "videos": [
+            {
+                "tipus": ""
+            },
+            {
+                "url": ""
+            }
+        ],
+        "audio": [
+            {
+                "tipus": ""
+            },
+            {
+                "url": ""
+            }
+        ],
+        "geo1": {
+            "address": "HOSPITAL, S/N (SES ERES)",
+            "lat": "",
+            "long": "",
+            "city": "Son Servera",
+            "Country": "Baleares",
+            "zip": "07550"
+        },
+        "geo2": {
+            "address": "c/ Hospital, s/n",
+            "lat": "39.61762769991929",
+            "long": "3.3586052020199353",
+            "city": "Son Servera",
+            "Country": "Baleares",
+            "zip": "07550"
+        },
+        "ruta": [
+            {
+                "lat": "",
+                "long": "",
+                "imatge": {
+                    "link": "",
+                    "descripcio": ""
+                }
+            }
+        ],
+        "horari": {
+            "di": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dm": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dx": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dj": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dv": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "ds": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dg": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ]
+        },
+        "calendari": {
+            "startDataEvent": "",
+            "startTimeEvent": "",
+            "endDataEvent": "",
+            "endTimeEvent": ""
+        },
+        "dadesPropies": {
+            "categorias_futbolbase": [
+                "SERVERENSE REGIONAL PREFERENTE MALLORCA",
+                "SERVERENSE JUVENIL PREFERENTE MALLORCA",
+                "SERVERENSE FEMENINA AUTONOMICA",
+                "SERVERENSE CADETE PRIMERA REGIONAL MALLORCA",
+                "SERVERENSE INFANTIL PRIMERA REGIONAL MALLORCA",
+                "SERVERENSE ALEVIN MALLORCA",
+                "SERVERENSE BENJAMIN MALLORCA",
+                "SERVERENSE PRE BENJAMIN MALLORCA"
+            ],
+            "categoria_equipo_principal": "SERVERENSE REGIONAL PREFERENTE MALLORCA",
+            "equipacion": {
+                "camiseta": "ROJA",
+                "pantalon": "NEGRO",
+                "medias": "NEGRAS"
+            }
+        }
+    },
+    {
+        "nom": "C F VILAFRANCA",
+        "descripcio": "Club de fútbol de Vilafranca",
+        "detall": "",
+        "tipus": "Club",
+        "identificador": "11",
+        "comentari": "",
+        "preu": {
+            "-import": "",
+            "coment-preu": ""
+        },
+        "contacte": {
+            "telf": "677 760 383",
+            "email": "clubfutbolvilafranca@gmail.com",
+            "xarxes": [
+				{
+					"web": ""
+				},
+                {
+                    "facebook": "https://es-es.facebook.com/vilafrancacf"
+                },
+                {
+                    "twitter": "https://twitter.com/cfvilafranca"
+                },
+                {
+                    "instagram": "https://www.instagram.com/c.f.vilafranca"
+                }
+            ]
+        },
+        "puntuacio": "",
+        "visualitzacions": "",
+        "likes": 0,
+        "icones": [
+            "https://www.ffib.es/Fed/pimg/Clubes/00100_0000000431_cf_villafranca1.jpg"
+        ],
+        "imatges": [
+            "https://pbs.twimg.com/media/DLYECxkW0AA0AxM?format=jpg&name=4096x4096"
+        ],
+        "videos": [
+            {
+                "tipus": ""
+            },
+            {
+                "url": ""
+            }
+        ],
+        "audio": [
+            {
+                "tipus": ""
+            },
+            {
+                "url": ""
+            }
+        ],
+        "geo1": {
+            "address": "C/ SANT SEBASTIÁ, S/N",
+            "lat": "",
+            "long": "",
+            "city": "Vilafranca de Bonany",
+            "Country": "Baleares",
+            "zip": "07250"
+        },
+        "geo2": {
+            "address": "Sant Sebastiá, s/n",
+            "lat": "39.56674477097173",
+            "long": "3.0864278242607623",
+            "city": "Vilafranca de Bonany",
+            "Country": "Baleares",
+            "zip": "07250"
+        },
+        "ruta": [
+            {
+                "lat": "",
+                "long": "",
+                "imatge": {
+                    "link": "",
+                    "descripcio": ""
+                }
+            }
+        ],
+        "horari": {
+            "di": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dm": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dx": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dj": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dv": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "ds": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dg": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ]
+        },
+        "calendari": {
+            "startDataEvent": "",
+            "startTimeEvent": "",
+            "endDataEvent": "",
+            "endTimeEvent": ""
+        },
+        "dadesPropies": {
+            "categorias_futbolbase": [
+                "VILAFRANCA PRIMERA REGIONAL MALLORCA"
+            ],
+            "categoria_equipo_principal": "VILAFRANCA PRIMERA REGIONAL MALLORCA",
+            "equipacion": {
+                "camiseta": "VERDE",
+                "pantalon": "NEGRO",
+                "medias": "VERDES"
+            }
+        }
+    },
+    {
+        "nom": "C E ARTA",
+        "descripcio": "Club de fútbol de Arta",
+        "detall": "",
+        "tipus": "Club",
+        "identificador": "12",
+        "comentari": "",
+        "preu": {
+            "-import": "",
+            "coment-preu": ""
+        },
+        "contacte": {
+            "telf": "650 008 854",
+            "email": "ceartafutbol@gmail.com",
+            "xarxes": [
+				{
+					"web": ""
+				},
+                {
+                    "facebook": "https://www.facebook.com/ceartafutbol"
+                },
+                {
+                    "twitter": "https://twitter.com/ce_arta"
+                },
+                {
+                    "instagram": "https://www.instagram.com/ce.arta"
+                }
+            ]
+        },
+        "puntuacio": "",
+        "visualitzacions": "",
+        "likes": 0,
+        "icones": [
+            "https://www.ffib.es/Fed/pimg/Clubes/00100_0000064324_arta.jpg"
+        ],
+        "imatges": [
+            "https://www.ffib.es/Fed/pimg/Campos/00100_0000000261_ARTA%2032362.JPG"
+        ],
+        "videos": [
+            {
+                "tipus": ""
+            },
+            {
+                "url": ""
+            }
+        ],
+        "audio": [
+            {
+                "tipus": ""
+            },
+            {
+                "url": ""
+            }
+        ],
+        "geo1": {
+            "address": "Carretera Cala Torta KM-0",
+            "lat": "",
+            "long": "",
+            "city": "Artà",
+            "Country": "Baleares",
+            "zip": "07570"
+        },
+        "geo2": {
+            "address": "Carrer de S abeurador s/n",
+            "lat": "39.69703360052953",
+            "long": "3.3587637700371866",
+            "city": "Artà",
+            "Country": "Baleares",
+            "zip": "07570"
+        },
+        "ruta": [
+            {
+                "lat": "",
+                "long": "",
+                "imatge": {
+                    "link": "",
+                    "descripcio": ""
+                }
+            }
+        ],
+        "horari": {
+            "di": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dm": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dx": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dj": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dv": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "ds": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dg": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ]
+        },
+        "calendari": {
+            "startDataEvent": "",
+            "startTimeEvent": "",
+            "endDataEvent": "",
+            "endTimeEvent": ""
+        },
+        "dadesPropies": {
+            "categorias_futbolbase": [
+                "ARTA PRIMERA REGIONAL MALLORCA",
+                "ARTA JUVENIL PRIMERA REGIONAL MALLORCA",
+                "ARTA CADETE SEGUNDA REGIONAL MALLORCA",
+                "ARTA INFANTIL PRIMERA REGIONAL MALLORCA",
+                "ARTA ALEVIN MALLORCA",
+                "ARTA PRE BENJAMIN MALLORCA"
+            ],
+            "categoria_equipo_principal": "ARTA PRIMERA REGIONAL MALLORCA",
+            "equipacion": {
+                "camiseta": "ROJA",
+                "pantalon": "ROJO",
+                "medias": "ROJAS"
+            }
+        }
+    },
+    {
+        "nom": "C D MURENSE",
+        "descripcio": "Club de fútbol de Muro",
+        "detall": "",
+        "tipus": "Club",
+        "identificador": "13",
+        "comentari": "",
+        "preu": {
+            "-import": "",
+            "coment-preu": ""
+        },
+        "contacte": {
+            "telf": "971 860 616",
+            "email": "cdmurense@gmail.com",
+            "xarxes": [
+				{
+					"web": "http://cdmurense.ffib.es/Fed/NPcd/RW_Inicio"
+				},
+                {
+                    "facebook": "https://es-es.facebook.com/pages/category/Amateur-Sports-Team/CD-Murense-Club-de-Futbol-de-MURO-262842357071619/"
+                },
+                {
+                    "twitter": "https://twitter.com/cdmurense"
+                },
+                {
+                    "instagram": "https://www.instagram.com/cdmurense"
+                }
+            ]
+        },
+        "puntuacio": "",
+        "visualitzacions": "",
+        "likes": 0,
+        "icones": [
+            "https://www.ffib.es/Fed/pimg/Clubes/00100_0000049174_logo_MURENSE.jpg"
+        ],
+        "imatges": [
+            "https://futbolme.com/static/img/estadios/estadi992.png"
+        ],
+        "videos": [
+            {
+                "tipus": ""
+            },
+            {
+                "url": ""
+            }
+        ],
+        "audio": [
+            {
+                "tipus": ""
+            },
+            {
+                "url": ""
+            }
+        ],
+        "geo1": {
+            "address": "POLIDEPORTIVO, S/N",
+            "lat": "",
+            "long": "",
+            "city": "Muro",
+            "Country": "Baleares",
+            "zip": "07440"
+        },
+        "geo2": {
+            "address": "Carrer Poliesportiu 93",
+            "lat": "39.73103525382434",
+            "long": "3.0528575819384347",
+            "city": "Muro",
+            "Country": "Baleares",
+            "zip": "07440"
+        },
+        "ruta": [
+            {
+                "lat": "",
+                "long": "",
+                "imatge": {
+                    "link": "",
+                    "descripcio": ""
+                }
+            }
+        ],
+        "horari": {
+            "di": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dm": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dx": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dj": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dv": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "ds": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dg": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ]
+        },
+        "calendari": {
+            "startDataEvent": "",
+            "startTimeEvent": "",
+            "endDataEvent": "",
+            "endTimeEvent": ""
+        },
+        "dadesPropies": {
+            "categorias_futbolbase": [
+                "MURENSE 'A' REGIONAL PREFERENTE MALLORCA",
+                "MURENSE 'B' TERCERA REGIONAL MALLORCA",
+                "MURENSE JUVENIL PRIMERA REGIONAL MALLORCA",
+                "MURENSE CADETE SEGUNDA REGIONAL MALLORCA",
+                "MURENSE INFANTIL SEGUNDA REGIONAL MALLORCA",
+                "MURENSE ALEVIN MALLORCA",
+                "MURENSE ALEVIN PRIMER AÑO MALLORCA",
+                "MURENSE BENJAMIN MALLORCA",
+                "MURENSE BENJAMIN PRIMER AÑO MALLORCA",
+                "MURENSE PRE BENJAMIN MALLORCA",
+                "MURENSE PRE BENJAMIN PRIMER AÑO MALLORCA",
+                "MURENSE * ESCOLETA"
+            ],
+            "categoria_equipo_principal": "MURENSE 'A' REGIONAL PREFERENTE MALLORCA",
+            "equipacion": {
+                "camiseta": "AZUL - BLANCA",
+                "pantalon": "AZUL",
+                "medias": "AZULES"
+            }
+        }
+    },
+    {
+        "nom": "C E CAMPOS",
+        "descripcio": "Club de fútbol de Campos",
+        "detall": "",
+        "tipus": "Club",
+        "identificador": "14",
+        "comentari": "",
+        "preu": {
+            "-import": "",
+            "coment-preu": ""
+        },
+        "contacte": {
+            "telf": "971 650 910",
+            "email": "info@gabinetassocial.com",
+            "xarxes": [
+				{
+					"web": ""
+				},
+                {
+                    "facebook": "https://es-es.facebook.com/clubecampos"
+                },
+                {
+                    "twitter": "https://twitter.com/clubecampos"
+                },
+                {
+                    "instagram": "https://www.instagram.com/cecampoos"
+                }
+            ]
+        },
+        "puntuacio": "",
+        "visualitzacions": "",
+        "likes": 0,
+        "icones": [
+            "https://www.ffib.es/Fed/pimg/Clubes/00100_0000013720_escutvermell.jpg"
+        ],
+        "imatges": [
+            "https://www.ffib.es/Fed/pimg/Campos/00100_0000000267_CAMPOS%2033598.JPG"
+        ],
+        "videos": [
+            {
+                "tipus": ""
+            },
+            {
+                "url": ""
+            }
+        ],
+        "audio": [
+            {
+                "tipus": ""
+            },
+            {
+                "url": ""
+            }
+        ],
+        "geo1": {
+            "address": "C/ DE LA CONSTITUCIÓ, 14",
+            "lat": "",
+            "long": "",
+            "city": "Campos",
+            "Country": "Baleares",
+            "zip": "07630"
+        },
+        "geo2": {
+            "address": "Cami Vell de ciutat s/n",
+            "lat": "39.43539458378322",
+            "long": "3.0087641028282417",
+            "city": "Campos",
+            "Country": "Baleares",
+            "zip": "07630"
+        },
+        "ruta": [
+            {
+                "lat": "",
+                "long": "",
+                "imatge": {
+                    "link": "",
+                    "descripcio": ""
+                }
+            }
+        ],
+        "horari": {
+            "di": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dm": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dx": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dj": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dv": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "ds": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dg": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ]
+        },
+        "calendari": {
+            "startDataEvent": "",
+            "startTimeEvent": "",
+            "endDataEvent": "",
+            "endTimeEvent": ""
+        },
+        "dadesPropies": {
+            "categorias_futbolbase": [
+                "CAMPOS REGIONAL PREFERENTE MALLORCA",
+                "CAMPOS JUVENIL PREFERENTE MALLORCA",
+                "CAMPOS CADETE PRIMERA REGIONAL MALLORCA",
+                "CAMPOS INFANTIL PRIMERA REGIONAL MALLORCA",
+                "CAMPOS ALEVIN MALLORCA",
+                "CAMPOS BENJAMIN MALLORCA"
+            ],
+            "categoria_equipo_principal": "CAMPOS REGIONAL PREFERENTE MALLORCA",
+            "equipacion": {
+                "camiseta": "ROJA",
+                "pantalon": "NEGRO",
+                "medias": "NEGRAS"
+            }
+        }
+    },
+    {
+        "nom": "CLUB ESPORTIU SANT JORDI",
+        "descripcio": "Club de fútbol de Sant Jordi",
+        "detall": "",
+        "tipus": "Club",
+        "identificador": "15",
+        "comentari": "",
+        "preu": {
+            "-import": "",
+            "coment-preu": ""
+        },
+        "contacte": {
+            "telf": "971 747 036",
+            "email": "santjordi.cd@gmail.com",
+            "xarxes": [
+				{
+					"web": "http://www.cdsantjordi.com/Fed/NPcd/RW_Inicio"
+				},
+                {
+                    "facebook": "https://es-es.facebook.com/OficialCDSantJordi/"
+                },
+                {
+                    "twitter": "https://twitter.com/cdsantjordi"
+                },
+                {
+                    "instagram": ""
+                }
+            ]
+        },
+        "puntuacio": "",
+        "visualitzacions": "",
+        "likes": 0,
+        "icones": [
+            "https://www.ffib.es/Fed/pimg/Clubes/00100_0000002732_logo.JPG"
+        ],
+        "imatges": [
+            "https://www.ffib.es/Fed/pimg/Campos/00100_0000000307_JORDI%2043839.JPG"
+        ],
+        "videos": [
+            {
+                "tipus": ""
+            },
+            {
+                "url": ""
+            }
+        ],
+        "audio": [
+            {
+                "tipus": ""
+            },
+            {
+                "url": ""
+            }
+        ],
+        "geo1": {
+            "address": "Cami Can Cota s/n",
+            "lat": "",
+            "long": "",
+            "city": "Palma de Mallorca",
+            "Country": "Baleares",
+            "zip": "07199"
+        },
+        "geo2": {
+            "address": "Cami Can Cota, s/n",
+            "lat": "39.55295744120476",
+            "long": "2.7780325332060545",
+            "city": "Palma de Mallorca",
+            "Country": "Baleares",
+            "zip": "07199"
+        },
+        "ruta": [
+            {
+                "lat": "",
+                "long": "",
+                "imatge": {
+                    "link": "",
+                    "descripcio": ""
+                }
+            }
+        ],
+        "horari": {
+            "di": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dm": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dx": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dj": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dv": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "ds": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dg": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ]
+        },
+        "calendari": {
+            "startDataEvent": "",
+            "startTimeEvent": "",
+            "endDataEvent": "",
+            "endTimeEvent": ""
+        },
+        "dadesPropies": {
+            "categorias_futbolbase": [
+                "SANT JORDI 'A' REGIONAL PREFERENTE MALLORCA",
+                "SANT JORDI 'B' TERCERA REGIONAL MALLORCA",
+                "SANT JORDI JUVENIL PRIMERA REGIONAL MALLORCA",
+                "SANT JORDI 'A' CADETE SEGUNDA REGIONAL MALLORCA",
+                "SANT JORDI 'B' CADETE SEGUNDA REGIONAL MALLORCA",
+                "SANT JORDI 'A' INFANTIL SEGUNDA REGIONAL MALLORCA",
+                "SANT JORDI 'B' INFANTIL SEGUNDA REGIONAL MALLORCA",
+                "SANT JORDI 'A' ALEVIN MALLORCA",
+                "SANT JORDI 'B' ALEVIN MALLORCA",
+                "SANT JORDI BENJAMIN MALLORCA",
+                "SANT JORDI PRE BENJAMIN MALLORCA"
+            ],
+            "categoria_equipo_principal": "SANT JORDI 'A' REGIONAL PREFERENTE MALLORCA",
+            "equipacion": {
+                "camiseta": "ROJA",
+                "pantalon": "NEGRO",
+                "medias": "NEGRAS"
+            }
+        }
+    },
+    {
+        "nom": "C D LLOSETENSE",
+        "descripcio": "Club de fútbol de Lloseta",
+        "detall": "",
+        "tipus": "Club",
+        "identificador": "16",
+        "comentari": "",
+        "preu": {
+            "-import": "",
+            "coment-preu": ""
+        },
+        "contacte": {
+            "telf": "971 885 058",
+            "email": "llosetense@gmail.com",
+            "xarxes": [
+				{
+					"web": "http://www.clubdeportivollosetense.com/"
+				},
+                {
+                    "facebook": "https://es-es.facebook.com/cdllosetense/"
+                },
+                {
+                    "twitter": "https://twitter.com/cd_llosetense"
+                },
+                {
+                    "instagram": "https://www.instagram.com/cdllosetense"
+                }
+            ]
+        },
+        "puntuacio": "",
+        "visualitzacions": "",
+        "likes": 0,
+        "icones": [
+            "https://www.ffib.es/Fed/pimg/Clubes/00100_0000037625_E.B..jpg"
+        ],
+        "imatges": [
+            "https://www.ffib.es/Fed/pimg/Campos/00100_0000000281_LLOSETA%2034807.JPG"
+        ],
+        "videos": [
+            {
+                "tipus": ""
+            },
+            {
+                "url": ""
+            }
+        ],
+        "audio": [
+            {
+                "tipus": ""
+            },
+            {
+                "url": ""
+            }
+        ],
+        "geo1": {
+            "address": "GUILLEM SANTANDREU, 1",
+            "lat": "",
+            "long": "",
+            "city": "Lloseta",
+            "Country": "Baleares",
+            "zip": "07360"
+        },
+        "geo2": {
+            "address": "Es Puig",
+            "lat": "39.720960254309624",
+            "long": "2.865495445166103",
+            "city": "Lloseta",
+            "Country": "Baleares",
+            "zip": "07360"
+        },
+        "ruta": [
+            {
+                "lat": "",
+                "long": "",
+                "imatge": {
+                    "link": "",
+                    "descripcio": ""
+                }
+            }
+        ],
+        "horari": {
+            "di": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dm": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dx": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dj": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dv": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "ds": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dg": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ]
+        },
+        "calendari": {
+            "startDataEvent": "",
+            "startTimeEvent": "",
+            "endDataEvent": "",
+            "endTimeEvent": ""
+        },
+        "dadesPropies": {
+            "categorias_futbolbase": [
+                "LLOSETENSE TERCERA DIVISION",
+                "LLOSETENSE JUVENIL PRIMERA REGIONAL MALLORCA",
+                "LLOSETENSE CADETE SEGUNDA REGIONAL MALLORCA",
+                "LLOSETENSE INFANTIL SEGUNDA REGIONAL MALLORCA",
+                "LLOSETENSE ALEVIN MALLORCA",
+                "LLOSETENSE BENJAMIN MALLORCA",
+                "LLOSETENSE PRE BENJAMIN MALLORCA"
+            ],
+            "categoria_equipo_principal": "LLOSETENSE TERCERA DIVISION",
+            "equipacion": {
+                "camiseta": "BLANCA",
+                "pantalon": "NEGRO",
+                "medias": "BLANCAS"
+            }
+        }
+    },
+    {
+        "nom": "C E ALQUERIA",
+        "descripcio": "",
+        "detall": "",
+        "tipus": "Club",
+        "identificador": "17",
+        "comentari": "",
+        "preu": {
+            "-import": "",
+            "coment-preu": ""
+        },
+        "contacte": {
+            "telf": "971 164 119",
+            "email": "jaumesab@hotmail.com",
+            "xarxes": [
+				{
+					"web": ""
+				},
+                {
+                    "facebook": "https://es-es.facebook.com/ce.alqueria"
+                },
+                {
+                    "twitter": "https://twitter.com/AlqueriaCe"
+                },
+                {
+                    "instagram": "https://www.instagram.com/clubesportiualqueria"
+                }
+            ]
+        },
+        "puntuacio": "",
+        "visualitzacions": "",
+        "likes": 0,
+        "icones": [
+            "https://www.ffib.es/Fed/pimg/Clubes/00100_0000000331_ESCUT%20ALQUERIA%20COLOR.jpg"
+        ],
+        "imatges": [
+            "https://www.ffib.es/Fed/pimg/Campos/00100_0000000536_2alqueria.jpg"
+        ],
+        "videos": [
+            {
+                "tipus": ""
+            },
+            {
+                "url": ""
+            }
+        ],
+        "audio": [
+            {
+                "tipus": ""
+            },
+            {
+                "url": ""
+            }
+        ],
+        "geo1": {
+            "address": "Porto-Petro ,19",
+            "lat": "",
+            "long": "",
+            "city": "Santanyí",
+            "Country": "Baleares",
+            "zip": "07691"
+        },
+        "geo2": {
+            "address": "C/ Teulera17",
+            "lat": "39.3850339305418",
+            "long": "3.153478843696385",
+            "city": "Santanyí",
+            "Country": "Baleares",
+            "zip": "07691"
+        },
+        "ruta": [
+            {
+                "lat": "",
+                "long": "",
+                "imatge": {
+                    "link": "",
+                    "descripcio": ""
+                }
+            }
+        ],
+        "horari": {
+            "di": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dm": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dx": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dj": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dv": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "ds": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dg": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ]
+        },
+        "calendari": {
+            "startDataEvent": "",
+            "startTimeEvent": "",
+            "endDataEvent": "",
+            "endTimeEvent": ""
+        },
+        "dadesPropies": {
+            "categorias_futbolbase": [
+                "ALQUERIA REGIONAL PREFERENTE MALLORCA"
+            ],
+            "categoria_equipo_principal": "ALQUERIA REGIONAL PREFERENTE MALLORCA",
+            "equipacion": {
+                "camiseta": "VERDE - BLANCA",
+                "pantalon": "BLANCO",
+                "medias": "BLANCAS"
+            }
+        }
+    },
+    {
+        "nom": "C D S'HORTA",
+        "descripcio": "Club de fútbol de s`Horta",
+        "detall": "",
+        "tipus": "Club",
+        "identificador": "18",
+        "comentari": "",
+        "preu": {
+            "-import": "",
+            "coment-preu": ""
+        },
+        "contacte": {
+            "telf": "971 83 73 98",
+            "email": "clubesportiushorta@hotmail.com",
+            "xarxes": [
+				{
+					"web": ""
+				},
+                {
+                    "facebook": "https://es-es.facebook.com/c.d.shorta.salleona"
+                },
+                {
+                    "twitter": "https://twitter.com/shorta_cd"
+                },
+                {
+                    "instagram": "https://www.instagram.com/cdshorta"
+                }
+            ]
+        },
+        "puntuacio": "",
+        "visualitzacions": "",
+        "likes": 0,
+        "icones": [
+            "https://www.ffib.es/Fed/pimg/Clubes/00100_0000000479_escutshorta.jpg"
+        ],
+        "imatges": [
+            "https://www.talat.es/wp-content/uploads/2019/01/Camp-Copy.jpg"
+        ],
+        "videos": [
+            {
+                "tipus": ""
+            },
+            {
+                "url": ""
+            }
+        ],
+        "audio": [
+            {
+                "tipus": ""
+            },
+            {
+                "url": ""
+            }
+        ],
+        "geo1": {
+            "address": "Plaza San Isidro",
+            "lat": "",
+            "long": "",
+            "city": "Felanitx",
+            "Country": "Baleares",
+            "zip": "07669"
+        },
+        "geo2": {
+            "address": "Carretera S'Horta - Porto Colom",
+            "lat": "39.41491920778602",
+            "long": "3.2129060291701115",
+            "city": "Felanitx",
+            "Country": "Baleares",
+            "zip": "07669"
+        },
+        "ruta": [
+            {
+                "lat": "",
+                "long": "",
+                "imatge": {
+                    "link": "",
+                    "descripcio": ""
+                }
+            }
+        ],
+        "horari": {
+            "di": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dm": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dx": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dj": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dv": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "ds": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dg": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ]
+        },
+        "calendari": {
+            "startDataEvent": "",
+            "startTimeEvent": "",
+            "endDataEvent": "",
+            "endTimeEvent": ""
+        },
+        "dadesPropies": {
+            "categorias_futbolbase": [
+                "S'HORTA PRIMERA REGIONAL MALLORCA",
+                "S'HORTA JUVENIL PREFERENTE MALLORCA",
+                "S'HORTA CADETE SEGUNDA REGIONAL MALLORCA",
+                "S'HORTA ALEVIN MALLORCA",
+                "S'HORTA * SALA PRE BENJAMIN"
+            ],
+            "categoria_equipo_principal": "S'HORTA PRIMERA REGIONAL MALLORCA",
+            "equipacion": {
+                "camiseta": "ROJA",
+                "pantalon": "AZUL",
+                "medias": "AZULES"
+            }
+        }
+    },
+    {
+        "nom": "C F PLATGES DE CALVIA",
+        "descripcio": "Club de fútbol de Magalluf (Calvià).",
+        "detall": "",
+        "tipus": "Club",
+        "identificador": "19",
+        "comentari": "",
+        "preu": {
+            "-import": "",
+            "coment-preu": ""
+        },
+        "contacte": {
+            "telf": "971 13 05 95",
+            "email": "areadeportiva@cfplatgesdecalvia.com",
+            "xarxes": [
+				{
+					"web": "http://www.cfplatgesdecalvia.com/index.php"
+				},
+                {
+                    "facebook": "https://es-es.facebook.com/ClubdeFutbolPlayasdeCalvia"
+                },
+                {
+                    "twitter": "https://twitter.com/playasdcalvia"
+                },
+                {
+                    "instagram": "https://www.instagram.com/playasdcalvia"
+                }
+            ]
+        },
+        "puntuacio": "",
+        "visualitzacions": "",
+        "likes": 0,
+        "icones": [
+            "https://www.ffib.es/Fed/pimg/Clubes/00100_0000076494_Logo_para_Publicidad_CF_Platges.jpg"
+        ],
+        "imatges": [
+            "https://www.sportsdecanostra.com/wp-content/uploads/2016/05/estadi745-300x224.png"
+        ],
+        "videos": [
+            {
+                "tipus": ""
+            },
+            {
+                "url": ""
+            }
+        ],
+        "audio": [
+            {
+                "tipus": ""
+            },
+            {
+                "url": ""
+            }
+        ],
+        "geo1": {
+            "address": "Miño, s/n (Pol. Magaluf)",
+            "lat": "",
+            "long": "",
+            "city": "Calvià",
+            "Country": "Baleares",
+            "zip": "07182"
+        },
+        "geo2": {
+            "address": "Miño s/n",
+            "lat": "39.51201550094865",
+            "long": "2.53232279304286",
+            "city": "Calvià",
+            "Country": "Baleares",
+            "zip": "07181"
+        },
+        "ruta": [
+            {
+                "lat": "",
+                "long": "",
+                "imatge": {
+                    "link": "",
+                    "descripcio": ""
+                }
+            }
+        ],
+        "horari": {
+            "di": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dm": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dx": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dj": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dv": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "ds": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dg": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ]
+        },
+        "calendari": {
+            "startDataEvent": "",
+            "startTimeEvent": "",
+            "endDataEvent": "",
+            "endTimeEvent": ""
+        },
+        "dadesPropies": {
+            "categorias_futbolbase": [
+                "PLATGES DE CALVIA 'A' TERCERA DIVISION",
+                "PLATGES DE CALVIA 'B' PRIMERA REGIONAL MALLORCA",
+                "PLATGES DE CALVIA 'A' JUVENIL NACIONAL",
+                "PLATGES DE CALVIA 'B' JUVENIL PREFERENTE MALLORCA",
+                "PLATGES DE CALVIA 'A' CADETE PRIMERA REGIONAL MALLORCA",
+                "PLATGES DE CALVIA 'B' CADETE SEGUNDA REGIONAL MALLORCA",
+                "PLATGES DE CALVIA 'A' INFANTIL PRIMERA REGIONAL MALLORCA",
+                "PLATGES DE CALVIA 'B' INFANTIL SEGUNDA REGIONAL MALLORCA",
+                "PLATGES DE CALVIA 'A' ALEVIN MALLORCA",
+                "PLATGES DE CALVIA 'B' ALEVIN MALLORCA",
+                "PLATGES DE CALVIA BENJAMIN MALLORCA",
+                "PLATGES DE CALVIA BENJAMIN PRIMER AÑO MALLORCA",
+                "PLATGES DE CALVIA PRE BENJAMIN MALLORCA",
+                "C F PLATGES DE CALVIA * ESCOLETA"
+            ],
+            "categoria_equipo_principal": "PLATGES DE CALVIA 'A' TERCERA DIVISION",
+            "equipacion": {
+                "camiseta": "NARANJA",
+                "pantalon": "NARANJA",
+                "medias": "NARANJAS"
+            }
+        }
+    },
+    {
+        "nom": "U D PLA DE NA TESA",
+        "descripcio": "Club de fútbol de Palma de Mallorca",
+        "detall": "",
+        "tipus": "Club",
+        "identificador": "20",
+        "comentari": "",
+        "preu": {
+            "-import": "",
+            "coment-preu": ""
+        },
+        "contacte": {
+            "telf": "971 795 991",
+            "email": "udpladenatesa1@gmail.com",
+            "xarxes": [
+				{
+					"web": ""
+				},
+                {
+                    "facebook": "https://es-es.facebook.com/pladenatesa"
+                },
+                {
+                    "twitter": "https://twitter.com/ud_pladenatesa"
+                },
+                {
+                    "instagram": "https://www.instagram.com/u.d.pladenatesa"
+                }
+            ]
+        },
+        "puntuacio": "",
+        "visualitzacions": "",
+        "likes": 0,
+        "icones": [
+            "https://www.ffib.es/Fed/pimg/Clubes/00100_0000000334_Imagen1.png"
+        ],
+        "imatges": [
+            "https://www.ffib.es/Fed/pimg/Campos/00100_0000006426_CAN_GASPAR.png"
+        ],
+        "videos": [
+            {
+                "tipus": ""
+            },
+            {
+                "url": ""
+            }
+        ],
+        "audio": [
+            {
+                "tipus": ""
+            },
+            {
+                "url": ""
+            }
+        ],
+        "geo1": {
+            "address": "Weiller, 61",
+            "lat": "",
+            "long": "",
+            "city": "Marratxí",
+            "Country": "Baleares",
+            "zip": "07141"
+        },
+        "geo2": {
+            "address": "C/ General Weyler s/n",
+            "lat": "39.596110740616375",
+            "long": "2.7112887049537546",
+            "city": "Marratxí",
+            "Country": "Baleares",
+            "zip": "07141"
+        },
+        "ruta": [
+            {
+                "lat": "",
+                "long": "",
+                "imatge": {
+                    "link": "",
+                    "descripcio": ""
+                }
+            }
+        ],
+        "horari": {
+            "di": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dm": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dx": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dj": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dv": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "ds": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ],
+            "dg": [
+                {
+                    "in": "-",
+                    "out": "-"
+                },
+                {
+                    "in": "-",
+                    "out": "-"
+                }
+            ]
+        },
+        "calendari": {
+            "startDataEvent": "",
+            "startTimeEvent": "",
+            "endDataEvent": "",
+            "endTimeEvent": ""
+        },
+        "dadesPropies": {
+            "categorias_futbolbase": [
+                "PLA DE NA TESA PRIMERA REGIONAL MALLORCA",
+                "PLA DE NA TESA JUVENIL PREFERENTE MALLORCA",
+                "PLA DE NA TESA 'A' CADETE PRIMERA REGIONAL MALLORCA",
+                "PLA DE NA TESA 'B' CADETE SEGUNDA REGIONAL MALLORCA",
+                "PLA DE NA TESA INFANTIL SEGUNDA REGIONAL MALLORCA",
+                "PLA DE NA TESA ALEVIN MALLORCA",
+                "PLA DE NA TESA ALEVIN PRIMER AÑO MALLORCA",
+                "PLA DE NA TESA BENJAMIN MALLORCA",
+                "PLA DE NA TESA BENJAMIN PRIMER AÑO MALLORCA",
+                "PLA DE NA TESA PRE BENJAMIN MALLORCA",
+                "PLA DE NA TESA PRE BENJAMIN PRIMER AÑO MALLORCA",
+                "PLA DE NA TESA * ESCOLETA"
+            ],
+            "categoria_equipo_principal": "PLA DE NA TESA PRIMERA REGIONAL MALLORCA",
+            "equipacion": {
+                "camiseta": "BLANCA",
+                "pantalon": "NEGRO",
+                "medias": "NEGRAS"
+            }
+        }
+    }
+]
