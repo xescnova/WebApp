@@ -3,11 +3,19 @@ var aux;
 var opcion = 0;
 var longi; //Posición longitud del usuario
 var lati; //Posición latitud del usuario
-var arrayCiudades;
+var cond;
 
 function leerJson() {
+    cond = parent.document.URL.substring(parent.document.URL.indexOf('?'), parent.document.URL.length);
+    cond = parseInt(cond.replace("?", ""));
+
     var xmlhttp = new XMLHttpRequest();
-    var url = "https://raw.githubusercontent.com/xescnova/WebApp/main/json/campos.json";
+    if (cond == 1) {
+        var url = "https://raw.githubusercontent.com/xescnova/WebApp/main/json/campos.json";
+    } else {
+        var url = "https://raw.githubusercontent.com/xescnova/WebApp/main/json/clubs.json";
+    }
+
     xmlhttp.onreadystatechange = function() {
         if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
             myArr = JSON.parse(xmlhttp.responseText);
@@ -169,7 +177,11 @@ function campos(arr) {
         quinto = document.createElement("div");
         quinto.setAttribute("class", "card mb-4 box-shadow");
 
-        var aux = arr[i].imatges;
+        if (cond == 1) {
+            var aux = arr[i].imatges;
+        } else {
+            var aux = arr[i].icones;
+        }
 
         img = document.createElement("img");
         img.setAttribute("src", aux[0]);
@@ -190,29 +202,40 @@ function campos(arr) {
         septimo.setAttribute("class", "d-flex justify-content-between align-items-center");
 
         boton = document.createElement("a");
-        boton.setAttribute("href", "campo.html?");
+
+        if (cond == 1) {
+            boton.setAttribute("href", "CampoFutbol.html?" + arr[i].identificador);
+        } else {
+
+        }
+
         boton.setAttribute("class", "btn btn-sm btn-outline-secondary");
         boton.innerHTML = "Ver";
 
-        puntuacion = arr[i].puntuacio
-
-        estrellas = document.createElement("form");
-        aux = document.createElement("p");
-
-        for (tab = 0; tab < puntuacion; tab++) {
-            aux2 = document.createElement("label2");
-            aux2.innerHTML = "&#9733";
-            aux.appendChild(aux2);
-        }
-        for (tab = 0; tab < 5 - puntuacion; tab++) {
-            aux2 = document.createElement("label");
-            aux2.innerHTML = "&#9733";
-            aux.appendChild(aux2);
-        }
-        estrellas.appendChild(aux);
-
         septimo.appendChild(boton);
-        septimo.appendChild(estrellas);
+
+        if (cond == 1) {
+
+            puntuacion = arr[i].puntuacio
+
+            estrellas = document.createElement("form");
+            aux = document.createElement("p");
+
+            for (tab = 0; tab < puntuacion; tab++) {
+                aux2 = document.createElement("label2");
+                aux2.innerHTML = "&#9733";
+                aux.appendChild(aux2);
+            }
+            for (tab = 0; tab < 5 - puntuacion; tab++) {
+                aux2 = document.createElement("label");
+                aux2.innerHTML = "&#9733";
+                aux.appendChild(aux2);
+            }
+            estrellas.appendChild(aux);
+            septimo.appendChild(estrellas);
+        }
+
+
 
         sexto.appendChild(nombre);
         sexto.appendChild(septimo);
@@ -276,7 +299,11 @@ function setupMap(center) {
         // create a DOM element for the marker
         var el = document.createElement('div');
         el.className = 'marker';
-        el.style.backgroundImage = 'url(' + aux[x].imatges[aux[x].imatges.length - 1] + ')';
+        if (cond == 1) {
+            el.style.backgroundImage = 'url(' + aux[x].imatges[aux[x].imatges.length - 1] + ')';
+        } else {
+            el.style.backgroundImage = 'url(' + aux[x].icones[0] + ')';
+        }
         el.style.width = '50px';
         el.style.height = '50px';
         el.style.backgroundSize = '100%';
@@ -295,16 +322,23 @@ function setupMap(center) {
 
 
         // add marker to map
-        new mapboxgl.Marker(el)
-            .setLngLat([aux[x].geoposicionament1.long, aux[x].geoposicionament1.lat], )
-            .addTo(map);
+        if (cond == 1) {
+            new mapboxgl.Marker(el)
+                .setLngLat([aux[x].geoposicionament1.long, aux[x].geoposicionament1.lat], )
+                .addTo(map);
+        } else {
+            new mapboxgl.Marker(el)
+                .setLngLat([aux[x].geo2.long, aux[x].geo2.lat], )
+                .addTo(map);
+        }
+
     }
 
     map.addControl(directions, 'top-left');
 }
 
 function errorLocation() {
-    setupMap([3.0228200406783925], [39.512891178577604])
+    setupMap([0], [0])
 }
 
 
