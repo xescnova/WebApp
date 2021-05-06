@@ -380,7 +380,7 @@ function temperatura(ciudadNombre) {
 
 function leerTemp() {
     var xmlhttp = new XMLHttpRequest();
-    var url = "https://raw.githubusercontent.com/xescnova/WebApp/main/ciudadesEsp.json";
+    var url = "https://raw.githubusercontent.com/xescnova/WebApp/main/json/ciudadesEsp.json";
     xmlhttp.onreadystatechange = function() {
         if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
             arrayCiudades = JSON.parse(xmlhttp.responseText);
