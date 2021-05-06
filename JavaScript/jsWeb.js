@@ -3,18 +3,11 @@ var aux;
 var opcion = 0;
 var longi; //Posición longitud del usuario
 var lati; //Posición latitud del usuario
-var cond;
+var arrayCiudades;
+
 function leerJson() {
-    cond = parent.document.URL.substring(parent.document.URL.indexOf('?'), parent.document.URL.length);
-    cond= parseInt(cond.replace("?", ""));
-
     var xmlhttp = new XMLHttpRequest();
-        if(cond == 1){
-            var url = "https://raw.githubusercontent.com/xescnova/WebApp/main/json/campos.json";
-        }else{
-            var url ="https://raw.githubusercontent.com/xescnova/WebApp/main/json/clubs.json";
-         }
-
+    var url = "https://raw.githubusercontent.com/xescnova/WebApp/main/json/campos.json";
     xmlhttp.onreadystatechange = function() {
         if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
             myArr = JSON.parse(xmlhttp.responseText);
@@ -176,11 +169,7 @@ function campos(arr) {
         quinto = document.createElement("div");
         quinto.setAttribute("class", "card mb-4 box-shadow");
 
-        if(cond == 1){
         var aux = arr[i].imatges;
-    }else{
-        var aux = arr[i].icones;
-    }
 
         img = document.createElement("img");
         img.setAttribute("src", aux[0]);
@@ -201,19 +190,9 @@ function campos(arr) {
         septimo.setAttribute("class", "d-flex justify-content-between align-items-center");
 
         boton = document.createElement("a");
-
-        if(cond == 1){
-        boton.setAttribute("href", "CampoFutbol.html?" + arr[i].identificador);
-        }else{
-
-        }
-
+        boton.setAttribute("href", "campo.html?");
         boton.setAttribute("class", "btn btn-sm btn-outline-secondary");
         boton.innerHTML = "Ver";
-
-        septimo.appendChild(boton);
-
-        if(cond == 1){
 
         puntuacion = arr[i].puntuacio
 
@@ -231,10 +210,9 @@ function campos(arr) {
             aux.appendChild(aux2);
         }
         estrellas.appendChild(aux);
-        septimo.appendChild(estrellas);
-        }
 
-        
+        septimo.appendChild(boton);
+        septimo.appendChild(estrellas);
 
         sexto.appendChild(nombre);
         sexto.appendChild(septimo);
@@ -298,11 +276,7 @@ function setupMap(center) {
         // create a DOM element for the marker
         var el = document.createElement('div');
         el.className = 'marker';
-        if(cond == 1){
         el.style.backgroundImage = 'url(' + aux[x].imatges[aux[x].imatges.length - 1] + ')';
-        }else{
-            el.style.backgroundImage = 'url(' + aux[x].icones[0] + ')';
-        }
         el.style.width = '50px';
         el.style.height = '50px';
         el.style.backgroundSize = '100%';
@@ -321,23 +295,16 @@ function setupMap(center) {
 
 
         // add marker to map
-        if(cond == 1){
-            new mapboxgl.Marker(el)
+        new mapboxgl.Marker(el)
             .setLngLat([aux[x].geoposicionament1.long, aux[x].geoposicionament1.lat], )
             .addTo(map);
-            }else{
-                new mapboxgl.Marker(el)
-                .setLngLat([aux[x].geo2.long, aux[x].geo2.lat], )
-                .addTo(map);
-            }
-        
     }
 
     map.addControl(directions, 'top-left');
 }
 
 function errorLocation() {
-    setupMap([0], [0])
+    setupMap([3.0228200406783925], [39.512891178577604])
 }
 
 
@@ -347,4 +314,45 @@ function successLocation(position) {
     longi = position.coords.longitude;
     lati = position.coords.latitude;
     setupMap([position.coords.longitude, position.coords.latitude])
+}
+
+//Leer temperatura
+function temperatura(ciudadNombre) {
+
+    for (x = 0; x < arrayCiudades.length; x++) {
+        if (arrayCiudades[x].name == ciudadNombre) {
+            ciudadID = arrayCiudades[x].id;
+        }
+    }
+
+    window.myWidgetParam ? window.myWidgetParam : window.myWidgetParam = [];
+    window.myWidgetParam.push({
+        id: 11,
+        cityid: ciudadID,
+        appid: 'd44f07a3b8d7f9d25f9f2dc9b809d775',
+        units: 'metric',
+        containerid: 'openweathermap-widget-11',
+    });
+    (function() {
+        var script = document.createElement('script');
+        script.async = true;
+        script.charset = "utf-8";
+        script.src = "//openweathermap.org/themes/openweathermap/assets/vendor/owm/js/weather-widget-generator.js";
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(script, s);
+    })();
+
+}
+
+function leerTemp() {
+    var xmlhttp = new XMLHttpRequest();
+    var url = "https://raw.githubusercontent.com/xescnova/WebApp/main/ciudadesEsp.json";
+    xmlhttp.onreadystatechange = function() {
+        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+            arrayCiudades = JSON.parse(xmlhttp.responseText);
+            temperatura(aux[1].geoposicionament1.city)
+        }
+    };
+    xmlhttp.open("GET", url, true);
+    xmlhttp.send();
 }
