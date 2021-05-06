@@ -1,8 +1,8 @@
 <html>
 
- <head>
+<head>
     <title>Futbal</title>
-   
+
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <link href="css/one-page-wonder.min.css" rel="stylesheet">
@@ -13,14 +13,14 @@
     <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
 
     <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.js"></script>
-   
 
-   
+
+
     <script src="https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.js"></script>
     <script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
     <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
     <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.js"></script>
-    <link  href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.css" type="text/css">
+    <link href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.css" type="text/css">
     <link href="https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.css" rel="stylesheet">
     <script src="https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -29,10 +29,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
- </head>
+</head>
 
 
- <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
         <a class="navbar-brand" href="index.html">FutBal</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,7 +46,7 @@
           </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="Campos.html?0" >Equipos</a>
+                    <a class="nav-link" href="Campos.html?0">Equipos</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="Campos.html?1">Campos</a>
@@ -62,30 +62,39 @@
         </div>
     </div>
 </nav>>
-    
-    <!-- Ejemplos-->>
-    <div id = "id02" class=" btn-group padTop  ">
-        <button type="button" class="btn btn-outline-secondary"  onclick="FiltroNatural()" > Filtro</button>
-        <button type="button" class="btn btn-outline-secondary"  onclick="NoFiltro()" > No Filtro</button>
-        <button type="button" class="btn btn-outline-secondary"  onclick="OrdenarCapacidadMayor()" > CapacidadMayor</button>
-        <button type="button" class="btn btn-outline-secondary"  onclick="OrdenarCapacidadMenor()" > CapacidadMenor</button>
-        <button type="button" class="btn btn-outline-secondary"  onclick="OrdenarValoracionMenor()" > ValoMenor </button>
-        <button type="button" class="btn btn-outline-secondary"  onclick="OrdenarValoracionMayor()" > ValeMayor</button>
+
+<!-- Ejemplos-->>
+<div id="id02" class=" btn-group padTop  ">
+    <button type="button" class="btn btn-outline-secondary" onclick="FiltroNatural()"> Filtro</button>
+    <button type="button" class="btn btn-outline-secondary" onclick="NoFiltro()"> No Filtro</button>
+    <button type="button" class="btn btn-outline-secondary" onclick="OrdenarCapacidadMayor()"> CapacidadMayor</button>
+    <button type="button" class="btn btn-outline-secondary" onclick="OrdenarCapacidadMenor()"> CapacidadMenor</button>
+    <button type="button" class="btn btn-outline-secondary" onclick="OrdenarValoracionMenor()"> ValoMenor </button>
+    <button type="button" class="btn btn-outline-secondary" onclick="OrdenarValoracionMayor()"> ValeMayor</button>
+</div>
+
+<main id="id01">
+
+</main>
+<div id='map' style='width: 600px; height: 600px;'></div>
+
+
+<div id="openweathermap-widget-11"></div>
+<script src='//openweathermap.org/themes/openweathermap/assets/vendor/owm/js/d3.min.js'></script>
+<script>
+    leerTemp()
+</script>
+<!-- Footer-->>
+<footer class="py-5 bg-black">
+    <div class="container2">
+        <p class="m-0 padIzq text-white small">Copyright &copy; Your Website 2020</p>
+        <a href="#" class="m-0 padIzq text-white small">Back to top</a>
     </div>
-    
-    <main id = "id01">
-          
-    </main>
-    <div id='map' style='width: 600px; height: 600px;'></div>
 
-    <!-- Footer-->>
-      <footer class="py-5 bg-black">
-        <div class="container2">
-            <p class="m-0 padIzq text-white small">Copyright &copy; Your Website 2020</p>
-            <a href="#" class="m-0 padIzq text-white small">Back to top</a>
-        </div>
-        
-    </footer>
+</footer>
 
-    <script>leerJson()</script>
+<script>
+    leerJson()
+</script>
+
 </html>
