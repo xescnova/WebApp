@@ -70,7 +70,7 @@ function PonerComentario(NOM,COM){
 }
 function ListaComentario(){
     var xmlhttp = new XMLHttpRequest();
-    var url = "https://raw.githubusercontent.com/xescnova/WebApp/main/comentarios.json";
+    var url = "https://raw.githubusercontent.com/xescnova/WebApp/main/json/comentarios.json";
     var myArr;
     xmlhttp.onreadystatechange = function () {
         if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
