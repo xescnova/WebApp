@@ -100,7 +100,7 @@
             "address": "07100 Sóller, Balearic Islands",
             "lat": 39.77201549479248,
             "long": 2.717066927001519,
-            "city": "Sòller",
+            "city": "Sóller",
             "Country": "España",
             "zip": ""
         },
@@ -237,10 +237,10 @@
             "https://raw.githubusercontent.com/xescnova/WebApp/main/img/plaEscudo.jpg"
         ],
         "geoposicionament1": {
-            "address": "Carrer de Masnou, 0, 07330 Consell, Illes Balears",
+            "address": "Camí C'an Vador, nº2, 07141, Illes Balears",
             "lat": 39.596031414758286,
             "long": 2.711268225050358,
-            "city": "Consell",
+            "city": "Marratxí",
             "Country": "España",
             "zip": ""
         },
@@ -308,7 +308,7 @@
             "address": "Carrer Miño, 21, 07181 Calvià, Illes Balears",
             "lat": 39.51203123961558,
             "long": 2.531907014819793,
-            "city": "Magaluf",
+            "city": "Calvià",
             "Country": "España",
             "zip": ""
         },
@@ -446,7 +446,7 @@
             "address": "Carrer de s'Abeurador, 3902, Artà, Illes Balears",
             "lat": 39.697179634920126,
             "long": 3.3586794004476626,
-            "city": "Arta",
+            "city": "Artà",
             "Country": "España",
             "zip": "07570"
         },
