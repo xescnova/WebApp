@@ -97,10 +97,10 @@
             "https://raw.githubusercontent.com/xescnova/WebApp/main/img/escudoSoller.jpg"
         ],
         "geoposicionament1": {
-            "address": "07100 Sóller, Balearic Islands",
+            "address": "07100 Soller, Balearic Islands",
             "lat": 39.77201549479248,
             "long": 2.717066927001519,
-            "city": "Sóller",
+            "city": "Soller",
             "Country": "España",
             "zip": ""
         },
