@@ -97,7 +97,7 @@
             "https://raw.githubusercontent.com/xescnova/WebApp/main/img/escudoSoller.jpg"
         ],
         "geoposicionament1": {
-            "address": "07100 Soller, Balearic Islands",
+            "address": "07100 Sóller, Balearic Islands",
             "lat": 39.77201549479248,
             "long": 2.717066927001519,
             "city": "Sóller",
@@ -205,7 +205,7 @@
             ]
         },
         "dadesPropies": {
-            "capacidad": 500
+            "capacidad": 1200
         }
     },
     {
@@ -343,7 +343,7 @@
             ]
         },
         "dadesPropies": {
-            "capacidad": 600
+            "capacidad": 650
         }
     },
     {
@@ -411,7 +411,7 @@
             ]
         },
         "dadesPropies": {
-            "capacidad": 10000
+            "capacidad": 140
         }
     },
     {
@@ -481,7 +481,7 @@
             ]
         },
         "dadesPropies": {
-            "capacidad": 5000
+            "capacidad": 900
         }
     },
     {
