@@ -1,5 +1,6 @@
 var comentarios;
 var Campo;
+var aux=[];
 
 var arrayCiudades=[];
 function leerCampo() {
@@ -11,6 +12,7 @@ function leerCampo() {
     xmlhttp.onreadystatechange = function () {
         if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
              myArr = JSON.parse(xmlhttp.responseText);
+             aux=myArr;
              ponerCampo(myArr, Campo);
         }
     };
@@ -213,7 +215,7 @@ function leerTemp() {
     xmlhttp.onreadystatechange = function() {
         if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
             arrayCiudades = JSON.parse(xmlhttp.responseText);
-            temperatura("Inca")
+            temperatura(aux[Campo-1].geoposicionament1.city)
         }
     };
     xmlhttp.open("GET", url, true);
