@@ -413,7 +413,7 @@ function buscarBarra() {
                 $.each(data, function(key, value) {
                     if (value.nom.search(expression) != -1) {
                         $('#result').append('<li class="list-group-item link-class"><img src="' + value.imatges[0] + '" height="40" width="40" class="img-thumbnail " /> ' + value.nom + ' | <span class="text-muted">' + value.geoposicionament1.city + '</span></li> <a href="CampoFutbol.html?1"</a>');
-
+                        $('#result').append('<li class="list-group-item link-class">  <img src="' + value.imatges[0] + '" height="40" width="40" class="img-thumbnail " /> <a href="CampoFutbol.html?' + value.identificador + '" >' + value.nom + ' </a> | <span class="text-muted">' + value.geoposicionament1.city + '</span></li> <a href="CampoFutbol.html?1"</a>');
                     }
                 });
             });
