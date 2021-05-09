@@ -8,26 +8,12 @@
     <link href="css/one-page-wonder.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
     <script src="JavaScript/jsWeb.js"></script>
-
-    <script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
-    <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
-
-    <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.js"></script>
-
-
-
-    <script src="https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.js"></script>
-    <script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
-    <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
-    <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.js"></script>
-    <link href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.css" type="text/css">
-    <link href="https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.css" rel="stylesheet">
-    <script src="https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.js"></script>
+    
+    <script src="jquery/jquery.min.js"></script>
+    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
 
 </head>
 
@@ -55,37 +41,95 @@
                     <a class="nav-link" href="#">Arbitros</a>
                 </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-            </form>
         </div>
     </div>
 </nav>>
+<h1 class="display-1">Campos de futbol</h1>
+<div class="conta">
+    <div class="row">
+        <div class="col-4 " id="filtros">
+            <div class="container-fluid mt-100">
+                <div class="row d-flex justify-content-left">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <article class="filter-group">
+                                <header class="card-header">
+                                    <a href="#" data-toggle="collapse" data-target="#collapse_aside1" data-abc="true" aria-expanded="false" class="collapsed"> <i class="icon-control fa fa-chevron-down"></i>
+                                        <h6 class="title">Tipos de césped </h6>
+                                    </a>
+                                </header>
+                                <div class="filter-content collapse" id="collapse_aside1">
+                                    <div class="card-body">
+                                        <ul class="list-menu">
+                                            <li><a href="#" data-abc="true" onclick="NoFiltro()">Ambos </a></li>
+                                            <li><a href="#" data-abc="true" onclick="FiltroNatural()">Césped natural </a></li>
+                                            <li><a href="#" data-abc="true" onclick="FiltroArtificial()">Césped artificial </a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="filter-group">
+                                <header class="card-header">
+                                    <a href="#" data-toggle="collapse" data-target="#collapse_aside2" data-abc="true" aria-expanded="false" class="collapsed"> <i class="icon-control fa fa-chevron-down"></i>
+                                        <h6 class="title">Maximo de Capacidad de espectadores </h6>
+                                        <output id="outvol" name="outvol" for="vol">1000 </output>
+                                    </a>
+                                </header>
+                                <div class="filter-content collapse" id="collapse_aside2">
+                                    <div class="card-body"> <input type="range" class="custom-range" min="0" max="2000" name="" value="1000" onchange="document.getElementById('outvol').value = value">
+                                        <button type="button" class="highlight-button btn btn-medium button xs-margin-bottom-five" onclick="filtrarCapacidad(document.getElementById('outvol').value)"> Aplicar</button>
+                                    </div>
+                                </div>
+                            </article>
 
-<!-- Ejemplos-->>
-<div id="id02" class=" btn-group padTop  ">
-    <button type="button" class="btn btn-outline-secondary" onclick="FiltroNatural()"> Filtro</button>
-    <button type="button" class="btn btn-outline-secondary" onclick="NoFiltro()"> No Filtro</button>
-    <button type="button" class="btn btn-outline-secondary" onclick="OrdenarCapacidadMayor()"> CapacidadMayor</button>
-    <button type="button" class="btn btn-outline-secondary" onclick="OrdenarCapacidadMenor()"> CapacidadMenor</button>
-    <button type="button" class="btn btn-outline-secondary" onclick="OrdenarValoracionMenor()"> ValoMenor </button>
-    <button type="button" class="btn btn-outline-secondary" onclick="OrdenarValoracionMayor()"> ValeMayor</button>
+                        </article>
+                        <article class="filter-group">
+                            <header class="card-header">
+                                <a href="#" data-toggle="collapse" data-target="#collapse_aside3" data-abc="true" aria-expanded="false" class="collapsed"> <i class="icon-control fa fa-chevron-down"></i>
+                                    <h6 class="title">Ordenar por capacidad </h6>
+                                </a>
+                            </header>
+                            <div class="filter-content collapse" id="collapse_aside3">
+                                <ul class="list-menu">
+                                    <li><a href="#" data-abc="true" onclick="OrdenarCapacidadMayor()">Mayor a menor </a></li>
+                                    <li><a href="#" data-abc="true" onclick="OrdenarCapacidadMenor()">Menor a meyor </a></li>
+                                </ul>
+                            </div>
+                        </article>
+                                <article class="filter-group">
+                                    <header class="card-header">
+                                        <a href="#" data-toggle="collapse" data-target="#collapse_aside4" data-abc="true" class="collapsed" aria-expanded="false"> <i class="icon-control fa fa-chevron-down"></i>
+                                            <h6 class="title">Ordenar por valoracion</h6>
+                                        </a>
+                                    </header>
+                                    <div class="filter-content collapse" id="collapse_aside4">
+                                        <div class="card-body"> 
+                                            <ul class="list-menu">
+                                                <li><a href="#" data-abc="true" onclick="OrdenarValoracionMayor()">Mayor a menor  </a></li>
+                                                <li><a href="#" data-abc="true" onclick="OrdenarValoracionMenor()">Menor a meyor </a></li>
+                                            </ul>
+                                    </div>
+                                    </div>
+                                </article>
+                                
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-8" id="id01">
+        </div>
+    </div>
 </div>
 
-<main id="id01">
-
-</main>
-<div id='map' style='width: 600px; height: 600px;'></div>
-
-
-<div id="openweathermap-widget-11"></div>
-<script src='//openweathermap.org/themes/openweathermap/assets/vendor/owm/js/d3.min.js'></script>
 <script>
-    leerTemp()
+    leerJson()
 </script>
+
+
+
 <!-- Footer-->>
-<footer class="py-5 bg-black">
+<footer class="py-5 bg-black ">
     <div class="container2">
         <p class="m-0 padIzq text-white small">Copyright &copy; Your Website 2020</p>
         <a href="#" class="m-0 padIzq text-white small">Back to top</a>
@@ -93,8 +137,5 @@
 
 </footer>
 
-<script>
-    leerJson()
-</script>
 
 </html>

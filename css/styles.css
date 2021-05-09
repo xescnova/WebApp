@@ -25,6 +25,12 @@
 .padDer {
     padding-right: 410px;
 }
+.padTop{
+    padding-top: 5%;
+}
+.padBot{
+    padding-top: 50px;
+}
 
 .col-md-7 {
     padding-left: 120px;
@@ -74,3 +80,48 @@ section ul li.active {
     cursor: pointer;
     padding: 0;
 }
+
+.CampoIzq{
+
+    padding-left: 5%;
+    
+    }
+.CampoDer{
+    
+    padding-right: 5%;
+        
+}
+
+.Verde{
+     background: #08e689;
+}
+.CampoTop{
+    padding-top: 50px;
+}
+    
+
+.botonDer{
+    background-image:url(fder.png);
+    width: 24px; 
+    height:24px;
+    outline:none;
+    border: none;
+ 
+}
+.botonIzq{
+    background-image:url(fizq.png);
+    width: 24px; 
+    height:24px;
+    outline:none;
+    border: none;
+ 
+}
+
+.display-1 {
+    padding-left: 40%;
+    font-family: 'Cinzel', serif;
+    padding-bottom: 30px;
+}
+
+
+

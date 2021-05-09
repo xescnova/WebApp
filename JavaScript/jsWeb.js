@@ -1,9 +1,12 @@
 var myArr;
 var aux;
 var opcion = 0;
+var indice = 0;
 var longi; //Posición longitud del usuario
 var lati; //Posición latitud del usuario
 var cond;
+
+var posicion=0;
 
 function leerJson() {
     cond = parent.document.URL.substring(parent.document.URL.indexOf('?'), parent.document.URL.length);
@@ -21,7 +24,7 @@ function leerJson() {
             myArr = JSON.parse(xmlhttp.responseText);
             aux = myArr;
             campos(myArr);
-            mapas();
+
         }
     };
     xmlhttp.open("GET", url, true);
@@ -111,7 +114,7 @@ function NoFiltro() {
 }
 
 function FiltroNatural() {
-
+    NoFiltro();
     var arrayfiltrado = [];
 
     for (i = 0; i < aux.length; i++) {
@@ -146,12 +149,137 @@ function FiltroNatural() {
 
 }
 
+function FiltroArtificial() {
+    NoFiltro();
+    var arrayfiltrado = [];
+
+    for (i = 0; i < aux.length; i++) {
+
+        if (aux[i].detall == "Artificial") {
+            arrayfiltrado.push(aux[i]);
+        }
+
+    }
+    aux = arrayfiltrado;
+
+    switch (opcion) {
+        case 0:
+            campos(aux);
+            break;
+        case 1:
+            OrdenarCapacidadMenor();
+            break;
+
+        case 2:
+            OrdenarCapacidadMayor();
+            break;
+        case 3:
+            OrdenarValoracionMenor();
+            break;
+
+        case 4:
+            OrdenarValoracionMayor();
+            break;
+    }
+
+
+}
+
+function filtrarCapacidad(max) {
+
+    NoFiltro();
+    var arrayfiltrado = [];
+
+    for (i = 0; i < aux.length; i++) {
+
+            if (aux[i].dadesPropies.capacidad <= max) {
+            arrayfiltrado.push(aux[i]);
+        }
+
+    }
+    aux = arrayfiltrado;
+
+    switch (opcion) {
+        case 0:
+            campos(aux);
+            break;
+        case 1:
+            OrdenarCapacidadMenor();
+            break;
+
+        case 2:
+            OrdenarCapacidadMayor();
+            break;
+        case 3:
+            OrdenarValoracionMenor();
+            break;
+
+        case 4:
+            OrdenarValoracionMayor();
+            break;
+    }
+
+}
+
+function avanzar(){
+
+    if(indice<Math.trunc(myArr.length / 6)){
+        posicion+=6;
+        indice+=1;
+    }
+    switch (opcion) {
+        case 0:
+            campos(aux);
+            break;
+        case 1:
+            OrdenarCapacidadMenor();
+            break;
+
+        case 2:
+            OrdenarCapacidadMayor();
+            break;
+        case 3:
+            OrdenarValoracionMenor();
+            break;
+
+        case 4:
+            OrdenarValoracionMayor();
+            break;
+    }
+
+}
+function retroceder(){
+
+    if(posicion!=0){
+        posicion-=6;
+        indice-=1;
+    }
+    switch (opcion) {
+        case 0:
+            campos(aux);
+            break;
+        case 1:
+            OrdenarCapacidadMenor();
+            break;
+
+        case 2:
+            OrdenarCapacidadMayor();
+            break;
+        case 3:
+            OrdenarValoracionMenor();
+            break;
+
+        case 4:
+            OrdenarValoracionMayor();
+            break;
+    }
+}
+
+
 function campos(arr) {
 
     var i;
-    /* arr.filter(cesped => {
-         return cesped.detall == "Natural";
-       });*/
+
 
     const container = document.getElementById("id01");
     while (container.firstChild) {
@@ -167,8 +295,7 @@ function campos(arr) {
     tercero = document.createElement("div");
     tercero.setAttribute("class", "row");
 
-    for (i = 0; i < arr.length; i++) {
-
+    for (i = posicion;   i < arr.length && i < posicion +6; i++) {
 
 
         cuarto = document.createElement("div");
@@ -252,141 +379,55 @@ function campos(arr) {
 
         document.getElementById("id01").appendChild(primero);
     }
+
+
+    izq=document.createElement("button");
+    izq.setAttribute("class","botonIzq  ");
+    izq.setAttribute("onclick","retroceder()");
+    der=document.createElement("button");
+    der.setAttribute("class","botonDer");
+    der.setAttribute("onclick","avanzar()");
+
+    document.getElementById("id01").appendChild(izq);
+    document.getElementById("id01").appendChild(der);
+
 }
 
-function mapas() {
-    mapboxgl.accessToken = 'pk.eyJ1IjoieGVzY21hcGxleCIsImEiOiJja281eTY2NW0xeGxpMnFwZ29hbWVsNnI4In0.wnoG62YT-XTclaUzBsVBhg';
-    navigator.geolocation.getCurrentPosition(successLocation, errorLocation, { enableHighAccuracy: true })
-}
-
-function setupMap(center) {
-    const map = new mapboxgl.Map({
-        container: 'map',
-        style: 'mapbox://styles/mapbox/streets-v11',
-        center: center,
-        zoom: 15
-    });
-
-    const nav = new mapboxgl.NavigationControl();
-    map.addControl(nav);
-
-    var directions = new MapboxDirections({
-        accessToken: mapboxgl.accessToken
-    });
-
-    //Posicion del usuario
-
-    var el = document.createElement('div');
-    el.className = 'marker';
-    el.style.backgroundImage = 'url(https://icon-library.com/images/position-icon/position-icon-8.jpg)';
-    el.style.width = '70px';
-    el.style.height = '70px';
-    el.style.backgroundSize = '100%';
-
-    el.addEventListener('click', function() {
-        window.alert('Posicion actual');
-    });
 
 
-    // add marker to map
-    new mapboxgl.Marker(el)
-        .setLngLat([longi, lati])
-        .addTo(map);
-    //Fin de posicion del usuario
 
-    //Despliega todos los equipos en el mapa
-    for (x = 0; x < aux.length; x++) {
-        // create a DOM element for the marker
-        var el = document.createElement('div');
-        el.className = 'marker';
-        if (cond == 1) {
-            el.style.backgroundImage = 'url(' + aux[x].imatges[aux[x].imatges.length - 1] + ')';
-        } else {
-            el.style.backgroundImage = 'url(' + aux[x].icones[0] + ')';
-        }
-        el.style.width = '50px';
-        el.style.height = '50px';
-        el.style.backgroundSize = '100%';
-        el.setAttribute("data-toggle", "tooltip");
-        el.setAttribute("title", aux[x].nom);
 
-        //Script para mostrar el nombre del campo cuando pasas el raton por encima
-        $(document).ready(function() {
-            $('[data-toggle="tooltip"]').tooltip();
+function buscarBarra() {
+    $(document).ready(function() {
+        $.ajaxSetup({
+            cache: false
+        });
+        $('#search').keyup(function() {
+            $('#result').html('');
+            $('#state').val('');
+            var searchField = $('#search').val();
+            if ($('#search').val() != "") var searchField = $('#search').val();
+            else var searchField = null;
+            var expression = new RegExp(searchField, "i");
+            $.getJSON('https://raw.githubusercontent.com/xescnova/WebApp/main/json/campos.json', function(data) {
+                $.each(data, function(key, value) {
+                    if (value.nom.search(expression) != -1) {
+                        $('#result').append('<li class="list-group-item link-class"><img src="' + value.imatges[0] + '" height="40" width="40" class="img-thumbnail " /> ' + value.nom + ' | <span class="text-muted">' + value.geoposicionament1.city + '</span></li> <a href="CampoFutbol.html?1"</a>');
+
+                    }
+                });
+            });
         });
 
-        el.addEventListener('click', function() {
-            window.alert('Campo');
+        $('#result').on('click', 'li', function() {
+            var click_text = $(this).text().split('|');
+            $('#search').val($.trim(click_text[0]));
+            $("#result").html('');
         });
-
-
-
-        // add marker to map
-        if (cond == 1) {
-            new mapboxgl.Marker(el)
-                .setLngLat([aux[x].geoposicionament1.long, aux[x].geoposicionament1.lat], )
-                .addTo(map);
-        } else {
-            new mapboxgl.Marker(el)
-                .setLngLat([aux[x].geo2.long, aux[x].geo2.lat], )
-                .addTo(map);
-        }
-
-    }
-
-    map.addControl(directions, 'top-left');
-}
-
-function errorLocation() {
-    setupMap([0], [0])
-}
-
-
-//En MapBox longitud va antes que latitud
-function successLocation(position) {
-    console.log(position)
-    longi = position.coords.longitude;
-    lati = position.coords.latitude;
-    setupMap([position.coords.longitude, position.coords.latitude])
-}
-
-//Leer temperatura
-function temperatura(ciudadNombre) {
-
-    for (x = 0; x < arrayCiudades.length; x++) {
-        if (arrayCiudades[x].name == ciudadNombre) {
-            ciudadID = arrayCiudades[x].id;
-        }
-    }
-
-    window.myWidgetParam ? window.myWidgetParam : window.myWidgetParam = [];
-    window.myWidgetParam.push({
-        id: 11,
-        cityid: ciudadID,
-        appid: 'd44f07a3b8d7f9d25f9f2dc9b809d775',
-        units: 'metric',
-        containerid: 'openweathermap-widget-11',
     });
-    (function() {
-        var script = document.createElement('script');
-        script.async = true;
-        script.charset = "utf-8";
-        script.src = "//openweathermap.org/themes/openweathermap/assets/vendor/owm/js/weather-widget-generator.js";
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(script, s);
-    })();
-
 }
 
-function leerTemp() {
-    var xmlhttp = new XMLHttpRequest();
-    var url = "https://raw.githubusercontent.com/xescnova/WebApp/main/json/ciudadesEsp.json";
-    xmlhttp.onreadystatechange = function() {
-        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
-            arrayCiudades = JSON.parse(xmlhttp.responseText);
-            temperatura(aux[1].geoposicionament1.city)
-        }
-    };
-    xmlhttp.open("GET", url, true);
-    xmlhttp.send();
-}
+
+
+
+

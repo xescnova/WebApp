@@ -2,19 +2,29 @@
 
     <head>
     <title>Futbal</title>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
    
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <link href="css/one-page-wonder.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
     <script src="JavaScript/jsCampo.js"></script>
-    </head>
 
+
+    <script src="jquery/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+     <!--Import para la api de los mapas-->
+
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
+    <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.js"></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.css" type="text/css">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.css" rel="stylesheet">
+    
+
+    </head>
+    <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
             <a class="navbar-brand" href="index.html">FutBal</a>
@@ -38,23 +48,41 @@
                         <a class="nav-link" href="#">Arbitros</a>
                     </li>
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-                </form>
             </div>
         </div>
     </nav>
 
-    <div id = "cosa"> 
-    </div>
-    <script> leerCampo()</script>
 
-    <div class="container" id ="aux">   
-        <div class="col">
+    <div class=" CampoIzq CampoDer padTop">
+        <div class="row">
+            <div class="col-lg-6 " id = "CampoCarrusel">
+
+                <script> leerCampo()</script>
+
+            </div>
+            <div class="col-lg-5  ml-auto" id = "CampoMapa">
+                <div id='map' style='width: 100%; height: 400px;'></div>
+                <script> mapas()</script>
+
+            </div>
+        </div>
+        <div class="row CampoTop" >
+            <div class="col-lg-6  "  id = "CampoInfo">
+            </div>
+            <div class="col-lg-5 Verde ml-auto" id = "CampoTiempo">
+                <div id="openweathermap-widget-11"></div>
+                <script src='//openweathermap.org/themes/openweathermap/assets/vendor/owm/js/d3.min.js'></script>
+                <script> leerTemp()</script>
+               
+            </div>
+        </div>
+    </div>
+    
+    <div class="container padBot" id ="aux">   
+        <div class="col ">
             <div class="alert alert-light"><h4>Comentarios</h4>
             </div>
-            <div id="result">
+            <div>
                  <div class="col-md-8">
                 <form>
                     <div class="form-group">
@@ -66,11 +94,11 @@
 			            <textarea id="comment" class="form-control"></textarea></label>
 			        </div>
 			        <button type="button" class="btn btn-outline-primary" onclick="commentBox();">Enviar</button>
-                </form>
-             </div>
-	     </div>
-	</div>
-</div>
+                    </form>
+                </div>
+	        </div>
+	    </div>
+    </div>
 
 <script> ListaComentario()</script>
     
@@ -80,7 +108,7 @@
             <p class="m-0 padIzq text-white small">Copyright &copy; Your Website 2020</p>
             <a href="#" class="m-0 padIzq text-white small">Back to top</a>
         </div>
-        
     </footer>
+</body>
 
 </html>

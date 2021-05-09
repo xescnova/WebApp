@@ -10,9 +10,10 @@
     <!-- Custom styles for this template -->
     <link href="css/one-page-wonder.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
-    <style>
-
-    </style>
+    <script src="jquery/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="JavaScript/jsWeb.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
 
 </head>
 
@@ -42,10 +43,6 @@
                         <a class="nav-link" href="#">Arbitros</a>
                     </li>
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-                </form>
             </div>
         </div>
     </nav>
@@ -79,7 +76,19 @@
         </a>
     </div>
 
+    <div class="container" style="width:900px;">
+        <h3 align="center">Buscador de campos</h3>
+        <br /><br />
+        <div align="center">
+            <input type="text" name="search" id="search" placeholder="Busca un campo" class="form-control" />
+        </div>
+        <ul class="list-group" id="result"></ul>
+        <br />
+    </div>
 
+    <script>
+        buscarBarra()
+    </script>
 
     <!-- Marketing messaging and featurettes
   ================================================== -->
@@ -156,8 +165,7 @@
         <!-- /.container -->
     </div>
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="jquery/jquery.min.js"></script>
-    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    
     <!-- Option 2: Separate Popper and Bootstrap JS -->
 
 
