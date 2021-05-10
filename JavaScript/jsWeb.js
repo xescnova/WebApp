@@ -6,7 +6,7 @@ var longi; //Posición longitud del usuario
 var lati; //Posición latitud del usuario
 var cond;
 
-var posicion=0;
+var posicion = 0;
 
 function leerJson() {
     cond = parent.document.URL.substring(parent.document.URL.indexOf('?'), parent.document.URL.length);
@@ -192,7 +192,7 @@ function filtrarCapacidad(max) {
 
     for (i = 0; i < aux.length; i++) {
 
-            if (aux[i].dadesPropies.capacidad <= max) {
+        if (aux[i].dadesPropies.capacidad <= max) {
             arrayfiltrado.push(aux[i]);
         }
 
@@ -221,11 +221,11 @@ function filtrarCapacidad(max) {
 
 }
 
-function avanzar(){
+function avanzar() {
 
-    if(indice<Math.trunc(myArr.length / 6)){
-        posicion+=6;
-        indice+=1;
+    if (indice < Math.trunc(myArr.length / 6)) {
+        posicion += 6;
+        indice += 1;
     }
     switch (opcion) {
         case 0:
@@ -248,11 +248,12 @@ function avanzar(){
     }
 
 }
-function retroceder(){
 
-    if(posicion!=0){
-        posicion-=6;
-        indice-=1;
+function retroceder() {
+
+    if (posicion != 0) {
+        posicion -= 6;
+        indice -= 1;
     }
     switch (opcion) {
         case 0:
@@ -295,7 +296,7 @@ function campos(arr) {
     tercero = document.createElement("div");
     tercero.setAttribute("class", "row");
 
-    for (i = posicion;   i < arr.length && i < posicion +6; i++) {
+    for (i = posicion; i < arr.length && i < posicion + 6; i++) {
 
 
         cuarto = document.createElement("div");
@@ -381,12 +382,12 @@ function campos(arr) {
     }
 
 
-    izq=document.createElement("button");
-    izq.setAttribute("class","botonIzq  ");
-    izq.setAttribute("onclick","retroceder()");
-    der=document.createElement("button");
-    der.setAttribute("class","botonDer");
-    der.setAttribute("onclick","avanzar()");
+    izq = document.createElement("button");
+    izq.setAttribute("class", "botonIzq  ");
+    izq.setAttribute("onclick", "retroceder()");
+    der = document.createElement("button");
+    der.setAttribute("class", "botonDer");
+    der.setAttribute("onclick", "avanzar()");
 
     document.getElementById("id01").appendChild(izq);
     document.getElementById("id01").appendChild(der);
@@ -412,7 +413,7 @@ function buscarBarra() {
             $.getJSON('https://raw.githubusercontent.com/xescnova/WebApp/main/json/campos.json', function(data) {
                 $.each(data, function(key, value) {
                     if (value.nom.search(expression) != -1) {
-                        $('#result').append('<li class="list-group-item link-class">  <img src="' + value.imatges[0] + '" height="40" width="40" class="img-thumbnail " /> <a href="CampoFutbol.html?' + value.identificador + '" >' + value.nom + ' </a> | <span class="text-muted">' + value.geoposicionament1.city + '</span></li> <a href="CampoFutbol.html?1"</a>');
+                        $('#result').append('<li class="list-group-item link-class">  <img src="' + value.imatges[0] + '" height="40" width="40" class="img-thumbnail " /> <a href="CampoFutbol.html?' + value.identificador + '" >' + value.nom + ' </a> | <span class="text-muted">' + value.geo1.city + '</span></li> <a href="CampoFutbol.html?1"</a>');
                     }
                 });
             });
@@ -425,8 +426,3 @@ function buscarBarra() {
         });
     });
 }
-
-
-
-
-

@@ -1,45 +1,47 @@
 var comentarios;
 var Campo;
-var aux=[];
+var aux = [];
 
-var arrayCiudades=[];
+var arrayCiudades = [];
+
 function leerCampo() {
     Campo = parent.document.URL.substring(parent.document.URL.indexOf('?'), parent.document.URL.length);
-    Campo= parseInt(Campo.replace("?", ""));
+    Campo = parseInt(Campo.replace("?", ""));
     var xmlhttp = new XMLHttpRequest();
     var url = "https://raw.githubusercontent.com/xescnova/WebApp/main/json/campos.json";
     var myArr;
-    xmlhttp.onreadystatechange = function () {
+    xmlhttp.onreadystatechange = function() {
         if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
-             myArr = JSON.parse(xmlhttp.responseText);
-             aux=myArr;
-             ponerCampo(myArr, Campo);
+            myArr = JSON.parse(xmlhttp.responseText);
+            aux = myArr;
+            ponerCampo(myArr, Campo);
         }
     };
     xmlhttp.open("GET", url, true);
-    xmlhttp.send();  
+    xmlhttp.send();
 }
-function ponerCampo(arr,identificador) {
+
+function ponerCampo(arr, identificador) {
 
     var aux2;
 
     for (i = 0; i < arr.length; i++) {
-        if(arr[i].identificador == identificador){
+        if (arr[i].identificador == identificador) {
             aux2 = arr[i];
         }
     }
 
-    carrusel=document.createElement("div");
+    carrusel = document.createElement("div");
     carrusel.setAttribute("class", " carousel slide");
-    carrusel.setAttribute("id","#carouselExampleIndicators");
+    carrusel.setAttribute("id", "#carouselExampleIndicators");
     carrusel.setAttribute("data-ride", " carousel");
 
-    imagenes=document.createElement("div");
+    imagenes = document.createElement("div");
     imagenes.setAttribute("class", " carousel-inner");
-    
 
-    for(auxiliar=0;auxiliar<aux2.imatges.length - 1; auxiliar++){
-        item=document.createElement("div");
+
+    for (auxiliar = 0; auxiliar < aux2.imatges.length - 1; auxiliar++) {
+        item = document.createElement("div");
         item.setAttribute("class", " carousel-item active");
 
         img = document.createElement("img");
@@ -47,43 +49,43 @@ function ponerCampo(arr,identificador) {
         img.setAttribute("class", "d-block w-100");
         img.setAttribute("with", "100%");
         img.setAttribute("height", "400px");
-        
+
         item.appendChild(img);
 
         imagenes.appendChild(item);
     }
-   
 
-    atras=document.createElement("a");
-    atras.setAttribute("class","carousel-control-prev");
-    atras.setAttribute("href","#carouselExampleIndicators");
-    atras.setAttribute("role","button");
-    atras.setAttribute("data-slide","prev");
 
-    opcion1=document.createElement("span");
-    opcion1.setAttribute("class","carousel-control-prev-icon");
-    opcion1.setAttribute("aria-hidden","true");
+    atras = document.createElement("a");
+    atras.setAttribute("class", "carousel-control-prev");
+    atras.setAttribute("href", "#carouselExampleIndicators");
+    atras.setAttribute("role", "button");
+    atras.setAttribute("data-slide", "prev");
 
-    opcion2=document.createElement("span");
-    opcion2.setAttribute("class","sr-only");
+    opcion1 = document.createElement("span");
+    opcion1.setAttribute("class", "carousel-control-prev-icon");
+    opcion1.setAttribute("aria-hidden", "true");
+
+    opcion2 = document.createElement("span");
+    opcion2.setAttribute("class", "sr-only");
     opcion2.innerHTML = "Previous";
 
     atras.appendChild(opcion1);
     atras.appendChild(opcion2);
 
 
-    avanzar=document.createElement("a");
-    avanzar.setAttribute("class","carousel-control-next");
-    avanzar.setAttribute("href","#carouselExampleIndicators");
-    avanzar.setAttribute("role","button");
-    avanzar.setAttribute("data-slide","next");
+    avanzar = document.createElement("a");
+    avanzar.setAttribute("class", "carousel-control-next");
+    avanzar.setAttribute("href", "#carouselExampleIndicators");
+    avanzar.setAttribute("role", "button");
+    avanzar.setAttribute("data-slide", "next");
 
-    opcion3=document.createElement("span");
-    opcion3.setAttribute("class","carousel-control-next-icon");
-    opcion3.setAttribute("aria-hidden","true");
+    opcion3 = document.createElement("span");
+    opcion3.setAttribute("class", "carousel-control-next-icon");
+    opcion3.setAttribute("aria-hidden", "true");
 
-    opcion4=document.createElement("span");
-    opcion4.setAttribute("class","sr-only");
+    opcion4 = document.createElement("span");
+    opcion4.setAttribute("class", "sr-only");
     opcion4.innerHTML = "Next";
 
     avanzar.appendChild(opcion3);
@@ -96,32 +98,32 @@ function ponerCampo(arr,identificador) {
     document.getElementById("CampoCarrusel").appendChild(carrusel);
 
 
-    
-    info=document.createElement("p");
-    info.setAttribute("class","h5");
-    text=document.createElement("strong");
-    text.innerHTML="INFORMACION";
+
+    info = document.createElement("p");
+    info.setAttribute("class", "h5");
+    text = document.createElement("strong");
+    text.innerHTML = "INFORMACION";
 
     info.appendChild(text);
 
 
 
-    cesped=document.createElement("p");
-    cesped.innerHTML="Cesped: " + aux2.detall;
+    cesped = document.createElement("p");
+    cesped.innerHTML = "Cesped: " + aux2.detall;
 
 
-    capacidad=document.createElement("p");
-    capacidad.innerHTML="Capacidad: " + aux2.dadesPropies.capacidad;
+    capacidad = document.createElement("p");
+    capacidad.innerHTML = "Capacidad: " + aux2.dadesPropies.capacidad;
 
 
-    telefono=document.createElement("p");
-    telefono.innerHTML="Telefono: "+aux2.contacte.telf;
+    telefono = document.createElement("p");
+    telefono.innerHTML = "Telefono: " + aux2.contacte.telf;
 
-    ciudad=document.createElement("p");
-    ciudad.innerHTML="Ciudad: "+aux2.geoposicionament1.city;
+    ciudad = document.createElement("p");
+    ciudad.innerHTML = "Ciudad: " + aux2.geo1.city;
 
-    direccion=document.createElement("p");
-    direccion.innerHTML="Direccion: "+aux2.geoposicionament1.address;
+    direccion = document.createElement("p");
+    direccion.innerHTML = "Direccion: " + aux2.geo1.address;
 
     document.getElementById("CampoInfo").appendChild(info);
     document.getElementById("CampoInfo").appendChild(cesped);
@@ -133,51 +135,55 @@ function ponerCampo(arr,identificador) {
 
 
 }
-function commentBox(){
-	var name=document.getElementById('name').value;
-	var comment=document.getElementById('comment').value;
- 
-	if(name =="" || comment ==""){
-		alert("Porfavor introduce la informacion requerida!");
-	}else{
-		PonerComentario(name,comment);
-		document.getElementById('name').value="";
-		document.getElementById('comment').value="";
-	}
+
+function commentBox() {
+    var name = document.getElementById('name').value;
+    var comment = document.getElementById('comment').value;
+
+    if (name == "" || comment == "") {
+        alert("Porfavor introduce la informacion requerida!");
+    } else {
+        PonerComentario(name, comment);
+        document.getElementById('name').value = "";
+        document.getElementById('comment').value = "";
+    }
 }
-function PonerComentario(NOM,COM){
-    var parent=document.createElement('div');
-    var el_name=document.createElement('h5');
-    var el_message=document.createElement('p');
-    var el_line=document.createElement('hr');
-    var txt_name=document.createTextNode(NOM);
-    var txt_message=document.createTextNode(COM);
+
+function PonerComentario(NOM, COM) {
+    var parent = document.createElement('div');
+    var el_name = document.createElement('h5');
+    var el_message = document.createElement('p');
+    var el_line = document.createElement('hr');
+    var txt_name = document.createTextNode(NOM);
+    var txt_message = document.createTextNode(COM);
     el_name.appendChild(txt_name);
     el_message.appendChild(txt_message);
-    el_line.style.border='1px solid #000';
+    el_line.style.border = '1px solid #000';
     parent.appendChild(el_name);
     parent.appendChild(el_line);
     parent.appendChild(el_message);
     parent.setAttribute('class', 'pane');
     document.getElementById('aux').appendChild(parent);
 }
-function ListaComentario(){
+
+function ListaComentario() {
     var xmlhttp = new XMLHttpRequest();
     var url = "https://raw.githubusercontent.com/xescnova/WebApp/main/json/comentarios.json";
     var myArr;
-    xmlhttp.onreadystatechange = function () {
+    xmlhttp.onreadystatechange = function() {
         if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
             comentarios = JSON.parse(xmlhttp.responseText);
-             listCom(comentarios, Campo);
+            listCom(comentarios, Campo);
         }
     };
     xmlhttp.open("GET", url, true);
     xmlhttp.send();
 }
-function listCom(array,iden){
+
+function listCom(array, iden) {
     for (i = 0; i < array.length; i++) {
-        if(array[i].idCampo == iden){
-            PonerComentario(array[i].nombre,array[i].Comentario);
+        if (array[i].idCampo == iden) {
+            PonerComentario(array[i].nombre, array[i].Comentario);
         }
     }
 }
@@ -215,7 +221,7 @@ function leerTemp() {
     xmlhttp.onreadystatechange = function() {
         if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
             arrayCiudades = JSON.parse(xmlhttp.responseText);
-            temperatura(aux[Campo-1].geoposicionament1.city)
+            temperatura(aux[Campo - 1].geo1.city)
         }
     };
     xmlhttp.open("GET", url, true);
@@ -264,29 +270,29 @@ function setupMap(center) {
     //Fin de posicion del usuario
 
     //Despliega todos los equipos en el mapa
-    
-        // create a DOM element for the marker
-        var el = document.createElement('div');
-        el.className = 'marker';
-        el.style.backgroundImage = 'url(' + aux[Campo-1].imatges[0] + ')';
-        el.style.width = '50px';
-        el.style.height = '50px';
-        el.style.backgroundSize = '100%';
-        el.setAttribute("data-toggle", "tooltip");
-        el.setAttribute("title", aux[Campo-1].nom);
 
-        //Script para mostrar el nombre del campo cuando pasas el raton por encima
-        $(document).ready(function() {
-            $('[data-toggle="tooltip"]').tooltip();
-        });
+    // create a DOM element for the marker
+    var el = document.createElement('div');
+    el.className = 'marker';
+    el.style.backgroundImage = 'url(' + aux[Campo - 1].imatges[0] + ')';
+    el.style.width = '50px';
+    el.style.height = '50px';
+    el.style.backgroundSize = '100%';
+    el.setAttribute("data-toggle", "tooltip");
+    el.setAttribute("title", aux[Campo - 1].nom);
 
-        el.addEventListener('click', function() {
-            window.alert('Campo');
-        });
-      
-            new mapboxgl.Marker(el)
-                .setLngLat([aux[Campo-1].geoposicionament1.long, aux[Campo-1].geoposicionament1.lat], )
-                .addTo(map);
+    //Script para mostrar el nombre del campo cuando pasas el raton por encima
+    $(document).ready(function() {
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+
+    el.addEventListener('click', function() {
+        window.alert('Campo');
+    });
+
+    new mapboxgl.Marker(el)
+        .setLngLat([aux[Campo - 1].geo1.long, aux[Campo - 1].geo1.lat], )
+        .addTo(map);
 }
 
 function errorLocation() {
