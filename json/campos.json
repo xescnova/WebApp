@@ -26,7 +26,7 @@
             "https://raw.githubusercontent.com/xescnova/WebApp/main/img/campoSonSardina3.PNG",
             "https://raw.githubusercontent.com/xescnova/WebApp/main/img/escudoSonSardina.jpg"
         ],
-        "geoposicionament1": {
+        "geo1": {
             "address": "Carrer Travessia Ave Maria, 18, 07120 Son Sardina, Illes Balears",
             "lat": 39.62392763929516,
             "long": 2.652987350272915,
@@ -101,7 +101,7 @@
             "https://raw.githubusercontent.com/xescnova/WebApp/main/img/campoSoller3.jpg",
             "https://raw.githubusercontent.com/xescnova/WebApp/main/img/escudoSoller.jpg"
         ],
-        "geoposicionament1": {
+        "geo1": {
             "address": "07100 Sóller, Balearic Islands",
             "lat": 39.77201549479248,
             "long": 2.717066927001519,
@@ -176,7 +176,7 @@
             "https://raw.githubusercontent.com/xescnova/WebApp/main/img/campoConsell3.jpg",
             "https://raw.githubusercontent.com/xescnova/WebApp/main/img/consellEscudo.jpg"
         ],
-        "geoposicionament1": {
+        "geo1": {
             "address": "Carrer de Masnou, 0, 07330 Consell, Illes Balears",
             "lat": 39.66883038188424,
             "long": 2.807706585174472,
@@ -251,7 +251,7 @@
             "https://raw.githubusercontent.com/xescnova/WebApp/main/img/campoPla3.jpg",
             "https://raw.githubusercontent.com/xescnova/WebApp/main/img/plaEscudo.jpg"
         ],
-        "geoposicionament1": {
+        "geo1": {
             "address": "Camí C'an Vador, nº2, 07141, Illes Balears",
             "lat": 39.596031414758286,
             "long": 2.711268225050358,
@@ -324,7 +324,7 @@
             "https://raw.githubusercontent.com/xescnova/WebApp/main/img/campoMagaluf.jpg",
             "https://raw.githubusercontent.com/xescnova/WebApp/main/img/escudoMagaluf.jpg"
         ],
-        "geoposicionament1": {
+        "geo1": {
             "address": "Carrer Miño, 21, 07181 Calvià, Illes Balears",
             "lat": 39.51203123961558,
             "long": 2.531907014819793,
@@ -397,7 +397,7 @@
             "https://raw.githubusercontent.com/xescnova/WebApp/main/img/campoConstancia.jpg",
             "https://raw.githubusercontent.com/xescnova/WebApp/main/img/escudoConstancia.jpg"
         ],
-        "geoposicionament1": {
+        "geo1": {
             "address": "Carrer del Tomir, 119, 07300 Inca, Illes Balears",
             "lat": 39.715592105132295,
             "long": 2.9162831998758594,
@@ -472,7 +472,7 @@
             "https://raw.githubusercontent.com/xescnova/WebApp/main/img/campoArta3.jpg",
             "https://raw.githubusercontent.com/xescnova/WebApp/main/img/artaEscudo.jpg"
         ],
-        "geoposicionament1": {
+        "geo1": {
             "address": "Carrer de s'Abeurador, 3902, Artà, Illes Balears",
             "lat": 39.697179634920126,
             "long": 3.3586794004476626,
@@ -548,7 +548,7 @@
             "https://raw.githubusercontent.com/xescnova/WebApp/main/img/escudoHorta.png"
 
         ],
-        "geoposicionament1": {
+        "geo1": {
             "address": "Ma-4012, km 50, Felanitx, Illes Balears",
             "lat": 39.41583666745173,
             "long": 3.2128483846567093,
