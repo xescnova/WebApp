@@ -67,9 +67,9 @@
         "dadesPropies": {
             "capacidad": 300,
             "vallado": "No",
-            "sala antidopaje": "Si",
+            "salaantidopaje": "Si",
             "dimensiones": "95x56",
-            "despacho arbitral": "No",
+            "despachoarbitral": "No",
             "internet": "Si"
         }
     },
@@ -142,9 +142,9 @@
         "dadesPropies": {
             "capacidad": 1500,
             "vallado": "No",
-            "sala antidopaje": "No",
+            "salaantidopaje": "No",
             "dimensiones": "98x56",
-            "despacho arbitral": "Si",
+            "despachoarbitral": "Si",
             "internet": "Si"
         }
     },
@@ -217,9 +217,9 @@
         "dadesPropies": {
             "capacidad": 1200,
             "vallado": "No",
-            "sala antidopaje": "Si",
+            "salaantidopaje": "Si",
             "dimensiones": "96x52",
-            "despacho arbitral": "No",
+            "despachoarbitral": "No",
             "internet": "Si"
         }
     },
@@ -292,9 +292,9 @@
         "dadesPropies": {
             "capacidad": 500,
             "vallado": "No",
-            "sala antidopaje": "No",
+            "salaantidopaje": "No",
             "dimensiones": "95x55",
-            "despacho arbitral": "Si",
+            "despachoarbitral": "Si",
             "internet": "No"
         }
     },
@@ -365,9 +365,9 @@
         "dadesPropies": {
             "capacidad": 650,
             "vallado": "Si",
-            "sala antidopaje": "Si",
+            "salaantidopaje": "Si",
             "dimensiones": "103x65",
-            "despacho arbitral": "Si",
+            "despachoarbitral": "Si",
             "internet": "Si"
         }
     },
@@ -438,9 +438,9 @@
         "dadesPropies": {
             "capacidad": 140,
             "vallado": "No",
-            "sala antidopaje": "Si",
+            "salaantidopaje": "Si",
             "dimensiones": "94x57",
-            "despacho arbitral": "No",
+            "despachoarbitral": "No",
             "internet": "Si"
         }
     },
@@ -513,9 +513,9 @@
         "dadesPropies": {
             "capacidad": 900,
             "vallado": "Si",
-            "sala antidopaje": "No",
+            "salaantidopaje": "No",
             "dimensiones": "92x58",
-            "despacho arbitral": "Si",
+            "despachoarbitral": "Si",
             "internet": "No"
         }
     },
@@ -589,9 +589,9 @@
         "dadesPropies": {
             "capacidad": 1000,
             "vallado": "No",
-            "sala antidopaje": "No",
+            "salaantidopaje": "No",
             "dimensiones": "97x59",
-            "despacho arbitral": "No",
+            "despachoarbitral": "No",
             "internet": "No"
         }
     }
