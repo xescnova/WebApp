@@ -25,10 +25,12 @@
 .padDer {
     padding-right: 410px;
 }
-.padTop{
+
+.padTop {
     padding-top: 5%;
 }
-.padBot{
+
+.padBot {
     padding-top: 50px;
 }
 
@@ -81,40 +83,36 @@ section ul li.active {
     padding: 0;
 }
 
-.CampoIzq{
-
+.CampoIzq {
     padding-left: 5%;
-    
-    }
-.CampoDer{
-    
-    padding-right: 5%;
-        
 }
 
-.Verde{
-     background: #08e689;
+.CampoDer {
+    padding-right: 5%;
 }
-.CampoTop{
+
+.Verde {
+    background: #08e689;
+}
+
+.CampoTop {
     padding-top: 50px;
 }
-    
 
-.botonDer{
-    background-image:url(fder.png);
-    width: 24px; 
-    height:24px;
-    outline:none;
+.botonDer {
+    background-image: url(fder.png);
+    width: 24px;
+    height: 24px;
+    outline: none;
     border: none;
- 
 }
-.botonIzq{
-    background-image:url(fizq.png);
-    width: 24px; 
-    height:24px;
-    outline:none;
+
+.botonIzq {
+    background-image: url(fizq.png);
+    width: 24px;
+    height: 24px;
+    outline: none;
     border: none;
- 
 }
 
 .display-1 {
@@ -123,5 +121,23 @@ section ul li.active {
     padding-bottom: 30px;
 }
 
+video {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+}
 
+.iframe-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+}
 
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
