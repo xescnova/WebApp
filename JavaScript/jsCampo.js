@@ -1,7 +1,6 @@
 var comentarios;
 var Campo;
 var aux = [];
-
 var arrayCiudades = [];
 
 function leerCampo() {
@@ -19,6 +18,7 @@ function leerCampo() {
     };
     xmlhttp.open("GET", url, true);
     xmlhttp.send();
+
 }
 
 function ponerCampo(arr, identificador) {
@@ -234,6 +234,8 @@ function mapas() {
     navigator.geolocation.getCurrentPosition(successLocation, errorLocation, { enableHighAccuracy: true })
 }
 
+
+
 function setupMap(center) {
     const map = new mapboxgl.Map({
         container: 'map',
@@ -269,7 +271,7 @@ function setupMap(center) {
         .addTo(map);
     //Fin de posicion del usuario
 
-    //Despliega todos los equipos en el mapa
+
 
     // create a DOM element for the marker
     var el = document.createElement('div');
@@ -280,6 +282,7 @@ function setupMap(center) {
     el.style.backgroundSize = '100%';
     el.setAttribute("data-toggle", "tooltip");
     el.setAttribute("title", aux[Campo - 1].nom);
+
 
     //Script para mostrar el nombre del campo cuando pasas el raton por encima
     $(document).ready(function() {
@@ -293,6 +296,8 @@ function setupMap(center) {
     new mapboxgl.Marker(el)
         .setLngLat([aux[Campo - 1].geo1.long, aux[Campo - 1].geo1.lat], )
         .addTo(map);
+
+
 }
 
 function errorLocation() {

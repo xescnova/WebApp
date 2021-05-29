@@ -1,5 +1,5 @@
 var myArr;
-var aux;
+var aux = [];
 var opcion = 0;
 var indice = 0;
 var longi; //Posición longitud del usuario
@@ -29,6 +29,40 @@ function leerJson() {
     };
     xmlhttp.open("GET", url, true);
     xmlhttp.send();
+
+}
+
+
+function leerJsonMapas() {
+    var xmlhttp = new XMLHttpRequest();
+    var url = "https://raw.githubusercontent.com/xescnova/WebApp/main/json/campos.json";
+    xmlhttp.onreadystatechange = function() {
+        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+            myArr = JSON.parse(xmlhttp.responseText);
+            aux = myArr;
+            campos(myArr);
+            mapas2();
+        }
+    };
+    xmlhttp.open("GET", url, true);
+    xmlhttp.send();
+
+}
+
+function leerJsonEquipos() {
+    var xmlhttp = new XMLHttpRequest();
+    var url = "https://raw.githubusercontent.com/xescnova/WebApp/main/json/clubs.json";
+    xmlhttp.onreadystatechange = function() {
+        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+            myArr = JSON.parse(xmlhttp.responseText);
+            aux = myArr;
+            campos(myArr);
+            mapas2();
+        }
+    };
+    xmlhttp.open("GET", url, true);
+    xmlhttp.send();
+
 }
 
 function OrdenarCapacidadMenor() {
@@ -425,4 +459,103 @@ function buscarBarra() {
             $("#result").html('');
         });
     });
+}
+
+function mapas2() {
+    mapboxgl.accessToken = 'pk.eyJ1IjoieGVzY21hcGxleCIsImEiOiJja281eTY2NW0xeGxpMnFwZ29hbWVsNnI4In0.wnoG62YT-XTclaUzBsVBhg';
+    navigator.geolocation.getCurrentPosition(loc, errorL, { enableHighAccuracy: true })
+}
+
+function crearMapa(center) {
+    const map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/streets-v11',
+        center: center,
+        zoom: 9
+    });
+
+    const nav = new mapboxgl.NavigationControl();
+    map.addControl(nav);
+
+    var directions = new MapboxDirections({
+        accessToken: mapboxgl.accessToken
+    });
+
+    //Posicion del usuario
+
+    var el = document.createElement('div');
+    el.className = 'marker';
+    el.style.backgroundImage = 'url(https://icon-library.com/images/position-icon/position-icon-8.jpg)';
+    el.style.width = '50px';
+    el.style.height = '50px';
+    el.style.backgroundSize = '100%';
+
+
+
+    el.addEventListener('click', function() {
+        window.alert('Posicion actual');
+    });
+
+
+    // add marker to map
+    new mapboxgl.Marker(el)
+        .setLngLat([longi, lati])
+        .addTo(map);
+    //Fin de posicion del usuario
+
+    //Despliega todos los equipos en el mapa
+    for (i = 0; i < aux.length; i++) {
+        // create a DOM element for the marker
+        var el = document.createElement('div');
+        el.className = 'marker';
+        if (cond == 1) {
+            el.style.backgroundImage = 'url(' + aux[i].imatges[0] + ')';
+            el.setAttribute("href", "CampoFutbol.html?2")
+        } else {
+            el.style.backgroundImage = 'url(' + aux[i].icones[0] + ')';
+        }
+
+        el.style.width = '50px';
+        el.style.height = '50px';
+        el.style.backgroundSize = '100%';
+        el.setAttribute("data-toggle", "tooltip");
+        el.setAttribute("title", aux[i].nom);
+        //Script para mostrar el nombre del campo cuando pasas el raton por encima
+        $(document).ready(function() {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+
+        el.addEventListener('click', function() {
+            window.alert('Campo');
+        });
+
+        if (cond == 1) {
+            new mapboxgl.Marker(el)
+                .setLngLat([aux[i].geo1.long, aux[i].geo1.lat], )
+                .addTo(map);
+        } else {
+            new mapboxgl.Marker(el)
+                .setLngLat([aux[i].geo2.long, aux[i].geo2.lat], )
+                .addTo(map);
+        }
+
+
+    }
+
+
+
+}
+
+function errorL() {
+    crearMapa([0], [0])
+
+}
+
+
+//En MapBox longitud va antes que latitud
+function loc(position) {
+    console.log(position)
+    longi = position.coords.longitude;
+    lati = position.coords.latitude;
+    crearMapa([position.coords.longitude, position.coords.latitude])
 }
