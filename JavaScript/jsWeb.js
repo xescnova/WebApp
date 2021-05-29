@@ -559,3 +559,91 @@ function loc(position) {
     lati = position.coords.latitude;
     crearMapa([position.coords.longitude, position.coords.latitude])
 }
+
+//Calcula la distancia entre dos coordenadas
+function distance(lat1, lon1, lat2, lon2, unit) {
+    if ((lat1 == lat2) && (lon1 == lon2)) {
+        return 0;
+    } else {
+        var radlat1 = Math.PI * lat1 / 180;
+        var radlat2 = Math.PI * lat2 / 180;
+        var theta = lon1 - lon2;
+        var radtheta = Math.PI * theta / 180;
+        var dist = Math.sin(radlat1) * Math.sin(radlat2) + Math.cos(radlat1) * Math.cos(radlat2) * Math.cos(radtheta);
+        if (dist > 1) {
+            dist = 1;
+        }
+        dist = Math.acos(dist);
+        dist = dist * 180 / Math.PI;
+        dist = dist * 60 * 1.1515;
+        if (unit == "K") { dist = dist * 1.609344 }
+        if (unit == "N") { dist = dist * 0.8684 }
+        return dist;
+    }
+}
+
+function filtrarDistancia(max) {
+
+    NoFiltro();
+    var arrayfiltrado = [];
+
+    for (i = 0; i < aux.length; i++) {
+
+        if (distance(aux[i].geo2.lat, aux[i].geo2.lon, lati, longi, K) <= max) {
+            arrayfiltrado.push(aux[i]);
+        }
+
+    }
+    aux = arrayfiltrado;
+
+    switch (opcion) {
+        case 0:
+            campos(aux);
+            break;
+        case 5:
+            OrdenarDistanciaMenor();
+            break;
+
+        case 6:
+            OrdenarDistanciaMayor();
+            break;
+        case 3:
+            OrdenarValoracionMenor();
+            break;
+
+        case 4:
+            OrdenarValoracionMayor();
+            break;
+    }
+
+}
+
+function OrdenarDistanciaMenor() {
+    opcion = 5;
+
+    aux.sort(function(a, b) {
+        if (distance(a[i].geo2.lat, a[i].geo2.lon, lati, longi, K) > distance(b[i].geo2.lat, b[i].geo2.lon, lati, longi, K)) {
+            return 1;
+        }
+        if (distance(a[i].geo2.lat, a[i].geo2.lon, lati, longi, K) < distance(b[i].geo2.lat, b[i].geo2.lon, lati, longi, K)) {
+            return -1;
+        }
+        return 0;
+    });
+    campos(aux);
+}
+
+function OrdenarDistanciaMayor() {
+    opcion = 6;
+
+    aux.sort(function(a, b) {
+        if (distance(a[i].geo2.lat, a[i].geo2.lon, lati, longi, K) < distance(b[i].geo2.lat, b[i].geo2.lon, lati, longi, K)) {
+            return 1;
+        }
+        if (distance(a[i].geo2.lat, a[i].geo2.lon, lati, longi, K) > distance(b[i].geo2.lat, b[i].geo2.lon, lati, longi, K)) {
+            return -1;
+        }
+        return 0;
+    });
+    campos(aux);
+}
