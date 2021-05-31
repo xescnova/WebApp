@@ -24,7 +24,7 @@ function leerJson() {
             myArr = JSON.parse(xmlhttp.responseText);
             aux = myArr;
             campos(myArr);
-
+            webSemanticaCampos();
         }
     };
     xmlhttp.open("GET", url, true);
@@ -588,4 +588,36 @@ function loc(position) {
     longi = position.coords.longitude;
     lati = position.coords.latitude;
     crearMapa([position.coords.longitude, position.coords.latitude])
+}
+function webSemanticaCampos() {
+    var campo = "";
+    for (var i = 0; i < aux.length; i++) {
+        campo = aux[i];
+        let text = {
+            "@context": "https://schema.org/",
+            "@type": "SportsActivityLocation",
+            "name": campo.nom,
+            "image": campo.imatges[0],
+            "description": campo.descripcio,
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": campo.geo1.address,
+                "addressLocality": campo.geo1.city,
+                "addressRegion": "Islas Baleares",
+                "postalCode": campo.geo1.zip,
+                "addressCountry": "EspaÃ±a"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": campo.geo1.lat,
+                "longitude": campo.geo1.long,
+            },
+            "openingHours": campo.horari,
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": campo.contacte.telf,
+            }
+        };
+        document.getElementById("WS").innerHTML += JSON.stringify(text);
+    }
 }
