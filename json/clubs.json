@@ -174,7 +174,7 @@
             ],
             "categoria_equipo_principal": "MANACOR TERCERA DIVISION",
             "equipacion": {
-                "camiseta": "ROJA - BLANCA",
+                "camiseta": "ROJA-BLANCA",
                 "pantalon": "AZUL",
                 "medias": "ROJAS"
             }
@@ -349,7 +349,7 @@
             ],
             "categoria_equipo_principal": "CARDASSAR TERCERA DIVISION",
             "equipacion": {
-                "camiseta": "AMARILLA - NEGRA",
+                "camiseta": "AMARILLA-NEGRA",
                 "pantalon": "NEGRO",
                 "medias": "AMARILLAS"
             }
@@ -1256,7 +1256,7 @@
             ],
             "categoria_equipo_principal": "SANTANYI DEL AT.B. 'A' TERCERA DIVISION",
             "equipacion": {
-                "camiseta": "ROJA - BLANCA",
+                "camiseta": "ROJA-BLANCA",
                 "pantalon": "AZUL",
                 "medias": "ROJAS"
             }
@@ -1441,7 +1441,7 @@
             ],
             "categoria_equipo_principal": "ALCUDIA 'A' TERCERA DIVISION",
             "equipacion": {
-                "camiseta": "AZUL - BLANCA",
+                "camiseta": "AZUL-BLANCA",
                 "pantalon": "AZUL",
                 "medias": "BLANCAS"
             }
@@ -2316,7 +2316,7 @@
             ],
             "categoria_equipo_principal": "MURENSE 'A' REGIONAL PREFERENTE MALLORCA",
             "equipacion": {
-                "camiseta": "AZUL - BLANCA",
+                "camiseta": "AZUL-BLANCA",
                 "pantalon": "AZUL",
                 "medias": "AZULES"
             }
@@ -3017,7 +3017,7 @@
             ],
             "categoria_equipo_principal": "ALQUERIA REGIONAL PREFERENTE MALLORCA",
             "equipacion": {
-                "camiseta": "VERDE - BLANCA",
+                "camiseta": "VERDE-BLANCA",
                 "pantalon": "BLANCO",
                 "medias": "BLANCAS"
             }
