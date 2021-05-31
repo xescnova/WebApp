@@ -3,9 +3,13 @@
 }
 
 #carouselExampleIndicators {
-    padding-top: 50px;
     padding-bottom: 100px;
 }
+
+.padCarrusel{
+    padding-top: 50px;
+}
+
 
 #opcionesPaginas {
     padding-bottom: 150px;
