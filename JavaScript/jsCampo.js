@@ -447,36 +447,36 @@ function ponerEquipo(arr, identificador){
 
     if(arrayDeCadenas.length == 2){
         
-        if(arrayDeCadenas[0]=="ROJA "){
+        if(arrayDeCadenas[0]=="ROJA"){
             cami.setAttribute("src", "img/CRoja.png");
         }
-        if(arrayDeCadenas[0]=="AMARILLA "){
+        if(arrayDeCadenas[0]=="AMARILLA"){
             cami.setAttribute("src", "img/CAmarilla.png");
         }
-        if(arrayDeCadenas[0]=="AZUL "){
+        if(arrayDeCadenas[0]=="AZUL"){
             cami.setAttribute("src", "img/CAzul.png");
         }
-        if(arrayDeCadenas[0]=="BLANCA "){
+        if(arrayDeCadenas[0]=="BLANCA"){
             cami.setAttribute("src", "img/CBlanca.png");
         }
-        if(arrayDeCadenas[0]=="VERDE "){
+        if(arrayDeCadenas[0]=="VERDE"){
             cami.setAttribute("src", "img/CVerde.png");
         }
-        if(arrayDeCadenas[0]=="NARANJA "){
+        if(arrayDeCadenas[0]=="NARANJA"){
             cami.setAttribute("src", "img/CNaranja.png");
         }
 
-        if(arrayDeCadenas[1]==" ROJA"){
+        if(arrayDeCadenas[1]=="ROJA"){
             cami2.setAttribute("src", "img/CRoja.png");
         }
-        if(arrayDeCadenas[1]==" BLANCA"){
+        if(arrayDeCadenas[1]=="BLANCA"){
             cami2.setAttribute("src", "img/CBlanca.png");
         }
         if(arrayDeCadenas[1]==" NEGRA"){
             cami2 = document.createElement("p");
             cami2.innerHTML = arrayDeCadenas[1];
         }
-        if(arrayDeCadenas[1]==" VERDE"){
+        if(arrayDeCadenas[1]=="VERDE"){
             cami2.setAttribute("src", "img/CVerde.png");
         }
      
