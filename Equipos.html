@@ -69,30 +69,14 @@
                         <div class="card">
                             <article class="filter-group">
                                 <header class="card-header">
-                                    <a  data-toggle="collapse" data-target="#collapse_aside1" data-abc="true" aria-expanded="false" class="collapsed"> <i class="icon-control fa fa-chevron-down"></i>
-                                        <h6 class="title">Tipos de césped </h6>
-                                    </a>
-                                </header>
-                                <div class="filter-content collapse" id="collapse_aside1">
-                                    <div class="card-body">
-                                        <ul class="list-menu">
-                                            <li><a  data-abc="true" onclick="NoFiltro()">Ambos </a></li>
-                                            <li><a  data-abc="true" onclick="FiltroNatural()">Césped natural </a></li>
-                                            <li><a data-abc="true" onclick="FiltroArtificial()">Césped artificial </a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </article>
-                            <article class="filter-group">
-                                <header class="card-header">
                                     <a  data-toggle="collapse" data-target="#collapse_aside2" data-abc="true" aria-expanded="false" class="collapsed"> <i class="icon-control fa fa-chevron-down"></i>
-                                        <h6 class="title">Maximo de Capacidad de espectadores </h6>
-                                        <output id="outvol" name="outvol" for="vol">1000 </output>
+                                        <h6 class="title">Maximo de Distancia </h6>
+                                        <output id="outvol" name="outvol" for="vol">50 </output>
                                     </a>
                                 </header>
                                 <div class="filter-content collapse" id="collapse_aside2">
-                                    <div class="card-body"> <input type="range" class="custom-range" min="0" max="2000" name="" value="1000" onchange="document.getElementById('outvol').value = value">
-                                        <button type="button" class="highlight-button btn btn-medium button xs-margin-bottom-five" onclick="filtrarCapacidad(document.getElementById('outvol').value)"> Aplicar</button>
+                                    <div class="card-body"> <input type="range" class="custom-range" min="0" max="100" name="" value="50" onchange="document.getElementById('outvol').value = value">
+                                        <button type="button" class="highlight-button btn btn-medium button xs-margin-bottom-five" onclick="filtrarDistancia(document.getElementById('outvol').value)"> Aplicar</button>
                                     </div>
                                 </div>
                             </article>
@@ -101,13 +85,13 @@
                             <article class="filter-group">
                                 <header class="card-header">
                                     <a  data-toggle="collapse" data-target="#collapse_aside3" data-abc="true" aria-expanded="false" class="collapsed"> <i class="icon-control fa fa-chevron-down"></i>
-                                        <h6 class="title">Ordenar por capacidad </h6>
+                                        <h6 class="title">Ordenar por Distancia </h6>
                                     </a>
                                 </header>
                                 <div class="filter-content collapse" id="collapse_aside3">
                                     <ul class="list-menu">
-                                        <li><a  data-abc="true" onclick="OrdenarCapacidadMayor()">Mayor a menor </a></li>
-                                        <li><a  data-abc="true" onclick="OrdenarCapacidadMenor()">Menor a meyor </a></li>
+                                        <li><a  data-abc="true" onclick="OrdenarDistanciaMayor()">Mayor a menor </a></li>
+                                        <li><a  data-abc="true" onclick="OrdenarDistanciaMenor()">Menor a meyor </a></li>
                                     </ul>
                                 </div>
                             </article>
@@ -144,7 +128,7 @@
 
 
 
-<!-- Footer-->>
+<!-- Footer-->
 <footer class="py-5 bg-black ">
     <div class="container2">
         <p class="m-0 padIzq text-white small">Copyright &copy; Your Website 2020</p>
